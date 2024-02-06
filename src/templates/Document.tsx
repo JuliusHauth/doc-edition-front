@@ -5,11 +5,13 @@ import { DOMParser } from 'xmldom'
 function Document({ pageContext }: any) {
     const { document } = pageContext
 
-    const dom = new DOMParser().parseFromString(document.rawXml!, 'application/xml')
+    // const dom = new DOMParser().parseFromString(document.rawXml!, 'application/xml')
 
     return (
-        <Layout pageTitle={document.title}>
-            <p></p>
+        <Layout>
+            
         </Layout>
     )
 }
+
+export default Document
