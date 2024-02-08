@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import styled from '@emotion/styled'
 
 import Header from './header'
@@ -35,6 +35,7 @@ const Layout = ({ children }: Props) => {
   return (
    <div>
       <Header title={title}/>
+      <Link to="/">Zurück zum Index</Link>
       <Main>{children}</Main> 
       <Footer/>
    </div> )
