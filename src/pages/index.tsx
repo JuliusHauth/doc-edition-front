@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material'
 
 
 interface Encoding {
@@ -33,9 +34,23 @@ const IndexPage = () => {
   return (
     <Layout>
       <h1>Here the index of Test Encodings will be shown</h1>
-      {encoding.map((encoding, i) => (
-        <Link to={encoding.path}>{encoding.title}</Link>
-      ))}  
+      <Table>
+        <TableHead>
+          <TableRow>
+            <TableCell>Titel</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {encoding.map((encoding, i) => (
+            <TableRow key={`encoding_${i}`}>
+              <TableCell>
+                <Link to={encoding.path}>{encoding.title}</Link>
+              </TableCell>
+            </TableRow>
+            ))}  
+        </TableBody>
+      </Table>
+      
     </Layout>
   )
 }

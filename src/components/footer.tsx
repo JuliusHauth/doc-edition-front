@@ -9,7 +9,8 @@ const styles = {
     padding: "1rem 0",
     borderTop: "1px solid #000000",
     fontSize: "1rem",
-    fontFamily: "sans-serif"
+    fontFamily: "Calibri light, sans-serif",
+    color: "white"
   }
 }
 
