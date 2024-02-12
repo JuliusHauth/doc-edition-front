@@ -45,9 +45,7 @@ export const createPages = async ({ graphql, actions, reporter }) => {
             edges {
               node {
                 title
-                
                 rawXml
-                
                 parent {
                   ... on File {
                     name

@@ -9,7 +9,7 @@ function Document({ pageContext }: any) {
 
     return (
         <Layout>
-            
+           
         </Layout>
     )
 }

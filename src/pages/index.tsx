@@ -34,23 +34,24 @@ const IndexPage = () => {
   return (
     <Layout>
       <h1>Here the index of Test Encodings will be shown</h1>
-      <Table>
-        <TableHead>
-          <TableRow>
-            <TableCell>Titel</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {encoding.map((encoding, i) => (
-            <TableRow key={`encoding_${i}`}>
-              <TableCell>
-                <Link to={encoding.path}>{encoding.title}</Link>
-              </TableCell>
+      <TableContainer>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell>Titel</TableCell>
             </TableRow>
-            ))}  
-        </TableBody>
-      </Table>
-      
+          </TableHead>
+          <TableBody>
+            {encoding.map((encoding, i) => (
+              <TableRow key={`encoding_${i}`}>
+                <TableCell>
+                  <Link to={encoding.path}>{encoding.title}</Link>
+                </TableCell>
+              </TableRow>
+              ))}  
+          </TableBody>
+        </Table>
+      </TableContainer>
     </Layout>
   )
 }
