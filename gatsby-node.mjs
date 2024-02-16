@@ -41,17 +41,10 @@ export const createPages = async ({ graphql, actions, reporter }) => {
     const result = await graphql(
       `
         {
-          allEncoding {
-            edges {
-              node {
-                title
-                rawXml
-                parent {
-                  ... on File {
-                    name
-                  }
-                }
-              }
+          allCetei {
+            nodes {
+              prefixed
+              elements
             }
           }
         }
