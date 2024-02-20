@@ -7,8 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>Milder, Jeannette: Brief an Friedrich Wilhelm IV, Kronprinz von Preußen, 02. März 1821, Berlin</title>
-            <author>Jeannette Bürde</author>
-            <editor>Flora Völlger</editor>
+            <author ref="JBNames:A001">Jeannette Bürde</author>
+            <editor xml:id="FV">Flora Völlger</editor>
             <respStmt>
                <resp>Übertragung</resp>
                <name>Flora Völlger</name>
@@ -16,14 +16,14 @@
          </titleStmt>
          <editionStmt>
             <p>Version 1.0 vom 07. Februar 2024</p>
-            <p>-------Stand dieser Datei ??--------</p>
+            <p><!-- Stand dieser Datei ?? --></p>
          </editionStmt>
          <publicationStmt>
             <publisher>
-               <name>-------TÜ Server?--------</name>
+               <name>Flora Völlger</name>
             </publisher>
             <availability>
-               <licence>--------Checken!------</licence>
+               <licence><!-- Checken! --></licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -32,21 +32,21 @@
       </fileDesc>
      <encodingDesc>
         <projectDesc>
-           <p>Digital edition of documents and letters from Jeannette Bürde</p>
+           <p>Digital edition of documents and letters from Jeannette Bürde – Digitale Edition der Dokumente und Briefe von Jeannette Bürde</p>
         </projectDesc>
         <editorialDecl>
-           <p>Übertragung folgt den ER der BüGA</p>
+           <p>Transmission follows the editiorial guidelines of the BüGA – Übertragung folgt den Editionsrichtlinien der BüGA</p>
         </editorialDecl>
      </encodingDesc>
      <profileDesc>
         <correspDesc>
            <correspAction type="sent">
-              <persName key="A0111">Bürde, Jeannette</persName>
-              <placeName key="B1201">Berlin</placeName>
+              <persName ref="JBNames:A001">Milder, Jeannette</persName>
+              <placeName ref="JBPlaces:B002">Berlin</placeName>
               <date when="1821-03-02">02. März 1821</date>
            </correspAction>
            <correspAction type="received">
-              <persName key="A0207">Friedrich Wilhelm IV.</persName>
+              <persName ref="JBNames:A002">Friedrich Wilhelm IV.</persName>
            </correspAction>
         </correspDesc>
         <textClass>
@@ -54,6 +54,9 @@
               <term>manuscript</term>
            </keywords>
         </textClass>
+        <handNotes>
+           <handNote script="manuscript" medium="feather"/>
+        </handNotes>
         <langUsage>
            <language ident="de"/>
         </langUsage>
@@ -63,28 +66,49 @@
       <body>
          <div type="writingSession">
             <opener>
-               <salute>Durchlauchtigster <rs type="person" key="A0207">Prinz,</rs>
-                  <lb/>Gnädigster Herr!</salute>
+               <dateline rend="bottom left">
+                  <rs type="place" ref="JBPlaces:B002">Berlin</rs>
+                  <lb/>den <date when="1821-03-02">2.tn März</date>
+                  <lb/>1821.
+               </dateline>
+               <salute>
+                  Durchlauchtigster <rs type="person" ref="JBNames:A002">Prinz,</rs>
+                  <lb/>Gnädigster Herr!
+               </salute>
             </opener>
-            <p>Euer Königliche Hoheit wollen die unterthänigste 
-               <lb/>Anzeige mit huldvoller Nachsicht aufzunehmen geruhen, 
-               <lb/>daß ich es wagen will, am <date when="1821-03-09">9ten März</date> in dem Jagor-
-               <lb/>schen Saale ein Concert zu veranstalten, da die Um-
+            <p>
+               Euer Königliche Hoheit wollen die unterthänigste 
+               <lb/>Anzeige<note resp="FV" type="commentary" corresp="Bürde_Konzertprogramm_1821_03_09.xml">Dem Brief liegt ein Konzertprogramm für den 9. März 1821 bei.</note> mit huldvoller Nachsicht aufzunehmen geruhen, 
+               <lb/>daß ich es wagen will, am <date when="1821-03-09">9ten März</date> in dem <rs type="place" ref="JBPlaces:B001">Jagor-
+               <lb/>schen Saale</rs> ein Concert zu veranstalten, da die Um-
                <lb/>stände nur gebieten, die Befangenheit meines Geschlechts 
                <lb/>zu überwinden, um zu versuchen, ob ich als Sängerin 
                <lb/>einen wohlwollenden und milden Antheil in dieser 
-               <lb/><rs type="place" key="B1201">kunstliebenden Residenz</rs>zu gewinnen hoffen darf.</p>
+               <lb/><rs type="place" ref="JBPlaces:B001">kunstliebenden Residenz</rs> zu gewinnen hoffen darf.
+            </p>
             <closer>
-               <salute>Mit der tiefsten Ehrfurcht
+               <salute>
+                  Mit der tiefsten Ehrfurcht
                   <lb/>Eurer Königlichen Hoheit
                </salute>
                <space/>
-               <signed> Unterthänig gehorsamste<lb/>
-                  <persName key="A0111">Jeannette Milder</persName>
-                  <note type="textConst" resp="IC">Die Unterschrift ist in lateinischer Schreibschrift.</note>
+               <signed> 
+                  Unterthänig gehorsamste<lb/>
+                  <persName ref="JBNames:A001">Jeannette Milder</persName>
+                  <note type="textConst" resp="FV">Die Unterschrift ist in lateinischer Schreibschrift.</note>
                </signed>
             </closer>
          </div>
       </body>
+     <back>
+        <div type="editorialcomment">
+           <p>
+              Warum Bürde den Kronprinz von Preußen zu jenem Konzert einlud und ob er die Einladung annahm, bleibt unklar. 
+              Zudem gibt es bisher keine Hinweise, in welchem Verhältnis Bürde und der Kronprinz zueinander standen. 
+              Weitere Korrespondenz oder sonstige Kontaktpunkte sind aktuell nicht auffindbar.
+              Im April 1821 urteilt die AMZ (Jg. 23, H. 17, Sp. 295), Bürde habe die Stücke des Konzerts "vortrefflich vor[getragen]".
+           </p> 
+        </div>
+     </back>
   </text>
 </TEI>

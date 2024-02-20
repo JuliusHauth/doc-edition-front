@@ -5,8 +5,9 @@ import {
     TeiHeader
   } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
   import Layout from "../../components/layout"
-  import Container from "@mui/material/Container"
-
+import Note from "./note.tsx"
+import Lb from "./lb.tsx"
+import P from "./p.tsx"
   
 
 interface Props {
@@ -23,13 +24,15 @@ interface Props {
     const routes: Routes = {
         "tei-tei": Tei,
         "tei-teiheader": TeiHeader,
+        "tei-note": Note,
+        "tei-lb": Lb,
+        "tei-p": P,
+        "tei-space": P,
     }
 
     return (
         <Layout>
-            
-                <Ceteicean pageContext={pageContext} routes={routes} />
-            
+          <Ceteicean pageContext={pageContext} routes={routes} />    
         </Layout>
     )
   }

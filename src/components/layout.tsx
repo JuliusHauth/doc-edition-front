@@ -16,7 +16,9 @@ const Main = styled.div(() => ({
   minHeight: "65vh",
   "& h2, & h3": {
       paddingBottom: '1rem'
-  }
+  },
+  padding: '1rem',
+  fontSize: 'large',
 }))
 
 const Layout = ({ children }: Props) => {
