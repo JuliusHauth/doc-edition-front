@@ -57,7 +57,7 @@ export const createPages = async ({ graphql, actions, reporter }) => {
       return
     }
   
-    const teiEncoding = path.resolve(`src/templates/Document.tsx`)
+    const teiEncoding = path.resolve(`src/gatsby-theme-ceteicean/Ceteicean.tsx`)
     result.data.allEncoding.edges.forEach(({ node }) => {
       const path = node.parent.name
       createPage({

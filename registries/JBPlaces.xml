@@ -1,4 +1,4 @@
-<list>
+<listPlace>
     <place xml:id="B001">
         <name>Jargorscher Saal</name>
         <adress>Unter den Linden 23</adress>
@@ -16,5 +16,4 @@
         <city>Berlin</city>
         <country>Deutschland</country>
     </place>
-</list>
-
+</listPlace>

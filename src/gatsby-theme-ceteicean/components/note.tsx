@@ -1,30 +1,24 @@
-import React from "react"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
-import Popup from "../../components/popup"
+import { TEINodes } from "react-teirouter"
+import React from "react"
 
-import "./note.css"
+interface TEIProps {
+    teiNode: Node
+    availableRoutes?: string[]
+}
 
-const Note = ({teiNode}) => {
+const Note = ({teiNode, availableRoutes}: TEIProps) => {
+  const el = teiNode as Element
+  const id = `_note_${el.getAttribute("id")}`
 
-  const note = teiNode
-  const n = note.getAttribute('n') || ''
-  const text = note.textContent
-
-  const [popupOn, setPopupOn] = React.useState(false)
-  let popup
-
-  const togglePopup = () => {
-    setPopupOn(!popupOn)
-  }
-
-  if (popupOn) {
-    popup = <Popup toggle={togglePopup} title={`Note ${n}`}>{text}</Popup>
-  }
-
-  return <Behavior node={teiNode}>
-    <sup className="Note" onClick={togglePopup}>{n}</sup>
-    {popup}
-  </Behavior>
+    return (
+        <Behavior node={teiNode}>
+            <span className="note"
+                  id={`text${id}`} >
+              X
+            </span>
+        </Behavior>
+    )
 }
 
 export default Note
