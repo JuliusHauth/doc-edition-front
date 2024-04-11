@@ -12,9 +12,13 @@ import Note from "./note.tsx"
 import NoteAside from "./noteAside.tsx"
 import Lb from "./lb.tsx"
 import P from "./p.tsx"
+import Empty from "./empty.tsx"
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 
 interface Props {
@@ -40,6 +44,7 @@ interface Props {
     const routesAside: Routes = {
       "tei-note": NoteAside,
       "tei-teiheader": TeiHeader,
+      "tei-tei": Tei,
   }
     console.log({pageContext})
     const data = useStaticQuery(graphql`
@@ -60,12 +65,23 @@ interface Props {
     const title = data.allEncoding.nodes.find((node: any) => node.parent.name === pageContext.name)?.title
     const test = pageContext.prefixed
 
+    const showComments = () => {
+      
+    }
+
+    const showOriginal = () => {
+      
+    }
+    
     return (
       <Layout> 
         <Grid container spacing={2}>
           <Grid item xs={3}>
             <Container>
-              
+              <FormGroup>
+                <FormControlLabel control={<Checkbox  />} onChange={showComments} label="Kommentare anzeigen" />
+                <FormControlLabel control={<Checkbox  />} onChange={showOriginal} label="Original anzeigen" />
+              </FormGroup>
             </Container>
           </Grid>
           <Grid item xs={6}>
@@ -78,12 +94,12 @@ interface Props {
 
             </Container>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <Container>
-            <Ceteicean pageContext={pageContext} routes={routesAside} />
+              <Ceteicean pageContext={pageContext} routes={routesAside} />
             </Container>
           </Grid>
-          <Grid item xs={6}>  
+          <Grid item xs={5}>  
             <Container> 
               <Ceteicean pageContext={pageContext} routes={routes} />
             </Container>

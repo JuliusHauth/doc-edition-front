@@ -1,3 +1,7 @@
 .note {
     background-color: yellow;
 }
+
+.hovered {
+    background-color: green !important;
+}
