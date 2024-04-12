@@ -95,8 +95,8 @@ interface Props {
             </Container>
           </Grid>
           <Grid item xs={3}>
-            <Container>
-              <Ceteicean pageContext={pageContext} routes={routesAside} />
+            <Container id="noteSpace">
+              <div />
             </Container>
           </Grid>
           <Grid item xs={5}>  

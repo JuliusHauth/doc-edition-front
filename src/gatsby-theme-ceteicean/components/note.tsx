@@ -1,6 +1,7 @@
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes } from "react-teirouter"
 import React, {useState} from "react"
+import { createPortal } from 'react-dom'
 
 interface TEIProps {
     teiNode: Node
@@ -35,6 +36,13 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
                 style={{ backgroundColor: Background}}>
               X
             </span>
+            {createPortal(
+               <p>
+                <TEINodes 
+                teiNodes={teiNode.childNodes} 
+                availableRoutes={availableRoutes} />
+            </p>, document.getElementById(`noteSpace`)
+            )}
         </Behavior>
     )
 }
