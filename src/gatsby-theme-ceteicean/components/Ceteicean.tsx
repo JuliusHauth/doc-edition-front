@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import './style.css'
 
@@ -13,6 +14,8 @@ import NoteAside from "./noteAside.tsx"
 import Lb from "./lb.tsx"
 import P from "./p.tsx"
 import Empty from "./empty.tsx"
+import Ref from "./ref.tsx"
+import Back from "./back.tsx"
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -39,6 +42,12 @@ interface Props {
         "tei-lb": Lb,
         "tei-p": P,
         "tei-space": P,
+        "tei-persname": Ref,
+        "tei-placename": Ref,
+        "tei-orgname": Ref,
+        "tei-rs": Ref,
+        "tei-settlement": Ref,
+        "tei-back": Back
     }
 
     const routesAside: Routes = {
@@ -46,7 +55,7 @@ interface Props {
       "tei-teiheader": TeiHeader,
       "tei-tei": Tei,
   }
-    console.log({pageContext})
+   
     const data = useStaticQuery(graphql`
         query {
           allEncoding {
@@ -65,21 +74,41 @@ interface Props {
     const title = data.allEncoding.nodes.find((node: any) => node.parent.name === pageContext.name)?.title
     const test = pageContext.prefixed
 
-    const showComments = () => {
-      
+    const [checked, setChecked] = React.useState([true, false]);
+
+    const showComments = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const notes = document.getElementsByClassName("note")
+        const asideNotes = document.getElementsByClassName("asideNote") 
+        console.log(event.target.checked)
+        if (event.target.checked){
+          for (let i = 0; i < notes.length; i++) {
+            notes[i].setAttribute("STYLE", "display: inline")
+            
+          }
+        } else {
+          for (let i = 0; i < notes.length; i++) {
+            notes[i].setAttribute("STYLE", "display: none")
+            asideNotes[i]?.setAttribute("STYLE", "display: none")
+            console.log(notes[i])
+          }
+        }
+        
+        setChecked([event.target.checked, event.target.checked])
     }
 
     const showOriginal = () => {
       
     }
     
+
+
     return (
       <Layout> 
         <Grid container spacing={2}>
           <Grid item xs={3}>
             <Container>
               <FormGroup>
-                <FormControlLabel control={<Checkbox  />} onChange={showComments} label="Kommentare anzeigen" />
+                <FormControlLabel control={<Checkbox  checked={checked[1]} onChange={showComments}/>}  label="Kommentare anzeigen" />
                 <FormControlLabel control={<Checkbox  />} onChange={showOriginal} label="Original anzeigen" />
               </FormGroup>
             </Container>
@@ -95,8 +124,8 @@ interface Props {
             </Container>
           </Grid>
           <Grid item xs={3}>
-            <Container id="noteSpace">
-              <div />
+            <Container>
+              <div id="noteSpace"/>
             </Container>
           </Grid>
           <Grid item xs={5}>  

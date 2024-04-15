@@ -4,4 +4,16 @@
 
 .hovered {
     background-color: green !important;
+    display: block;
+}
+
+.back {
+    background-color: grey;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+.hidden {
+    display: none;
 }
