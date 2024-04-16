@@ -2,6 +2,10 @@
     background-color: yellow;
 }
 
+.note:hover {
+    cursor: pointer;
+}
+
 .hovered {
     background-color: green !important;
     display: block;

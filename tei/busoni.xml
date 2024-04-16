@@ -1,0 +1,442 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D0102009">
+    <teiHeader>
+       <fileDesc>
+          <titleStmt>
+             <title xml:lang="de">Brief von Ferruccio Busoni an Martin Wegelius (New York, 26. Oktober 1893)</title>
+             <title xml:lang="en">Letter by Ferruccio Busoni to Martin Wegelius (New York, 26 October 1893)</title>
+             <author key="E0300017">Ferruccio Busoni</author>
+             <respStmt>
+                <resp>Prepared by</resp>
+                <persName key="E0300616">
+                   <forename>Steffen</forename>
+                   <surname>Astheimer</surname>
+                </persName>
+             </respStmt>
+             <respStmt>
+                <resp>Digitization by</resp>
+                <orgName key="D-B">Staatsbibliothek zu Berlin · Preußischer Kulturbesitz</orgName>
+             </respStmt>
+          </titleStmt>
+          <publicationStmt>
+             <publisher>Institut für Musikwissenschaft und Medienwissenschaft der Humboldt-Universität zu Berlin</publisher>
+             <pubPlace>Berlin</pubPlace>
+             <date when-iso="2023-04"/>
+             <availability>
+                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+             </availability>
+          </publicationStmt>
+          <seriesStmt>
+             <title type="main">Ferruccio Busoni – Briefe und Schriften</title>
+             <title type="genre">Briefe</title>
+             <title type="subseries" key="E010013">Briefwechsel Ferruccio Busoni – Martin Wegelius</title>
+             <editor key="E0300314">Christian Schaper</editor>
+             <editor key="E0300313">Ullrich Scheideler</editor>
+          </seriesStmt>
+          <sourceDesc>
+             <msDesc>
+                <msIdentifier>
+                   <country key="DE">Deutschland</country>
+                   <settlement>Berlin</settlement>
+                   <institution key="D-B">Staatsbibliothek zu Berlin · Preußischer Kulturbesitz</institution>
+                   <repository>Musikabteilung mit Mendelssohn-Archiv</repository>
+                   <collection>Nachlass Ferruccio Busoni</collection>
+                   <idno>Mus.Nachl. F. Busoni B I, 1173</idno>
+                   <altIdentifier>
+                      <idno type="D-B.olim">Mus.ep. F. Busoni 732</idno>
+                   </altIdentifier>
+                   <altIdentifier>
+                      <institution>Kalliope-Verbund</institution>
+                      <idno>DE-611-HS-566928</idno>
+                   </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                   <summary><persName key="E0300017">Busoni</persName> sendet <persName key="E0300207">Wegelius</persName> eine selbst verfasste <rs key="E0400694">Parodie</rs> des <title key="E0400428">Ring der Niebelungen</title>, bittet diese scherzhaft und nicht boshaft aufzufassen; hat einen Brief von <persName key="E0300887">William Dayas</persName> erhalten; berichtet von Fortschritten im Klavierspiel, der Fertigstellung des <title key="E0400663">Sinfonischen Tongedichts</title> und seiner neu entfachten Leidenschaft für <persName key="E0300013">Liszt</persName>; ist von <placeName key="E0500018">Boston</placeName> nach <placeName key="E0500031">New York</placeName> gezogen, wo er wohl auch bald wieder abreisen wird; möchte neue Kompositionen von <persName key="E0300177">Jean Sibelius</persName> kennenlernen.</summary>
+                   <msItem>
+                      <docDate><date when-iso="1893-10-26"/></docDate>
+                      <incipit>Der mitfolgende Scherz</incipit>
+                   </msItem>
+                </msContents>
+                <physDesc>
+                   <objectDesc>
+                      <supportDesc>
+                         <extent>
+                            <measure type="folio">1 Bogen</measure>
+                            <measure type="pages">4 beschriebene Seiten</measure>
+                         </extent>
+                         <condition>Brief und Umschlag sind gut erhalten.</condition>
+                      </supportDesc>
+                   </objectDesc>
+                   <handDesc>
+                      <handNote xml:id="major_hand" scope="major" medium="black_ink" scribe="author" scribeRef="#E0300017">Hand des Absenders Ferruccio Busoni, Brieftext in schwarzer Tinte, in lateinischer Schreibschrift</handNote>
+                      <handNote xml:id="archive" scope="minor" medium="pencil" scribe="archivist">Hand des Archivars, der mit Bleistift die Signaturen eingetragen und eine Foliierung vorgenommen hat</handNote>
+                      <handNote xml:id="archive_red" scope="minor" medium="red_pen" scribe="archivist">Hand des Archivars, der die Zuordnung innerhalb des Busoni-Nachlasses mit Rotstift vorgenommen hat</handNote>
+                      <handNote xml:id="dsb_st_red" scope="minor" medium="red_ink" scribe="archivist">Bibliotheksstempel (rote Tinte)</handNote>
+                      <handNote xml:id="sbb_st_black" scope="minor" medium="black_ink" scribe="archivist">Bibliotheksstempel (schwarze Tinte)</handNote>
+                      <handNote xml:id="unknown_hand_blue" scope="minor" medium="blue_pencil" scribe="unknown">Unbekannte Hand, die das Entstehungsjahr mit blauem Stift auf der Umschlagrückseite vermerkt hat</handNote>
+                      <handNote xml:id="unknown_hand" scope="minor" medium="pencil" scribe="unknown">Unbekannte Hand, die auf der Umschlagrückseite das Kürzel <q>M.1941.1907</q> notiert hat</handNote>
+                   </handDesc>
+                   <accMat>
+                      
+                      <pb n="5"/>
+                      
+                      <address>
+                         <addrLine rend="indent-neg"><placeName key="E0500943">Europe</placeName> <seg rend="inline align(right)"><placeName key="E0500323">Finland</placeName></seg></addrLine><!--align funktioniert so nicht-->
+                         <addrLine>Herrn Director</addrLine>
+                         <addrLine rend="indent-2"><persName key="E0300207">Martin Wegelius</persName></addrLine>
+                         
+                         <note type="stamp" place="margin-right" resp="#dsb_st_red">
+                            <stamp rend="round border align(center) small">Deutsche
+                               <lb/>Staatsbibliothek
+                               <lb/>
+                               <placeName key="E0500029">
+                                  <hi rend="spaced-out">Berlin</hi>
+                               </placeName>
+                            </stamp>
+                         </note>
+                         
+                         <addrLine><placeName key="E0501054">Unionsgatan 17</placeName></addrLine>
+                         <addrLine><rs key="E0600031" xml:lang="sv">Musikinstitutet</rs></addrLine>
+                         <addrLine rend="align(right) huge underline"><placeName key="E0500207">Helsingfors</placeName>.</addrLine>
+                      </address>
+                      
+                      <pb n="6"/>
+                      
+                      <note type="shelfmark" place="right" rend="huge" resp="#unknown_hand_blue">1893.</note>
+                      
+                      <note type="stamp" place="center" rend="strikethrough" resp="#sbb_st_black">
+                         <stamp>Nachlaß Busoni</stamp>
+                      </note>
+                      <del rend="strikethrough">
+                         <note type="shelfmark" place="inline" resp="#archive_red">
+                            B I
+                            <handShift new="#archive"/><lb/><seg rend="align(center)">Mus.ep. F. Busoni 732</seg>
+                         </note>
+                      </del>
+                      <note type="shelfmark" place="center" resp="#archive">
+                         Mus.Nachl. F. Busoni B I, 1173 - Beil.
+                      </note>
+                      
+                      <note type="shelfmark" place="bottom" rend="align(center)" resp="#unknown_hand">M.1941.1907</note>
+                      
+                   </accMat>
+                </physDesc>
+                <history>
+                   <origin>
+                      <origPlace key="E0500031">New York</origPlace>
+                      <origDate when-iso="1893-10-26"/>
+                   </origin>
+                </history>
+                <additional>
+                   <listBibl>
+                      <bibl><ref target="#E0800444"/>, S. 339 f.</bibl>
+                   </listBibl>
+                </additional>
+             </msDesc>
+          </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+          <projectDesc>
+             <p>Erfassung von Briefen und Schriften von Ferruccio Busoni, ausgehend von Busonis Nachlass in der Staatsbibliothek zu Berlin · Preußischer Kulturbesitz.</p>
+          </projectDesc>
+          <editorialDecl>
+             <hyphenation eol="hard" rend="dh">
+                <p>Worttrennungen an Zeilenumbrüchen im Original mit doppelten Bindestrichen.</p>
+             </hyphenation>
+             <punctuation marks="all" placement="external">
+                <p>Alle im Text vorkommenden Interpunktionszeichen wurden beibehalten und werden in der diplomatischen Umschrift wiedergegeben. Bei Auszeichnung durch XML-Elemente wurden umgebende Satzzeichen nicht mit einbezogen.</p>
+             </punctuation>
+             <quotation marks="none">
+                <p>Anführungszeichen wurden i. d. R. nicht beibehalten; die Art der Zeichen wurde im Attribut <att>rend</att> der entsprechenden Elemente codiert.</p>
+             </quotation>
+             <p>Die Übertragung folgt den Editionsrichtlinien des Projekts. <ptr target="http://www.busoni-nachlass.org/E1000003"/>
+             </p>
+          </editorialDecl>
+       </encodingDesc>
+       <profileDesc>
+          <correspDesc ref="http://www.busoni-nachlass.org/D0102009">
+             <correspAction type="sent">
+                <persName ref="http://d-nb.info/gnd/118518011" key="E0300017">Busoni, Ferruccio</persName>
+                <date when="1893-10-26"/>
+                <placeName ref="http://www.geonames.org/5128581" key="E0500031">New York</placeName>
+             </correspAction>
+             <correspAction type="received">
+                <persName ref="http://d-nb.info/gnd/130841153" key="E0300207">Wegelius, Martin</persName>
+                <placeName ref="http://www.geonames.org/658225" key="E0500270">Helsinki</placeName>
+             </correspAction>
+             <correspContext>
+                <ref type="previous" target="#D0102008"/>
+                <ref type="next" target="#D0102010"/>
+             </correspContext>
+          </correspDesc>
+          <langUsage>
+             <language ident="de" usage="98"/>
+             <language ident="sv" usage="1"/>
+             <language ident="la" usage="1"/>
+          </langUsage>
+       </profileDesc>
+       <revisionDesc status="proposed">
+          <change when-iso="2023-04-26" who="#E0300616">Datei per Skript angelegt</change>
+          <change when-iso="2023-10-16" who="#E0300616">Bearbeitung übernommen, status unfinished</change>
+          <change when-iso="2024-03-19" who="#E0300616">status="proposed"</change>
+       </revisionDesc>
+    </teiHeader>
+    <facsimile sameAs="https://content.staatsbibliothek-berlin.de/dc/743975367/manifest">
+       <graphic n="1" url="http://resolver.staatsbibliothek-berlin.de/SBB0000D4D200000001"/>
+       <graphic n="2" url="http://resolver.staatsbibliothek-berlin.de/SBB0000D4D200000002"/>
+       <graphic n="3" url="http://resolver.staatsbibliothek-berlin.de/SBB0000D4D200000003"/>
+       <graphic n="4" url="http://resolver.staatsbibliothek-berlin.de/SBB0000D4D200000004"/>
+       <graphic n="5" url="http://resolver.staatsbibliothek-berlin.de/SBB0000D4D200000005"/>
+       <graphic n="6" url="http://resolver.staatsbibliothek-berlin.de/SBB0000D4D200000006"/>
+    </facsimile>
+    <text type="letter">
+       <body>
+          <div type="transcription">
+             
+             <pb n="1"/>
+             
+             <note type="shelfmark" place="top-left" resp="#archive">
+                <subst>
+                   <del xml:id="del_sig" rend="strikethrough">Mus.ep. F. Busoni 732 (Busoni-Nachl. <handShift new="#archive_red"/>B I<handShift new="#archive"/>)</del>
+                   <add xml:id="add_sig" place="below">Mus.Nachl. F. Busoni B I, 1173 </add>
+                </subst>
+             </note>
+             
+             <note type="foliation" resp="#archive" place="top-right">[1]</note>
+             
+             <lb/>
+             <opener>
+                <dateline rend="align(right) space-below">
+                   <placeName key="E0500031">New York</placeName><reg>,</reg> <date when-iso="1893-10-26">26<reg>.</reg> <choice><abbr>Okt</abbr><expan>Oktober</expan></choice> 93</date><reg>,</reg>
+                   
+                   <note type="commentary" resp="#E0300616">Nachdem <persName key="E0300017">Busoni</persName> <date when-iso="1891">1891</date> nach <placeName key="E0500093">Amerika</placeName> übergesiedelt war, um am <orgName key="E0600133"><placeName key="E0501025">New England</placeName> Conservatory</orgName> in <placeName key="E0500018">Boston</placeName> als Klavierlehrer zu arbeiten, beendete er die Lehrtätigkeit <date when-iso="1892">1892</date> und zog nach <placeName key="E0500031">New York</placeName>, um sich von dort aus auf seine Virtuosenlaufbahn zu konzentrieren (vgl. <bibl><ref target="#E0800196"/>, S. 133 ff.</bibl>).</note>
+                   
+                   <lb/><placeName key="E0500948">W. 403, Manhattan<choice><orig><choice><unclear cert="medium">a</unclear><unclear cert="medium"> A</unclear></choice></orig><reg> A</reg></choice>ve<choice><abbr>.</abbr><expan>nue</expan></choice></placeName>
+                </dateline>
+                <salute rend="space-below">Lieber Freund <persName key="E0300207">Wegelius</persName>.</salute>
+             </opener>
+             
+             <p>Der <rs key="E0400694">mitfolgende Scherz</rs>
+                
+                <note type="commentary" resp="#E0300616">Dem Brief legte <persName key="E0300017">Busoni</persName> das selbst verfasste Libretto <title key="E0400694">Der Ring des Niebelungen[sic!] in’s <placeName key="E0500323">Finnische</placeName> übertragen von <rs key="E0300017">Omnibus</rs></title> bei (<mentioned>Omnibus</mentioned> ist bis auf das <mentioned>m</mentioned> ein Anagram von <mentioned><persName key="E0300017">Busoni</persName></mentioned>). Es handelt sich dabei um eine Parodie von <persName key="E0300006">Wagners</persName> <title key="E0400428">Ring des Nibelungen</title>, die <persName key="E0300017">Busoni</persName> als Siegfried in <placeName key="E0500270">Helsinki</placeName> zeigt und die Rollen des Originals mit Kolleg*innen, Schü-ler*innen und weiteren Bekannten besetzt. Die agierenden Personen werden mittels einer Reduktion auf spezifische Merkmale wie Talentlosigkeit, Faulheit oder Geiz durchweg ins Lächerliche gezogen. Wenngleich die stark verkürzte Handlung bei <persName key="E0300017">Busoni</persName> sehr auf seine Erfahrungen während seiner Lehrtätigkeit in <placeName key="E0500270">Helsinki</placeName> zugeschnitten ist, wahrt er durch loses Folgen der Handlung und paraphrasierte <persName key="E0300006">Wagner</persName>-Verse stets den Bezug zur Vorlage. Mit dieser Parodie wollte sich Busoni aber offenbar nicht nur über die rückständigen Kulturstandards lustig machen. Er reflektierte auch über die Herausforderung, in <placeName key="E0500270">Helsinki</placeName> eine eigene musikalische Identität fernab von <persName key="E0300006">Wagner</persName> zu finden, während die Musikkultur dort noch im Aufbau war. Trotz des <placeName key="E0500323">finnischen</placeName> Wunsches nach einer eigenen nationalen Identität blieb dort die Bewunderung für <persName key="E0300006">Wagner</persName> aber stark, was dazu führte, dass <persName key="E0300017">Busoni</persName> als Komponist abgelehnt wurde. Abgesehen von <persName key="E0300059">Gerda</persName> kommt dabei nur <persName key="E0300207">Wegelius</persName> selbst gut weg – er hat die Rolle des Hagen, der <persName key="E0300017">Busoni</persName> als einziger bei der Findung seines eigenen Weges maßgeblich unterstützt. Eine kommentierte Ausgabe des <rs key="E0400694">Textbuchs</rs> findet sich in <bibl><ref target="#E0800445"/></bibl> und eine Interpretation in <bibl><ref target="#E0800444"/> (S.321–333)</bibl>.</note>
+ 
+                war
+                <lb/>schon <date when-iso="1892">vor einem Jahre</date> in einer
+                <lb/>Stunde loser Laune geschrieben.
+                <lb/>Die kleinen<reg>,</reg> boshaften Anspielungen
+                <lb/>sind deshalb <hi rend="underline">ja nicht ernst</hi> zu
+                <lb/>nehmen. Meine Sat<choice><orig>y</orig><reg>i</reg></choice>re brennt
+                <lb/>nicht wie ein vergifteter Pfeil,
+                <lb/>sondern höchstens wie <hi rend="underline">Paprika</hi>;
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: Komma statt Semikolon.</note>
+                
+                <lb/><choice><abbr>u.</abbr><expan>und</expan></choice> ich bitte, dass
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: <q>daß</q>.</note>
+                
+                du sie nur solchen
+                <lb/>Leuten zu schmecken gibst, bei
+                <lb/>denen dieser Pfeffer keinen <del rend="strikethrough">nicht</del>
+                <lb/><hi rend="underline">Rache<orig><pc>=</pc></orig>durst</hi> zu erzeugen vermag.
+                <lb/>Am besten aber, du lachst dich
+                <lb/>für dich selbst darüber aus
+                <lb/>– falls du <hi rend="underline">überhaupt</hi> darüber
+                <lb/>lachst – <choice><abbr>u.</abbr><expan>und</expan></choice> schließest dann das
+                <lb/>Ding ein, oder zerrei<choice><orig>ss</orig><reg>ß</reg></choice>est es.
+                
+                <note type="stamp" place="bottom-right" resp="#dsb_st_red">
+                   <stamp rend="round border align(center) small">Deutsche
+                      <lb/>Staatsbibliothek
+                      <lb/>
+                      <placeName key="E0500029">
+                         <hi rend="spaced-out">Berlin</hi>
+                      </placeName>
+                   </stamp>
+                </note>
+                
+                <pb n="2"/>
+                
+                Die <foreign xml:lang="la">Facta</foreign><reg>,</reg> auf die e<choice><unclear cert="high">r</unclear><unclear cert="low">s</unclear></choice>
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: <q>es</q>.</note>
+                
+                anspielt<reg>,</reg>
+                <lb/>sind übrigens schon veraltet<reg>,</reg>
+                <lb/>aber – notabene – die handelnden
+                <lb/>Personen sind zwar nicht verjüngt,
+                <lb/>wandeln aber noch auf <choice><orig>E</orig><reg>e</reg></choice>uerer Erde.</p>
+             
+             <p rend="indent-first">Ich sage <q rend="dq-du"><hi rend="underline"><choice><orig>E</orig><reg>e</reg></choice>uerer</hi></q>, denn <subst><del rend="overwritten">e</del><add place="across">s</add></subst>ie ist
+                <lb/>von dieser<orig>,</orig>
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: ohne Komma.</note>
+                
+                <rs key="E0500093">amerikanischen</rs> höchst
+                <lb/>verschieden. <rs key="E0500093">Amerikanisch</rs> sind
+                <lb/>bei <choice><orig>E</orig><reg>e</reg></choice>uch nur die Zeitungsjungen
+                <lb/>und höchstens noch a-Merikanto.
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: <q>A-Merikanto</q>.</note>
+                
+                <note type="commentary" resp="#E0300616">Anspielung auf den finnischen Komponisten <persName key="E0300978">Oskar Merikanto</persName>. Obwohl <persName key="E0300978">Merikanto</persName> während <persName key="E0300017">Busonis</persName> Zeit am <rs key="E0600031">Musikinstitut</rs> in <placeName key="E0500007">Leipzig</placeName> bei <persName key="E0300538">Carl Reinecke</persName> und in <placeName key="E0500029">Berlin</placeName> bei <persName key="E0300932">Albert Becker</persName> studierte, verzeichnet die <orgName key="E0600229">Nya Pressen</orgName> in dieser Zeit mehrere Konzerte <persName key="E0300978">Merikantos</persName> in <placeName key="E0500270">Helsinki</placeName>, sodass die beiden sich sicherlich kennengelernt hatten. Das legt auch sein Auftritt in <persName key="E0300017">Busonis</persName> <rs key="E0400694">Parodie</rs> nahe, in welcher er einen der stolzen Nationalisten darstellt, die <persName key="E0300017">Busoni</persName> als Komponisten ablehnen (vgl. <bibl><ref target="#E0800445"/>, S. 364 f.</bibl>).</note>
+                
+                <lb/>Au!</p>
+             
+             <p rend="indent-first">Durch <orgName key="E0600229">Nya Pressen</orgName>
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: <q>Preßen</q>.</note>
+                
+                erfahren wir
+                <lb/>glücklicherweise <choice><orig>A</orig><reg>a</reg></choice>lles<reg>,</reg> was in
+                <lb/><placeName key="E0500270">Helsingfors</placeName> öffentlich geschieht;
+                <lb/><rs key="E0300893"><soCalled rend="dq-du">Tante</soCalled> Helmi</rs>
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: Anführungszeichen oben erst nach <mentioned>Helmi</mentioned>.</note>
+                
+                versorgt uns mit
+                <lb/>privateren Mitt<orig>h</orig>eilung<corr>en</corr>. Von dir
+                <lb/>hätte ich <choice><orig>B</orig><reg>b</reg></choice>eides umsonst erwartet!</p>
+             
+             <p rend="indent-first">Auch <persName key="E0300887">Dayas</persName> scheint sehr
+                <lb/>verschlo<choice><orig>ß</orig><reg>ss</reg></choice>ener Natur geworden zu
+                <lb/>sein <choice><abbr>u.</abbr><expan>und</expan></choice> ganz <placeName key="E0500323">finnisch</placeName>. Ja, ja, <placeName key="E0500323">finnisch</placeName>.
+                
+                <pb n="3"/>
+                
+                <note type="foliation" resp="#archive" place="top-right">[2]</note>
+                
+                Sein einziger, an mich gerichteter
+                <lb/>Brief,
+                
+                <note type="commentary" resp="#E0300616">Brief vom <date when-iso="1893-05-23">23. Mai 1893</date>, in der <orgName key="E0600056">Staatsbibliothek zu <placeName key="E0500029">Berlin</placeName></orgName>, <ref type="ext" subtype="kalliope" target="#DE-611-HS-584963">Mus.Nachl. F. Busoni B II, 1385</ref>.
+                   <lb/><persName key="E0300888">Dayas</persName> bedankt sich in diesem Brief für zahlreiche Noten, die <persName key="E0300017">Busoni</persName> ihm zuvor geschickt hatte, zeigt sich über negative Reaktionen in <placeName key="E0500270">Helsinki</placeName> auf <persName key="E0300017">Busonis</persName> Komposition <title key="E0400549">Kultaselle</title> sehr verärgert (siehe auch <ref target="#D0102008" n="2">Kommentierung im vorigen Brief</ref>) und freut sich <q rend="dq-du">auf den Tag wo [er] <rs key="E0400549">diese Variationen</rs> in einem civilisirten Land spielen kann</q>.</note>
+                
+                (der mich übrigens enorm freute)
+                <lb/>spi<choice><unclear cert="high">e<choice><sic>t</sic><corr>l</corr></choice></unclear><unclear cert="low"><sic>lt</sic><corr>el</corr></unclear></choice>te,
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (339)</bibl>: <q>spiltte</q>.</note>
+                
+                ganz im <placeName key="E0500323">finnischen</placeName> Volkston,
+                <lb/>stets zwischen Des<choice><orig>d</orig><reg>-D</reg></choice>ur
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>Des dur</q>.</note>
+                
+                <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><orig>Desm</orig><reg>des-M</reg></choice>oll.
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>Des moll</q>.</note>
+                
+                <note type="commentary" resp="#E0300616">Siehe <ref target="#D0102008" n="7">Kommentierung im vorigen Brief</ref>.</note>
+                
+                <lb/>Das <choice><orig>m</orig><reg>M</reg></choice>oll war leider (aber charakteristisch)
+                <lb/>vorwiegend.<orig> –</orig>
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>…</q> statt Punkt und Gedankenstrich.</note>
+                
+             </p>
+             
+             <p rend="indent-2-first">Wenn du von mir <choice><orig>E</orig><reg>e</reg></choice>twas wissen
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>wißen</q>.</note>
+                
+                willst,
+                <lb/>so habe ich – scheint mir – im <choice><orig>C</orig><reg>K</reg></choice>lavierspiel
+                <lb/>Fortschritte gemacht; als <choice><orig>C</orig><reg>K</reg></choice>omponist
+                <lb/>vollendete ich ein <rs key="E0400663"><soCalled rend="dq-du">Symphonisches
+                   <lb/><choice><orig>t</orig><reg>T</reg></choice>ongedicht</soCalled> für größtes Orchester</rs>
+                <lb/>(absolut nicht <soCalled rend="dq-du">kammermusikhaft</soCalled>)<reg>,</reg>
+                <lb/>das ebenso<reg> </reg>wenig<orig>,</orig> wie alle meine
+                <lb/>übrigen Sächelchen<orig>,</orig> deinen Beifall
+                <lb/>erhofft. Nichtsdestoweniger –
+                <lb/>(<foreign xml:lang="sv">Icke<reg> </reg>desto<reg> </reg>mindre</foreign>)
+                
+                <note type="commentary" resp="#E0300616">Schwed.: nichtsdestoweniger.</note>
+                
+                werde ich dir
+                <lb/>seinerzeit ein Exemplar der <rs key="E0400663">Partitur</rs>
+                <lb/>zuschicken; es ist eben im Erscheinen.</p>
+             
+             <p rend="indent-first"><placeName key="E0500018">Boston</placeName> haben wir Valet gesagt
+                <lb/><choice><abbr>u.</abbr><expan>und</expan></choice> <placeName key="E0500031">New York</placeName> wird wohl bald auch
+                <lb/>sich ohne mich trösten mü<choice><orig>ß</orig><reg>ss</reg></choice>en.
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>müssen</q>.</note></p>
+             
+             <p rend="indent-first">Überall will man mich gern zurück
+                <lb break="no" rend="after:="/>halten, wogegen ich wieder große
+                
+                <pb n="4"/>
+                
+                Zurückhaltung zeige.</p>
+             
+             <p rend="indent-first">Ich bin unterdessen
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>unterdeßen</q>.</note>
+                
+                um ein gutes
+                <lb/>Stück <hi rend="underline">weniger <placeName key="E0500015">deutsch</placeName></hi> geworden<sic>en</sic>
+                <lb/>und treibe immer mehr zum
+                <lb/><choice><orig>C</orig><reg>K</reg></choice>osmopolitismus – ob zum Heil?
+                <lb/><choice><orig>w</orig><reg>W</reg></choice>er weiß. Auch
+                
+                <note type="commentary" subtype="ed_diff_major" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>Aber auch</q>.</note>
+                
+                ein guter <hi rend="underline"><persName key="E0300013">Lisztianer</persName></hi>
+                <lb/>bin ich geworden; ich spiele jetzt mit
+                <lb/>Vorliebe (und beinahe <choice><orig>A</orig><reg>a</reg></choice>lles!
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>alles!</q>.</note>
+                
+                ) von
+                <lb/><rs key="E0300013">diesem Meister</rs>;
+                
+                <note type="commentary" resp="#E0300616"><persName key="E0300017">Busonis</persName> inniges Interesse an der Musik von <persName key="E0300013">Liszt</persName> begann nicht erst in <placeName key="E0500018">Boston</placeName>, sondern ist schon auf die eindringliche Empfehlung von <persName key="E0300207">Wegelius</persName> zurückzuführen (vgl. <bibl><ref target="#E0800218"/>, S. 103</bibl>). Dieser hatte <persName key="E0300013">Liszt</persName> <date when-iso="1878">1878</date> in <placeName key="E0500051">Hannover</placeName> spielen hören und war seitdem begeisterter Anhänger der <soCalled rend="dq-du"><persName key="E0300013">Liszt’schen</persName> Klavierschule</soCalled> (vgl. <bibl><ref target="#E0800452"/>, S. 278</bibl>). So ist es auch kein Zufall, dass die ersten drei Klavierlehrer des <rs key="E0600031">Instituts</rs> allesamt ehemalige <persName key="E0300013">Liszt</persName>schüler waren: <persName key="E0301005">Karl Pohlig</persName> (<date when-iso="1882/1883">1882–1883</date>), <persName key="E0301006">Ludwig Dingeldey</persName> (<date when-iso="1883/1887">1883–1887</date>) und <persName key="E0301007">Karl Schuler</persName> (<date when-iso="1887/1888">1887–1888</date>) (vgl. <bibl><ref target="#E0800437"/>, S.326–328</bibl>).</note>
+                
+                ich glaube,
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: ohne Komme.</note>
+                
+                auch mit
+                <lb/>richtiger Auffassung. Mein Spiel
+                <lb/>hat dadurch entschieden an Glanz
+                <lb/>u. s. w.
+                
+                <note type="commentary" subtype="ed_diff_major" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>und dergleichen mehr</q> statt <q>u. s. w.</q>.</note>
+                
+                gewonnen.<orig> –</orig>
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: ohne Gedankenstrich.</note></p>
+             
+             <p rend="indent">Ich brenne danach<reg>,</reg> <choice><orig><subst><del rend="transformed">e</del><add rend="transformed">E</add></subst></orig><reg>e</reg></choice>twas von
+                <lb/><seg rend="indent-neg"><hi rend="underline"><persName key="E0300177">Sibelius</persName></hi> kennen zu lernen;</seg>
+                <lb/>k<choice><orig>oe</orig><reg>ö</reg></choice>nnte ich was bekommen?
+                <lb/>Es w<choice><orig>ae</orig><reg>ä</reg></choice>re möglich, da<choice><orig>ß</orig><reg>ss</reg></choice> man
+                <lb/><seg rend="indent-neg">es zur Aufführung br<choice><orig>ae</orig><reg>ä</reg></choice>chte.<orig> –</orig></seg></p>
+             
+             <p rend="indent-first">Grüße <add place="below">ihn </add>herzlichst; vor <choice><orig>A</orig><reg>a</reg></choice>llem
+                <lb/>aber deine vortreffliche <persName key="E0300895">Frau Hanna</persName>,
+                <lb/>Bergroths,
+                
+                <note type="commentary" resp="#E0300616"><mentioned>Bergroth</mentioned> war der Geburtsname von <persName key="E0300207">Wegelis’</persName> <persName key="E0300895">Frau Hanna</persName>. <persName key="E0300017">Busoni</persName> hatte neben den Eltern <persName key="E0300839">Carl Edvard</persName> und <persName key="E0300730">Carolina Amalia Bergroth</persName> – der <rs key="E0300839">Vater</rs> war allerdings <date when-iso="1890">1890</date> gestorben – wahrscheinlich auch <persName key="E0301004">Lydia Bergroth</persName>, die früh verwitwete Schwägerin und enge Bezugsperson <persName key="E0300207">Wegelius’</persName>, und <persName key="E0300895">Hannas</persName> Cousin <persName key="E0300998">Edvin Bergroth</persName>, dessen Ferienhaus die <rs type="persons" key="E0300207 E0300895">Wegelius’</rs> und <persName key="E0300017">Busoni</persName> im Sommer nutzten, kennengelernt (vgl. <bibl><ref target="#E0800452"/>, S. 362 ff.</bibl>.</note>
+                
+                Wifung,
+                
+                <note type="commentary" resp="#E0300616">Auch in seiner <rs key="E0400694"><persName key="E0300006">Wagner</persName>-Parodie</rs> lässt <persName key="E0300017">Busoni</persName> einen <q rend="italic">Wifung vom Geschlecht der Wifungen</q> (<bibl><ref target="#E0800445"/>, S. 370</bibl>) auftreten, wohl in Anspielung auf <persName key="E0300006">Wagners</persName> Gibichungen. Dem Kontext folgend handelt es sich dabei um einen Lehrer des <rs key="E0600031">Instituts</rs>. Gemeint ist wohl <persName key="E0300884">Heinrich Wefing</persName>, der sonst als fast einziger <rs key="E0600031">Instituts</rs>kollege nicht auftauchen würde und den <persName key="E0300017">Busoni</persName> schon zu Beginn seiner Zeit in <placeName key="E0500270">Helsinki</placeName> in Briefen missbilligte (vgl. die Kommentare über seinen <q rend="italic"><rs key="E0300884">Collegen</rs></q>, den <q rend="italic"><rs key="E0300884">zweiten Klavierlehrer</rs></q>, in den <persName key="E0300030">Petri</persName>-Briefen vom <date when-iso="1888-09">September</date>, <bibl><ref target="#E0800038"/>, S.15–21</bibl>.</note>
+                
+                <persName key="E0300887">Dayas</persName>, <persName key="E0300897">Ojanperä</persName>
+                
+                <note type="commentary" resp="#E0300616">Der <placeName key="E0500323">finnische</placeName> Bariton <persName key="E0300897">Abraham Ojanperä</persName> war von <date when-iso="1885/1915">1885 bis 1915</date> Gesangslehrer am <rs key="E0600031">Musikinstituts</rs> (vgl. <bibl><ref target="#E0800437"/>, S. 47, 331</bibl>).</note>
+                
+                <lb/>und noch <choice><orig><choice><unclear cert="high"><subst><del rend="overwritten">V</del><add place="across">v</add></subst></unclear><unclear cert="low">V</unclear><unclear cert="low">v</unclear></choice></orig><reg>v</reg></choice>iele
+                
+                <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>viele</q>.</note>
+                
+                ausgezeichnete
+                <lb/>Menschen. <seg type="closer" subtype="salute">Herzlichst dein alter
+                   
+                   <note type="commentary" subtype="ed_diff_minor" resp="#E0300616"><bibl><ref target="#E0800444"/> (340)</bibl>: <q>Alter</q> mit anschließendem Komma.</note>
+                   
+                   <lb/><seg rend="indent">Unterlehrergehülfe</seg></seg><seg type="closer" subtype="signed" rend="large"><persName key="E0300017">F B Busoni</persName></seg></p>
+          </div>
+       </body>
+    </text>
+ </TEI>

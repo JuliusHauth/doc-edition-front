@@ -1,14 +1,17 @@
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes } from "react-teirouter"
-import React, {useState, useEffect} from "react"
+import React, { useContext} from "react"
 import { createPortal } from 'react-dom'
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import { OriginalContext } from "./OriginalContext.js"
 
 
 interface TEIProps {
     teiNode: Node
     availableRoutes?: string[]
 }
-  let active = false
+  
 
 const Note = ({teiNode, availableRoutes}: TEIProps) => {
   const el = teiNode as Element
@@ -20,18 +23,22 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
 
 
   const showAsideNote = () => {
-    console.log("test")
     
-    if (active) {
+    if (asideNote?.getAttribute("STYLE") === "display: none") {
       asideNote?.setAttribute("STYLE", "display: block")
-      active = false
+      
     } else {
       asideNote?.setAttribute("STYLE", "display: none")
-      active = true
+     
     }
 
   }
 
+  const closeAsideNote = () => {
+    asideNote?.setAttribute("STYLE", "display: none") 
+  }
+  const original = useContext(OriginalContext)
+  console.log(original)
 
     return (
         <Behavior node={teiNode}>
@@ -44,11 +51,18 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
               *
             </span>
              {document.getElementById('noteSpace') && createPortal(
-               <p id={`aside_${id}`} className="asideNote">
+              <div className="asideNote" id={`aside_${id}`}> 
+               <p>
+                <div STYLE="text-align: end">
+               <IconButton aria-label="Close" onClick={closeAsideNote} >
+                  <CloseIcon />
+               </IconButton> <br />
+               </div>
                 <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />
-            </p>, document.getElementById('noteSpace')
+            </p>
+            </div>, document.getElementById('noteSpace')
             )}
         </Behavior>
     )
