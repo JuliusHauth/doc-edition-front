@@ -19,6 +19,10 @@ import Empty from "./empty.tsx"
 import Ref from "./ref.tsx"
 import Back from "./back.tsx"
 import Choice from "./choice.tsx"
+import Expan from "./expan.tsx"
+import Abbr from './abbr.tsx'
+import Orig from './orig.tsx'
+import Reg from './reg.tsx'
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -51,7 +55,11 @@ interface Props {
         "tei-rs": Ref,
         "tei-settlement": Ref,
         "tei-back": Back,
-        "tei-choice": Choice
+        "tei-choice": Choice,
+        "tei-abbr": Abbr,
+        "tei-expan": Expan,
+        "tei-reg": Reg,
+        "tei-orig": Orig
     }
 
 
@@ -103,16 +111,45 @@ interface Props {
 
     const showOriginal = (event: React.ChangeEvent<HTMLInputElement>) => {
       const choice = document.getElementsByClassName("choice")
+      const abbr = document.getElementsByClassName("abbreviation")
+      const expan = document.getElementsByClassName("expanded")
+      const reg = document.getElementsByClassName("regular")
+      const orig = document.getElementsByClassName("original")
       
       if (event.target.checked) {
-        original = true
-        console.log(original + "C")
+        
         for (let i = 0; i < choice.length; i++) {
-          
+          choice[i].setAttribute("STYLE", "text-decoration: underline")
         }
+        for (let i = 0; i < abbr.length; i++) {
+          abbr[i].setAttribute("STYLE", "display: inline")
+        }
+        for (let i = 0; i < expan.length; i++) {
+          expan[i].setAttribute("STYLE", "display: none")
+        }
+        for (let i = 0; i < reg.length; i++) {
+          reg[i].setAttribute("STYLE", "display: none")
+        }
+        for (let i = 0; i < orig.length; i++) {
+          orig[i].setAttribute("STYLE", "display: inline")
+        }
+
       } else {
-        original = false
-        console.log(original + "C")
+        for (let i = 0; i < choice.length; i++) {
+          choice[i].setAttribute("STYLE", "text-decoration: none")
+        }
+        for (let i = 0; i < abbr.length; i++) {
+          abbr[i].setAttribute("STYLE", "display: none")
+        }
+        for (let i = 0; i < expan.length; i++) {
+          expan[i].setAttribute("STYLE", "display: inline")
+        }
+        for (let i = 0; i < reg.length; i++) {
+          reg[i].setAttribute("STYLE", "display: inline")
+        }
+        for (let i = 0; i < orig.length; i++) {
+          orig[i].setAttribute("STYLE", "display: none")
+        }
       }
       setCheckedOrig([event.target.checked, event.target.checked])
     }

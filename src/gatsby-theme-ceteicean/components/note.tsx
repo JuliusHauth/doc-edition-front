@@ -15,12 +15,8 @@ interface TEIProps {
 
 const Note = ({teiNode, availableRoutes}: TEIProps) => {
   const el = teiNode as Element
-  let id 
-  if (el.getAttribute("id")){
-    id = el.getAttribute("id")
-  } else {
-    id = el.getAttribute("resp")
-  }
+  const id = el.getAttribute("id")
+  
   
   
   const textId = `text_${id}`
@@ -30,7 +26,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
 
 
   const showAsideNote = () => {
-    
+    console.log("rest27")
     if (asideNote?.getAttribute("STYLE") === "display: none") {
       asideNote?.setAttribute("STYLE", "display: block")
       
