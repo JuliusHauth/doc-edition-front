@@ -18,6 +18,7 @@ import P from "./p.tsx"
 import Empty from "./empty.tsx"
 import Ref from "./ref.tsx"
 import Back from "./back.tsx"
+import Choice from "./choice.tsx"
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -49,7 +50,8 @@ interface Props {
         "tei-orgname": Ref,
         "tei-rs": Ref,
         "tei-settlement": Ref,
-        "tei-back": Back
+        "tei-back": Back,
+        "tei-choice": Choice
     }
 
 
@@ -100,9 +102,14 @@ interface Props {
     let original = useContext(OriginalContext);
 
     const showOriginal = (event: React.ChangeEvent<HTMLInputElement>) => {
+      const choice = document.getElementsByClassName("choice")
+      
       if (event.target.checked) {
         original = true
         console.log(original + "C")
+        for (let i = 0; i < choice.length; i++) {
+          
+        }
       } else {
         original = false
         console.log(original + "C")

@@ -15,7 +15,14 @@ interface TEIProps {
 
 const Note = ({teiNode, availableRoutes}: TEIProps) => {
   const el = teiNode as Element
-  const id = el.getAttribute("id")
+  let id 
+  if (el.getAttribute("id")){
+    id = el.getAttribute("id")
+  } else {
+    id = el.getAttribute("resp")
+  }
+  
+  
   const textId = `text_${id}`
 
   const asideNote = document.getElementById(`aside_${id}`)
@@ -29,7 +36,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
       
     } else {
       asideNote?.setAttribute("STYLE", "display: none")
-     
+      
     }
 
   }
@@ -41,6 +48,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
   console.log(original)
 
     return (
+      
         <Behavior node={teiNode}>
             <span className="note"
                   id={textId} 
@@ -51,7 +59,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
               *
             </span>
              {document.getElementById('noteSpace') && createPortal(
-              <div className="asideNote" id={`aside_${id}`}> 
+              <div className="asideNote" id={`aside_${id}`} STYLE="display: none"> 
                <p>
                 <div STYLE="text-align: end">
                <IconButton aria-label="Close" onClick={closeAsideNote} >
@@ -65,6 +73,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
             </div>, document.getElementById('noteSpace')
             )}
         </Behavior>
+        
     )
 }
 
