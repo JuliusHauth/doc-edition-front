@@ -23,6 +23,10 @@ import Expan from "./expan.tsx"
 import Abbr from './abbr.tsx'
 import Orig from './orig.tsx'
 import Reg from './reg.tsx'
+import L from './l.tsx'
+import Head from './head.tsx'
+import Stage from './stage.tsx'
+
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -59,7 +63,12 @@ interface Props {
         "tei-abbr": Abbr,
         "tei-expan": Expan,
         "tei-reg": Reg,
-        "tei-orig": Orig
+        "tei-orig": Orig,
+        "tei-l": L,
+        "tei-head": Head,
+        "tei-stage": Stage,
+        "tei-speaker": P,
+        "tei-castitem": L
     }
 
 
@@ -186,7 +195,7 @@ interface Props {
           <Grid item xs={5}>  
             <Container> 
               <Ceteicean pageContext={pageContext} routes={routes} >
-                {/* <OriginalContext.Provider value={original}/>   */}
+                
               </Ceteicean>
             </Container>
           </Grid>
