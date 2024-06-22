@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://capitularia.uni-koeln.de/cap/publ/schemata/capitularia-msDesc-Transcription.rnc" type="application/relax-ng-compact-syntax"?><?xml-model href="http://capitularia.uni-koeln.de/cap/publ/schemata/capitularia.sch" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" xml:id="avranches-bm-145">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ger">Avranches, Bibliothèque municipale, 145</title>
+            <title type="sub" xml:lang="ger">Beschreibung der Handschrift nach Mordek und
+               Transkription von foll. 2r, 3v, 11r, 12v, 14r, 15r, 16v-17r, 23v, 25r-v, 26v,
+               27v-28r, 30r-v, 34v, 37r, 39r, 42v-43r</title>
+            <title type="sub" xml:lang="eng">Manuscript description according to Mordek and
+               transcription of fols 2r, 3v, 11r, 12v, 14r, 15r, 16v-17r, 23v, 25r-v, 26v, 27v-28r,
+               30r-v, 34v, 37r, 39r, 42v-43r</title>
+            <respStmt>
+               <persName key="KU">
+                  <forename>Karl</forename>
+                  <surname>Ubl</surname>
+               </persName>
+               <resp xml:lang="ger">Projektleitung</resp>
+               <resp xml:lang="eng">Project lead</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="SK">
+                  <forename>Sören</forename>
+                  <surname>Kaschke</surname>
+               </persName>
+               <resp xml:lang="ger">Transkription, Beschreibung und Auszeichnung nach TEI P5
+                  Standard (foll. 2r, 3v, 14r, 15r, 16v-17r, 23v, 25r-v, 26v, 27v-28r, 30r-v, 37r,
+                  42v) </resp>
+               <resp xml:lang="eng">Transcription, description and text encoding according to the
+                  TEI P5 standard (fols 3v, 14r, 15r, 17r, 23v, 25v, 26v, 27v-28r, 30r-v, 37r,
+                  42v)</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="DT">
+                  <forename>Dominik</forename>
+                  <surname>Trump</surname>
+               </persName>
+               <resp xml:lang="ger">Transkription, Beschreibung und Auszeichnung nach TEI P5
+                  Standard (foll. 11r, 12v, 34v, 39r)</resp>
+               <resp xml:lang="eng">Transcription, description and text encoding according to the
+                  TEI P5 standard (fols 11r, 12v, 34v, 39r)</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="BM">
+                  <forename>Britta</forename>
+                  <surname>Mischke</surname>
+               </persName>
+               <resp xml:lang="ger">Erste Überprüfung der Transkription und Ergänzungen</resp>
+               <resp xml:lang="eng">First revision of transcription and additions</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="GB">
+                  <forename>Grigorii</forename>
+                  <surname>Borisov</surname>
+               </persName>
+               <resp xml:lang="ger">Zweite Überprüfung der Transkription und Ergänzungen (foll. 2r,
+                  3v, 14r, 15r, 16v-17r, 23v, 25r-25v, 26v, 27v-28r, 30r-v, 37r, 42v-43r)</resp>
+               <resp xml:lang="eng">Second revision of transcription and additions</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="SK">
+                  <forename>Sören</forename>
+                  <surname>Kaschke</surname>
+               </persName>
+               <resp xml:lang="ger">Zweite Überprüfung der Transkription und Ergänzungen (foll. 11r,
+                  12v, 34v, 39r)</resp>
+               <resp xml:lang="eng">Second revision of transcription and additions (fols 11r, 12v,
+                  34v, 39r)</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="FF">
+                  <forename>Franz</forename>
+                  <surname>Fischer</surname>
+                  <affiliation>Cologne Center for eHumanities (CCeH), Universität zu
+                     Köln</affiliation>
+               </persName>
+               <resp xml:lang="ger">Datenmodellierung</resp>
+               <resp xml:lang="eng">Data Modelling</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="CR">
+                  <forename>Clemens</forename>
+                  <surname>Radl</surname>
+               </persName>
+               <resp xml:lang="ger">Kodierung von Mordek, Bibliotheca in TEI, Vorbereitung für
+                  Übergabe an Capitularia</resp>
+               <resp xml:lang="eng">TEI encoding of Mordek, Bibliotheca, preparation of data</resp>
+            </respStmt>
+            <respStmt>
+               <persName key="DS">
+                  <forename>Daniela</forename>
+                  <surname>Schulz</surname>
+               </persName>
+               <resp xml:lang="ger">Technische Umsetzung, Generierung der
+                  Handschriftenbeschreibungen aus Mordek, Bibliotheca</resp>
+               <resp xml:lang="eng">technical support, generating of manuscript description
+                  according to Mordek, Bibliotheca</resp>
+            </respStmt>
+            <funder>Akademie der Wissenschaften und Künste Nordrhein-Westfalen</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <persName>Karl Ubl</persName>
+               <orgName xml:lang="ger">Historisches Institut, Lehrstuhl für Geschichte des
+                  Mittelalters, Universität zu Köln</orgName>
+               <orgName xml:lang="eng">History Department, Chair for Medieval History, Cologne
+                  University</orgName>
+               <address xml:lang="ger">
+                  <addrLine>Albertus-Magnus-Platz</addrLine>
+                  <addrLine>50923 <settlement>Köln</settlement>
+                  </addrLine>
+                  <addrLine>Philosophikum Raum 4.009</addrLine>
+                  <addrLine>0221-470 2717</addrLine>
+                  <country>Deutschland</country>
+               </address>
+               <address xml:lang="eng">
+                  <addrLine>Albertus-Magnus-Platz</addrLine>
+                  <addrLine>50923 <settlement>Cologne</settlement>
+                  </addrLine>
+                  <addrLine>Philosophikum Room 4.108</addrLine>
+                  <addrLine>+49 221-470 2717</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <availability>
+               <p xml:lang="ger">Die Inhalte sind frei zugänglich und nicht-kommerziell. Einige
+                  Digitalisate und Texte sind aus rechtlichen Gründen jedoch Mitarbeitern
+                  vorbehalten.</p>
+               <p xml:lang="eng">Content is freely available on a non-commercial basis. Some digital
+                  images and texts are only available to staff due to copyright issues.</p>
+            </availability>
+            <date when="2016-03-01">01.03.2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Avranches</settlement>
+                  <repository>Bibliothèque municipale</repository>
+                  <idno>145</idno>
+                  <msName/>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno>Montfaucon Nr. 168</idno>
+                     <note type="date">
+                        <date/>
+                     </note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno>n° 121</idno>
+                     <note type="date">
+                        <date/>
+                     </note>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <settlement/>
+                     <repository/>
+                     <idno>4 0. 56</idno>
+                     <note type="date">
+                        <date/>
+                     </note>
+                  </altIdentifier>
+                  <altIdentifier type="siglum">
+                     <idno>Av</idno>
+                     <note/>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>
+                  <title type="main">Avranches, Bibliothèque municipale, 145</title>
+                  <origDate notAfter="1200" notBefore="1151">12. Jh., 2. Hälfte (a.
+                     1154/1186)</origDate>
+                  <origPlace
+                     ref="http://www.geonames.org/6616911/le-mont-saint-michel.html http://d-nb.info/gnd/4040122-4
+                     http://viaf.org/viaf/295805315">geschrieben im Auftrag
+                     Roberts von Torigni, Abt des unweit Avranches' an der normannischen Küste
+                     gelegenen Klosters Mont-Saint-Michel</origPlace>
+               </head>
+               <msContents>
+                  <summary>
+                     <p>Die Collectio Ansegisi geht einerseits zurück auf die „Reimser Gruppe“ mit
+                        ihren typischen Addenda, vgl. zu dieser Klasse Cod. <ref type="internal"
+                           subtype="mss" target="selestat-bh-14">Sélestat 14 (104)</ref>.
+                        Andererseits enthält sie Zusätze aus einer (oder mehreren) weiteren
+                        Quelle(n), die sich im Erscheinungsbild der Capitulationes oft als Nachtrag
+                        präsentieren und so wohl erst mit der Niederschrift des Codex in die
+                        Sammlung einflossen.</p>
+                     <p>Eine Vorstufe des Abrincatensis wurde herangezogen vom Urheber der Epitome
+                        Ansegisi et Benedicti Levitae in Cod. <ref target="paris-bn-lat-3851"
+                           subtype="mss" type="internal">Paris Lat. 3851</ref>.</p>
+                  </summary>
+                  <msItem n="1">
+                     <p>
+                        <locus>IIv</locus> Zeitgenössische oder wenig jüngere Inhaltsangabe: <hi
+                           rend="italic">In hoc volumine continentur quatuor libelli capitulorum
+                           Karoli imperatoris et Lodouici filii eius collecti ab Ansegiso abbate et
+                           tres alii collecti a Benedicto diacono quorum ultimus deest</hi>. </p>
+                  </msItem>
+                  <msItem n="2">
+                     <p>
+                        <locus>1r</locus> Gregor I. an Theudelinde, JE 1275, bis <hi rend="italic"
+                           >inueniuntur aliena</hi> (MGH Epp. 1, S. 236). </p>
+                  </msItem>
+                  <msItem n="3">
+                     <p>
+                        <locus>1r-v</locus> Fränkische Königsliste, zwischen 1078 und 1108
+                        niedergeschrieben, endend mit <hi rend="italic">Philipus</hi> (= Philipp I.
+                        von Frankreich, 1060-1108) <hi rend="italic">genuit Laudouicum</hi>
+                        (Geburtsjahr Ludwigs VI. wohl 1081). </p>
+                  </msItem>
+                  <msItem n="4">
+                     <p>
+                        <locus>1v-46v</locus>
+                        <title corresp="BK.183">Ansegisi abbatis capitularium collectio</title>,
+                        Praefatio (ohne Verse), Bücher 1-4 und Appendices 1-3 in einer Versio aucta
+                        et emendata (am Anfang mit, in den Vorworten der Bücher 2, 3 und 4 ohne den
+                        Namen Lothars) (MGH Capit. 1, S. 394-450); im Textkorpus (nicht in den
+                        Capitulationes) fehlen Ansegis 1, 63-66 und 4, 12, was am Rand notiert ist
+                        (fol. 7v: <hi rend="italic">desunt hic sententie super IIIIor capitula
+                           superius inscripta</hi>; fol. 36v: <hi rend="italic">deest hic sententia
+                           super capitulum unum superius intitulatum</hi> [Verweiszeichen auf das
+                        Ende von 4, 13], Teil der Notiz nochmals fol. 37r). Einschübe: </p>
+                  </msItem>
+                  <msItem n="5">
+                     <p><locus>-- 11r</locus> (nach Ansegis 1, 83) <title corresp="BK.138"
+                           >Capitulare ecclesiasticum</title> (a. 818/819), c. 8 (Ansegis 1, 77-104
+                        sind cc. 1-7 und 9-26 des Capitulare ecclesiasticum): <hi rend="italic"
+                           >Statutum est etiam</hi> (<hi rend="italic">&amp;iam</hi> geschrieben,
+                        über der Zeile: <hi rend="italic">uel etiam</hi>) <hi rend="italic">ut
+                           nullus - modis omnibus feriatur</hi> (MGH Capit. 1, Nr. 138, S. 277 Z.
+                        18-20; zuvor auch der in Ansegis 1, 83 fehlende Schluß von c. 7: <hi
+                           rend="italic">et res ad exheredatos</hi> [korr. aus <hi rend="italic"
+                           >hereditatos</hi>] <hi rend="italic">redeant</hi> [ebd. Z. 17]); </p>
+                  </msItem>
+                  <msItem n="6">
+                     <p>
+                        <locus>-- 12v</locus> (nach Ansegis 1, 99) <title corresp="BK.156">Capitula
+                           incerta</title> wohl Ludwigs des Frommen, c. 1: <hi rend="italic">Qui
+                           sponsam alienam ipsa non consentiente - quam uoluerit accipiat</hi> (MGH
+                        Capit. 1, Nr. 156, S. 315 Z. 21-26); am Rand teils abgeschnittene
+                        Inskription <hi rend="italic">eodem quo supra</hi>; </p>
+                  </msItem>
+                  <msItem n="7">
+                     <p>
+                        <locus>-- 14r</locus> (nach Ansegis 1, 115) <hi rend="italic">CXVI</hi> (<hi
+                           rend="italic">X</hi> über der Zeile) - <title corresp="BK.44">Capitulare
+                           missorum in Theodonis villa datum secundum, generale</title> (a. 805), c.
+                        17 (Ansegis 1, 112-115 sind cc. 4 und 14-16 des Capitulare missorum in
+                        Theodonis villa datum secundum): <hi rend="italic">De ecclesiis seu sanctis
+                           - canonica auctoritate</hi> (MGH Capit. 1, Nr. 44, S. 125 Z. 16-18); in
+                        der Capitulatio Kapitelzahl <hi rend="italic">CXVI</hi> und Rubrik <hi
+                           rend="italic">De ecclesiis seu sanctis sine auctoritate inuentis</hi>
+                        interlinear nachgetragen; </p>
+                  </msItem>
+                  <msItem n="8">
+                     <p>
+                        <locus>-- 15r</locus> (nach Ansegis 1, 134 direkt angehängt) <title
+                           corresp="BK.39">Capitulare legibus additum</title> (a. 803), c. 4
+                        (Ansegis 1, 134 ist c. 3 des Capitulare legibus additum): <hi rend="italic"
+                           >Et qui in iuditio iniuste contra alium - culpabilis iudicetur</hi> (MGH
+                        Capit. 1, Nr. 39, S. 113 Z. 27-29); </p>
+                  </msItem>
+                  <msItem n="9">
+                     <p>
+                        <locus>-- 23v</locus> (nach Ansegis 2, 32 [hier <hi rend="italic"
+                        >XXXI</hi>]) <hi rend="italic">XXXII-XXXIII</hi> - <title corresp="BK.167"
+                           >Capitula Francica</title>, cc. 2 und 3: <hi rend="italic">Qualiter
+                           iustitie fiant pauperibus, de causis uiduarum, pupillorum, orphanorum -
+                           equitatem iustiam reddat</hi> (MGH Capit. 1, Nr. 167, S. 333 Z. 16-24 mit
+                        den S. 421 f. Anm. a [zu Ansegis 2, 32] gedruckten Rubriken, die ohne
+                        Zeichen eines Nachtrags auch in der Capitulatio auftauchen); </p>
+                  </msItem>
+                  <msItem n="10">
+                     <p>
+                        <locus>-- 26v</locus> (nach Ansegis 3, 3 direkt angehängt) <title
+                           corresp="BK.44">Capitulare missorum in Theodonis villa datum secundum,
+                           generale</title> (a. 805), c. 4 (Ansegis 3, 1-16 sind cc. 1-3, 5-13,
+                        18-20 und 22 des Capitulare missorum in Theodonis villa datum secundum): <hi
+                           rend="italic">de hoc si euenerit famis - aliquid alimonie</hi> (MGH
+                        Capit. 1, Nr. 44, S. 122 Z. 34 - S. 123 Z. 3); </p>
+                  </msItem>
+                  <msItem n="11">
+                     <p>
+                        <locus>-- 28r</locus> (nach Ansegis 3, 16) <hi rend="italic">XVII</hi> -
+                           <title corresp="BK.44">Capitulare missorum in Theodonis villa datum
+                           secundum, generale</title> (a. 805), Sonderversion des Schlußsatzes von
+                        c. 9, wie er auch in <ref target="paris-bn-lat-4995" subtype="mss"
+                           type="internal">Cod. Paris Lat. 4995</ref> am Ende des Kapitulars belegt
+                        ist: <hi rend="italic">De his qui tunc infantes fuerunt - modo iurent</hi>
+                        (MGH Capit. 1, Nr. 44, S. 124 Anm. v, Z. 39 f. [hier irrtümlich die Sigle
+                        für <ref type="internal" subtype="mss" target="paris-bn-lat-4629">Cod. Paris
+                           Lat. 4629</ref> genannt]; Ansegis: S. 427 Anm. c, Z. 48-50); in der
+                        Capitulatio Kapitelzahl <hi rend="italic">XVII</hi> und Rubrik <hi
+                           rend="italic">De infantibus qui non iurauerunt fidelitatem</hi>
+                        interlinear nachgetragen; </p>
+                  </msItem>
+                  <msItem n="12">
+                     <p>
+                        <locus>-- 30r</locus> (nach Ansegis 3, 32) <hi rend="italic">XXXIIII</hi> -
+                           <title corresp="BK.40">Capitulare missorum</title> (a. 803), Rubrik und
+                        c. 1 (Ansegis 3, 33-42 sind cc. 3-5, 10, 11, 15, 17, 20-22 des Capitulare
+                        missorum): <hi rend="italic">De causis ammonendis. de ecclesiis emendandis -
+                           et alia construantur</hi> (MGH Capit. 1, Nr. 40, S. 115 Z. 17-19); in der
+                        Capitulatio Kapitelzahl <hi rend="italic">XXXIIII</hi> und Rubrik (fast wie
+                        Incipit) nachgetragen; </p>
+                  </msItem>
+                  <msItem n="13">
+                     <p>
+                        <locus>-- 30r-v</locus> (nach Ansegis 3, 39) <hi rend="italic">XLII</hi> -
+                           <title corresp="BK.40">Capitulare missorum</title> (a. 803), cc. 18 und
+                        19: <hi rend="italic">De canis ut qui in dextro armo - ipsis capitulis
+                           fiant</hi> (MGH Capit. 1, Nr. 40, S. 116 Z. 12-16); in der Capitulatio
+                        Kapitelzahl <hi rend="italic">XLII</hi> und Rubrik <hi rend="italic">De cane
+                           tonsorato in dextro armo</hi> interlinear nachgetragen; </p>
+                  </msItem>
+                  <msItem n="14">
+                     <p>
+                        <locus>-- 37r</locus>(nach Ansegis 4, 14) <hi rend="italic">XV</hi> -
+                        Benedicti Levitae capitularium collectio 1, 186, wahrscheinlich aus einem
+                        unbekannten Kapitular Ludwigs des Frommen: <hi rend="italic">Presbiteri
+                           interfecti episcopi ad cuius parrochiam - domino sociauit</hi> (MGH LL 2,
+                        2, S. 55; auch Mordek 1995, Anhang I, Nr. 27, 3: <title
+                           corresp="Benedictus.Levita">Capitula a Benedicto Levita singillatim
+                           tradita</title>, c. 3; zur Echtheitsfrage Seckel, Studien VI, S. 88-90);
+                        in der Capitulatio Kapitelzahl <hi rend="italic">XVI</hi> und Rubrik <hi
+                           rend="italic">De solutione occisi presbiteri</hi>, ohne Zeichen eines
+                        Nachtrags;</p>
+                  </msItem>
+                  <msItem n="15">
+                     <p>
+                        <locus>-- 39r</locus> (nach Ansegis 4, 24) <hi rend="italic">XXVII</hi> -
+                           <title corresp="BK.156">Capitula incerta</title> wohl Ludwigs des
+                        Frommen, cc. 2 und 3: <hi rend="italic">Homo de statu suo pulsatus - fieri
+                           potest</hi> (MGH Capit. 1, Nr. 156, S. 315 Z. 27-33); in der Capitulatio
+                        Kapitelzahl <hi rend="italic">XXVII</hi> und Rubrik <hi rend="italic"
+                           >Qvaliter de statu suo pulsatus euindicet libertatem suam</hi>, ohne
+                        Zeichen eines Nachtrags; </p>
+                  </msItem>
+                  <msItem n="16">
+                     <p>
+                        <locus>-- 42v-43r</locus> (nach Ansegis 4, 69) <hi rend="italic">LXXIII</hi>
+                        - <title corresp="BK.167">Capitula Francica</title>, c. 7: <hi rend="italic"
+                           >Vt missi nostri et unusquisque - hec nota faciant</hi> (MGH Capit. 1,
+                        Nr. 167, S. 334 Z. 33-36) in der Capitulatio Kapitelzahl <hi rend="italic"
+                           >LXXIII</hi> und Rubrik <hi rend="italic">De non exigendo heribanno
+                           antequam iussio dominica nota fiat</hi>, ohne Zeichen eines
+                        Nachtrags.</p>
+                     <p>Hinzu kommen Textergänzungen zu einzelnen, von Ansegis unvollständig
+                        übernommenen Kapiteln wie Ansegis 3, 12 und 13 (foll. 27v-28r): <hi
+                           rend="italic">Si quid uero fuerit unde dubitetur - interrogetur</hi> und
+                           <hi rend="italic">Illi tamen denarii - habeantur</hi> (<title
+                           corresp="BK.167">Capitulare missorum in Theodonis villa datum secundum,
+                           generale</title> [a. 805], cc. 13 und 18, jeweils Schluß; MGH Capit. 1,
+                        Nr. 44, S. 125 Z. 1 f. und 21 f.). </p>
+                  </msItem>
+                  <msItem n="17">
+                     <p>
+                        <locus>46v-110v</locus>
+                        <title corresp="Benedictus.Levita">Benedicti Levitae capitularium
+                           collectio</title>, Exzerpt aus den Büchern 1 und 2 bis zum Text von 2,
+                        362, mit Praefatio und vollständigen Capitulationes, im Textkorpus jedoch
+                        oft nur Verweise (<hi rend="italic">require</hi> [<hi rend="italic"
+                           >retro</hi>] in Rot oder in Schwarz mit roter Durchstreichung und
+                        umgekehrt, dazu die Kapitelzahl), wenn die Kapitel tatsächlich oder
+                        vermeintlich schon bei Ansegis oder Benedictus Levita zu finden waren (MGH
+                        LL 2, 2, S. 39-91; Auslassungen vermerkt von Seckel). Daraus zog Seckel, S.
+                        391 den Schluß: „Man wird der gekürzten Rezension von Avranches die
+                        Anerkennung nicht versagen dürfen, daß sie ihr Kürzungsprinzip im ganzen mit
+                        Anstand durchgeführt hat“. </p>
+                  </msItem>
+                  <msItem n="18">
+                     <p>
+                        <locus>110v</locus> Kolophon über Abt Robert als Auftraggeber der Hs.
+                        (Bénédictins du Bouveret, Colophons de manuscrits occidentaux des origines
+                        au XVIe siècle 5 [Spicilegii Friburgensis subsidia 6, Freiburg/Schweiz 1979]
+                        S. 240 Nr. 16640; zitiert auch oben zur Schriftheimat) sowie weitere Notizen
+                        des 12. bis 14. Jh. (mitgeteilt von W. A. Eckhardt, S. 123 Anm. 44). </p>
+                  </msItem>
+                  <msItem n="19">
+                     <p>
+                        <locus>111v-112r</locus> (14. Jh.) Memorien auf die Heiligen Eustachius,
+                        Helena etc. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>114 foll. (I-II, 1-112) <dimensions type="leaf" unit="mm">
+                              <height>260</height>
+                              <width>180</width>
+                           </dimensions>
+                           <dimensions precision="medium" type="written" unit="mm">
+                              <height>200</height>
+                              <width>125</width>
+                           </dimensions>
+                        </extent>
+                        <collation><formula>I<hi rend="super">II</hi> + 13 IV<hi rend="super"
+                                 >104</hi> + (IV-2)<hi rend="super">110</hi> + I<hi rend="super"
+                                 >112</hi></formula>
+                           <catchwords>Kustoden: <hi rend="italic">I</hi> (8<hi rend="super">v</hi>)
+                              bis <hi rend="italic">XIIII</hi> (110<hi rend="super"
+                              >v</hi>)</catchwords>
+                        </collation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="30">30</layout>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>gotische Minuskel</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <p> rote, grüne und blaue Initialen</p>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>
+                        <origDate notAfter="1200" notBefore="1151">12. Jh., 2. Hälfte (a.
+                           1154/1186)</origDate>;<origPlace
+                           ref="http://www.geonames.org/6616911/le-mont-saint-michel.html http://d-nb.info/gnd/4040122-4 http://viaf.org/viaf/295805315"
+                           > geschrieben im Auftrag Roberts von Torigni, Abt des unweit Avranches'
+                           an der normannischen Küste gelegenen Klosters
+                           Mont-Saint-Michel</origPlace> (110v: <hi rend="italic">Iste liber est
+                           Sancti michaelis de periculo maris, quem domnus robertus abbas fecit
+                           fieri; quicumque librum istum furatus fuerit, anathema sit</hi>) </p>
+                  </origin>
+                  <provenance>
+                     <p>Wohl bis zur Aufhebung des Klosters (a. 1790) blieb die Hs. in
+                        Mont-Saint-Michel, wo sie Prior Laurent Hunault für Baluze hatte kopieren
+                        lassen. Alte Signaturen: <idno>Montfaucon Nr. 168</idno> (Bibliotheca
+                        bibliothecarum manuscriptorum nova 2 [Paris 1739] S. 1359 C); <hi
+                           rend="italic"><idno>n° 121</idno>
+                        </hi>; <hi rend="italic"><idno>4 0. 56</idno></hi>
+                     </p>
+                  </provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <surrogates/>
+                  <listBibl>
+                     <listBibl type="lit">
+                        <bibl corresp="#Baluze_1677">Baluze 1677, Praefatio, § LXXVII (Codex S.
+                           Michaelis)</bibl>
+                        <bibl>Handschriften-Verzeichnisse, in: Archiv der Gesellschaft für Ältere
+                           Deutsche Geschichtskunde 8 (1843) S. 382 (L. Bethmann)</bibl>
+                        <bibl corresp="#Boretius_1897">Boretius 1897, S. XI</bibl>
+                        <bibl corresp="#Seckel_1914">Seckel 1914, S. 389-392</bibl>
+                        <bibl corresp="#Christ_1937">Christ 1937, S. 313</bibl>
+                        <bibl>G. Nortier, Les bibliothèques médiévales des abbayes bénédictines de
+                           Normandie III: La Bibliothèque du Mont Saint-Michel, in: Revue Mabillon
+                           47 (1957) S. 142 f., wiederabgedruckt in: dies., Les bibliothèques
+                           médiévales des abbayes bénédictines de Normandie (Bibliothèque d’histoire
+                           et d’archéologie chrétiennes, Paris 1971) S. 68 f.</bibl>
+                        <bibl corresp="#Eckhardt_W_1959">Eckhardt W 1959, S. 123 f.</bibl>
+                        <bibl>M. Bourgeois-Lechartier, A la recherche du scriptorium de l’abbaye du
+                           Mont Saint-Michel, in: Millénaire monastique du Mont Saint-Michel 2
+                           (Paris 1967) S. 179</bibl>
+                        <bibl> B. Jacqueline, Les études juridiques au Mont Saint-Michel des
+                           origines au XVIe siècle, in: Millénaire monastique du Mont Saint-Michel 2
+                           (Paris 1967) S. 266</bibl>
+                        <bibl corresp="#Dolezalek_1972">Dolezalek 1972, Bd. 1</bibl>
+                        <bibl corresp="#Mordek_1987">Mordek 1987, S. 383-385 u. ö.</bibl>
+                        <bibl corresp="#Schmitz_G_1991">Schmitz G 1991, S. 88 f.</bibl>
+                     </listBibl>
+                     <listBibl type="cat">
+                        <bibl>Catalogue général des manuscrits des bibliothèques publiques des
+                           départements 4 (Quarto Series) (Paris 1872) S. 500 f. (Taranne)</bibl>
+                        <bibl>Catalogue général des manuscrits des bibliothèques publiques de
+                           France. Départements 10 (Paris 1889) S. 66 f. (H. Omont)</bibl>
+                     </listBibl>
+                     <listBibl type="cap">
+                        <bibl corresp="#Mordek_1995">Mordek 1995, S. 2-7</bibl>
+                        <bibl corresp="#Mordek_2005a">Mordek 2005a, S. 7 Anm. 30, S. 33, Anm. 145
+                           Nr. 1</bibl>
+                        <bibl corresp="#Schmitz_G_1996">Schmitz G 1996, S. 71-73, 269-271,
+                           279-281</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Transkriptionsvorlage: Gutes Farbdigitalisat, das auf der Plattform BVMM bereitgestellt
+            wird.</p>
+         <projectDesc>
+            <p xml:lang="ger">Capitularia. Edition der fränkischen Herrschererlasse: <ptr
+                  target="http://capitularia.uni-koeln.de/project/about/"/>
+            </p>
+            <p xml:lang="eng">Capitularia. Edition of the Frankish capitularies: <ptr
+                  target="http://capitularia.uni-koeln.de/project/about/"/>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <p xml:lang="ger">Die Transkription folgt den Richtlinien des Capitularia-Projektes:
+                  <ptr target="http://capitularia.uni-koeln.de/project/workflow/"/>
+            </p>
+            <p xml:lang="eng">The transcription adheres to the guidelines of the Capitularia
+               project: <ptr target="http://capitularia.uni-koeln.de/project/workflow/"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="DS" when="2016-03-01">Datei erstellt aus Mordek-XML</change>
+         <change who="DT" when="2017-02-17">Datei veröffentlicht (BK 138)</change>
+         <change who="DT" when="2017-11-14">Transkription ergänzt (BK 156)</change>
+         <change who="SK" when="2024-06-19">Transkription ergänzt (BK 39, 40, 44, 167, Benedictus
+            Levita 1,186)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="https://arca.irht.cnrs.fr/ark:/63955/md010p096737"/>
+   </facsimile>
+   <text>
+      <front>
+         <div type="content">
+
+            <list>
+               <item n="5">
+                  <ptr type="internal" target="#avranches-bm-145-2r-2"/>[Capitulatio:] Incipiunt
+                  capitula I libri</item>
+
+               <item n="10">
+                  <ptr type="internal" target="#avranches-bm-145-4v-2"/>Incipiunt capitula
+                  suprascripta et eorum textus <list>
+                     <item n="20">
+                        <ptr type="internal" target="#avranches-bm-145-11r-1"/>LXXXIII</item>
+                     <item n="30">
+                        <ptr type="internal" target="#avranches-bm-145-12v-1"/>[..] eodem quo
+                        supra</item>
+                     <item n="40">
+                        <ptr type="internal" target="#avranches-bm-145-14r-3"/>CXVI</item>
+                     <item n="50">
+                        <ptr type="internal" target="#avranches-bm-145-15r-15"/>CXXXV</item>
+                  </list>
+               </item>
+            </list>
+
+            <list>
+               <item n="60">
+                  <ptr type="internal" target="#avranches-bm-145-16v-4"/> [Capitulatio:] Incipiunt
+                  capitula libri secundi</item>
+               <item n="70">
+                  <ptr type="internal" target="#avranches-bm-145-17rb-22"/> Incipit textus eorum et
+                  prelocucio <list>
+                     <item n="80">
+                        <ptr type="internal" target="#avranches-bm-145-23v-3"/>XXXII</item>
+                     <item n="90">
+                        <ptr type="internal" target="#avranches-bm-145-23v-5"/>XXXIII</item>
+                  </list>
+               </item>
+            </list>
+
+            <list>
+               <item n="100">
+                  <ptr type="internal" target="#avranches-bm-145-25r-16"/> [Capitulatio:] Incipiunt
+                  capitula libri terciii</item>
+               <item n="110">
+                  <ptr type="internal" target="#avranches-bm-145-26v-3"/> [Liste ohne Rubrik]<list>
+                     <item n="120">
+                        <ptr type="internal" target="#avranches-bm-145-26v-3"/>III</item>
+                     <item n="130">
+                        <ptr type="internal" target="#avranches-bm-145-27v-5"/>XII</item>
+                     <item n="140">
+                        <ptr type="internal" target="#avranches-bm-145-27v-7"/>XIII</item>
+                     <item n="150">
+                        <ptr type="internal" target="#avranches-bm-145-28r-7"/>XVI XVII</item>
+                     <item n="160">
+                        <ptr type="internal" target="#avranches-bm-145-30r-7"/>XXXIIII</item>
+                     <item n="170">
+                        <ptr type="internal" target="#avranches-bm-145-30r-21"/>XLII</item>
+                  </list>
+               </item>
+            </list>
+
+            <list>
+               <item n="150">
+                  <ptr type="internal" target="#avranches-bm-145-34v-4"/> [Capitulatio:] Incipiunt
+                  capitula</item>
+
+               <item n="160">
+                  <ptr type="internal" target="#avranches-bm-145-35vb-4"/> Incipit liber quartus <list>
+                     <item n="170">
+                        <ptr type="internal" target="#avranches-bm-145-37r-1"/>XV</item>
+                     <item n="180">
+                        <ptr type="internal" target="#avranches-bm-145-39r-1"/>XXVII</item>
+                     <item n="190">
+                        <ptr type="internal" target="#avranches-bm-145-42v-11"/>LXXIII</item>
+                  </list>
+               </item>
+            </list>
+
+         </div>
+         <div type="mshist"/>
+         <div type="scribe">
+            <p>Die Haupthand schreibt eine gleichmäßige gotische Minuskel. Einige interlineare
+               Nachträge stammen wohl von einem Korrektor, und nicht von der Haupthand selbst.
+               Auffällig ist, dass die Kapitelzählungen häufiger und zum Teil mehrfach korrigiert
+               wurden, wobei neben dem ursprünglichen Rubrikator mindestens eine weitere Hand am
+               Werk war, die teilweise eine alternative Zählung neben die ursprüngliche, selbst
+               bereits einmal korrigierte Zählung ergänzte, ohne die vorherige Zählung zu tilgen
+               (z.B. <locus>fol. 28r</locus>. </p>
+
+         </div>
+         <div type="letters">
+            <p>Gelegentlich v statt u. Doppel-i wird zur besseren Unterscheidung von u mit zwei
+               nahezu waagerechten Haarstrichen versehen.</p>
+         </div>
+         <div type="abbreviations"/>
+         <div type="punctuation"/>
+         <div type="structure">
+            <p>Farbige Initialen (rot, blau, zumeist alternierend), die mit roten Zierpunkten und
+               -kreisen geschmückt sein können, und Kapitelnummern in roter Farbe.</p>
+            <p>Das Zusatzmaterial ist teilweise bereits von Beginn an fest in den Text der
+               Ansegis-Sammlung, einschließlich in deren Kapitelverzeichnisse, integriert, teilweise
+               sind aber auch Kapitelrubriken erst interlinear ergänzt worden, unter nachträglicher
+               Modifikation der zuvor bereits ausgeführten Zählung der Rubriken. Vier Zusatzkapitel
+               sind allerdings nur im Textblock selbst zu finden, nicht in der entsprechenden
+               Capitulatio. Die Nachtragshand in den Kapitelverzeichnissen ist der Anlagehand sehr
+               ähnlich oder gar mit ihr identisch. Auch die optische Gestaltung des Zusatzmaterials
+               unterscheidet sich nicht von der des umgebenden Materials.</p>
+            <p>Zusätze in Ansegis Buch 1 (mit Capitulatio) <lb/>
+               <locus>Fol. 11r</locus> (BK 138 c. 7-8): Der bei Ansegis durch Augensprung in BK 138
+               vom Ende von c. 7 zum Ende von c. 8 eingetretene Textverlust wurde behoben, indem der
+               Kern des in c. 7 ausgefallenen Textes am Schluss des BK 138 c. 7 entsprechenden
+               Ansegis-Kapitels (1, 83) ergänzt wurde; c. 8 wurde dahinter als eigenes Kapitel (Ans.
+               1, [83]) ergänzt, gestaltet als eigener Absatz mit farbiger Initiale, ganz wie ein
+               reguläres Ansegis-Kapitel, allerdings ohne Kapitelzählung. In der Capitulatio ist das
+               Zusatzkapitel nicht aufgenommen, die Zählung verschiebt sich dort entsprechend nicht.<lb/>
+               <locus>Fol. 12v</locus> (BK 156 c. 1): Dieses Zusatzkapitel gehört zum Grundbestand
+               der D-Gruppe ("Reimser Gruppe") von Ansegis. Es ist gleichfalls wie ein reguläres
+               Ansegis-Kapitel gestaltet, hat keine Kapitelzählung und fehlt in der Capitulatio. Auf
+               dem Seitenrand, wohl teilweise beschnitten und auf dieses Kapitel zu beziehen, die
+               Notiz in roter Tinte: <mentioned>[..] eodem quo supra</mentioned>. <lb/>
+               <locus>Fol. 14r</locus> (BK 44 c. 17): Das Kapitel ist mit der Zählung
+                  <mentioned>CXVI</mentioned> (korr. aus <mentioned>CVI</mentioned>) in die reguläre
+               Ordnung von Ansegis eingeschoben. In der Capitulatio (<locus>fol. 3va</locus>) ist
+               die Rubrik zum Kapitel (mit gleicher Zählung wie im Text) interlinear nachgetragen
+               worden, wobei die bereits ausgeführte Zählung der folgenden Kapitel dort entsprechend
+               angepasst wurde. Die Kapitelzählung im Textblock scheint hingegen von Anfang an das
+               Zusatzkapitel berücksichtigt zu haben.<lb/>
+               <locus>Fol. 15r</locus> (BK 39 c. 4): Das Kapitel ist ohne optischen Einschnitt in
+               gleicher Zeile an Ans. 1, 134 angehängt; entsprechend hat es keinen eigenen Eintrag
+               in der Capitulatio. Da Ans. 1, 134 mit BK 39 c. 3 identisch ist, hatte der Schreiber
+               womöglich eine Einzelausfertigung von BK 39 vor Augen, in der c. 3-4 verschmolzen
+               waren. </p>
+            <p>Zusätze in Ansegis Buch 2 (mit Capitulatio) <lb/>
+               <locus>Fol. 23v</locus> (BK 167 c. 2-3): Auch diese Zusatzkapitel gehören zum
+               Grundbestand der D-Gruppe ("Reimser Gruppe") von Ansegis. Sie sind wie reguläre
+               Ansegis-Kapitel gestaltet und nach Ans. 2, 32 (hier als <mentioned>XXXI</mentioned>
+               gezählt) als <mentioned>XXXII</mentioned> und <mentioned>XXXIII</mentioned>
+               eingefügt. Die Kapitelzählungen sind hier bereits seit Ans. 2, 30 (hier korr. zu
+                  <mentioned>XXIX</mentioned>) und bis zu Ans. 2, 37 (hier korr. zu
+                  <mentioned>XXXVIII</mentioned>) jeweils modifiziert, wobei die Korrekturen
+               offensichtlich nicht von der Einfügung der beiden Zusatzkapitel ausgelöst wurden. In
+               der Capitulatio (<locus>fol. 17ra</locus>) sind für beide Kapitel Rubriken mit
+               gleicher Zählung wie im Textblock von Beginn an eingetragen; die Zählung war
+               ansonsten auch in der Capitulatio, wohl bereits ab der Nummer
+                  <mentioned>XX</mentioned>, gestört und wurde bis zum Ende des Buchs nachträglich
+               korrigiert. </p>
+            <p>Zusätze in Ansegis Buch 3 (mit Capitulatio) <lb/>
+               <locus>Fol. 26v</locus> (BK 44 c. 4): Das Kapitel ist ohne optischen Einschnitt in
+               gleicher Zeile an Ans. 3, 3 angehängt; entsprechend hat es keinen eigenen Eintrag in
+               der Capitulatio. Da Ans. 3, 3 mit BK 44 c. 3 identisch ist, hatte der Schreiber
+               womöglich eine Einzelausfertigung von BK 44 vor Augen, in der c. 3-4 verschmolzen
+               waren. <lb/>
+               <locus>Fol. 27v-28r</locus> (BK 44 c. 13 und 18): Ansegis selbst hatte BK 44 c. 13
+               und 18 leicht gekürzt als Ans. 3, 12-13 in seine Sammlung aufgenommen. Die beiden
+               Zusätze hier ergänzen jeweils ohne optischen Einschnitt den von Ansegis jeweils
+               ausgelassenen Schluss der Kapitel aus einer Einzelausfertigung von BK 44. Zählung und
+               Capitulatio sind unverändert.<lb/>
+               <locus>Fol. 28r</locus> (BK 44 c. 9bis): Das Kapitel dürfte eine Variante des
+               Schlusssatzes von BK 44 c. 9 darstellen; der Satz ist hier allerdings als eigenes
+               Kapitel gestaltet (mit doppelter Zählung als <mentioned>XVI</mentioned> [korr. aus
+                  <mentioned>XVII</mentioned>?] sowie von anderer Hand daneben als
+                  <mentioned>XVII</mentioned>) und hinter Ans. 3, 16 eingefügt, welches BK 44 c. 22
+               entspricht. In der Capitulatio ist die Rubrik nachträglich interlinear eingetragen
+               (gezählt als <mentioned>XVII</mentioned>), wobei die Zählung der folgenden Kapitel in
+               der Capitulatio entsprechend revidiert wurde.<lb/>
+               <locus>Fol. 30r</locus> (BK 40 Inskription und c. 1): Das Kapitel ist mit der Zählung
+                  <mentioned>XXXIIII</mentioned> in die reguläre Ordnung von Ansegis eingeschoben.
+               Dabei ist irrig die Inskription zu BK 40 selbst als Kapitelanfang von c. 1 gedeutet
+               worden. In der Capitulatio (<locus>fol. 25vb</locus>) ist die Rubrik zum Kapitel (mit
+               gleicher Zählung wie im Textblock) auf Rasur eingetragen.<lb/>
+               <locus>Fol. 30r-v</locus> (BK 40 c. 18-19): Die Kapitel sind ohne optischen
+               Einschnitt zu einem Absatz verschmolzen, der wie ein reguläres Ansegis-Kapitel
+               gestaltet und als <mentioned>XLII</mentioned> gezählt ist. In der Capitulatio
+                  (<locus>fol. 25vb</locus>) ist die nur auf BK 40 c. 18 bezogene Rubrik zu den
+               verschmolzenen Kapiteln interlinear nachgetragen (mit gleicher Zählung wie im
+               Textblock). </p>
+            <p>Zusätze in Ansegis Buch 4 (mit Capitulatio) <lb/> Alle Zusatzkapitel im 4. Buch
+               gehören zum Grundbestand der D-Gruppe ("Reimser Gruppe") von Ansegis.<lb/>
+               <locus>Fol. 37r</locus> (Ben. Lev. 1, 186): Das Kapitel ist hinter Ans. 4, 14 wie ein
+               reguläres Kapitel eingefügt, gezählt als <mentioned>XV</mentioned>; auch in der
+               Capitulatio (<locus>fol. 34vb</locus>) gehört es bereits zur Anlageschicht, ist dort
+               allerdings als <mentioned>XVI</mentioned> gezählt.<lb/>
+               <locus>Fol. 39r</locus> (BK 156 c. 2-3): Die Kapitel sind ohne optischen Einschnitt
+               zu einem Absatz verschmolzen, der wie ein reguläres Ansegis-Kapitel gestaltet und als
+                  <mentioned>XXVII</mentioned> gezählt ist. Eingefügt ist der Absatz hinter Ans. 4,
+               24 (hier als <mentioned>XXVI</mentioned> gezählt). In der Capitulatio (<locus>fol.
+                  34vb</locus>) gehört die nur auf BK 156 c. 2 bezogene Rubrik (mit ungewöhnlich
+               großer Initiale) zur Anlageschicht (mit gleicher Zählung wie im Textblock). <lb/>
+               <locus>Fol. 42v-43r</locus> (BK 167 c. 7): Das Kapitel ist hinter Ans. 4, 69 (hier
+               als <mentioned>LXXII</mentioned> gezählt) wie ein reguläres Kapitel eingefügt,
+               gezählt als <mentioned>LXXIII</mentioned>; auch in der Capitulatio (<locus>fol.
+                  35va</locus>) gehört es bereits zur Anlageschicht (mit gleicher Zählung wie im
+               Textblock). </p>
+         </div>
+         <div type="annotations"/>
+         <div type="other"/>
+      </front>
+      <body>
+
+         <cb n="2r"/>
+         <lb n="30"/>
+
+         <milestone unit="capitulatio" xml:id="avranches-bm-145-2r-capitulatio"
+            spanTo="#capitulatio-finis"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-2r-2" rend="coloured"
+            corresp="Ansegis.1_inscriptio_c"> Incipiunt capitula <subst>
+               <del/>
+               <add>. I . libri</add>
+            </subst> ; </ab>
+
+         <gap reason="editorial"/>
+         <cb n="3va"/>
+         <lb n="13"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-3va-12" corresp="BK.44_17_inscriptio_c">
+            <seg type="num" n="116" rend="coloured">CXVI</seg><note type="editorial"> Am Rand neben
+               der interlinear ergänzten Kapitelzahl Spuren einer größeren Rasur, möglicherweise
+               eines Vermerks, was hier einzufügen gewesen war.</note>
+            <add><seg type="initial" rend="coloured">D</seg>e ecclesiis seu sanctis sine auctoritate
+               inuentis .</add>
+         </ab>
+
+         <anchor xml:id="capitulatio-finis"/>
+
+
+         <gap reason="editorial"/>
+         <cb n="4v"/>
+         <lb n="14"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-4v-2" rend="coloured"
+            corresp="Ansegis.1_inscriptio">Incipiunt capitula suprascripta et eorum textus ; <del
+               unit="chars" quantity="30"/>
+         </ab>
+
+         <gap reason="editorial"/>
+         <cb n="11r"/>
+         <lb n="2"/>
+
+         <milestone unit="capitulare" n="BK.138"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-11r-1" corresp="BK.138_8_inscriptio"
+            rend="coloured"> . <seg type="num" n="83">LXXXIII<del>I</del></seg> . </ab>
+
+         <gap reason="editorial"/>
+         <lb n="7"/>
+
+         <ab type="text" xml:id="avranches-bm-145-11r-2" corresp="BK.138_7">et<note type="editorial"
+               > Die folgenden Worte von c. 7 des Capitulare ecclesiasticum (BK 138) wurden hier
+               transkribiert, weil sie in den regulären Ansegis-Fassungen nicht enthalten sind,
+               somit als Zusatz aus einer Einzelüberlieferung des Kapitulars zu betrachten
+               sind.</note> res ad <subst>
+               <del>hereditatos</del>
+               <add>exheredatos</add>
+            </subst> redeant ; <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-11r-3" corresp="BK.138_8">
+            <seg type="initial" rend="coloured">S</seg>tatutum est etiam<note type="editorial"
+               >Darüber: <mentioned>uel etia(m)</mentioned>, wohl deshalb, wie auch Mordek 1995, S.
+               4 festhält, weil der Schreiber <mentioned>etiam</mentioned> mit
+                  <mentioned>et</mentioned>-Ligatur schrieb. Die Verwechslungsgefahr mit
+                  <mentioned>et iam</mentioned> schien wohl zu groß.</note> ut nullus in canonica
+            aut regulari profes<lb break="no"/>sione constitutus aliquem t<mod>o</mod>nsorare
+            propter res accipiendas deinceps <lb/>persuadeat et qui hoc <add>facere</add><metamark
+               function="insertion"/> temptauerit a sinodali uel imper<add>i</add><metamark
+               function="insertion"/>ali senten<lb break="no"/>tia modis omnibus feriatur ; </ab>
+
+         <gap reason="editorial"/>
+         <cb n="12v"/>
+         <lb n="3"/>
+
+         <milestone unit="capitulare" n="BK.156"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-12v-1" rend="coloured"
+            corresp="BK.156_1_inscriptio"><gap unit="chars" quantity="2"/><note type="editorial"
+               >Schmitz G 1996, S. 72 vermutet hier ein <mentioned>Ex</mentioned>.</note> eodem quo
+            supra </ab>
+         <ab type="text" xml:id="avranches-bm-145-12v-2" corresp="BK.156_1">
+            <seg type="initial" rend="coloured">Q</seg>vi sponsam alienam ipsa non consentiente
+            rapuerit ! <lb/> licet cum ea concubuerit ! reddat eam ei cui sponsa est . Et his ducat
+            <lb/> eam si uelit ! quia uim passa potius quam uiolata uidetur ; Quodsi <del>et</del>
+            <lb/>
+            <add>et</add>iam<note type="editorial"><mentioned>et</mentioned> ergänzt. Das nach
+                  <mentioned>Quodsi</mentioned> getilgte <mentioned>et</mentioned> steht am Ende
+               einer Zeile. Der Schreiber setzte dann zu Beginn der nächsten Zeile das
+                  <mentioned>et</mentioned> unmittelbar vor <mentioned>iam</mentioned>. Er wollte
+               damit wohl einer Verwechslung von "<mentioned>et iam</mentioned>" und
+                  "<mentioned>etiam</mentioned>" entgegenwirken.</note> ducere <subst>
+               <del>u</del>
+               <add>n</add>
+            </subst>oluerit ! accipiat alteram . Femina tamen si et ipsa uo<lb break="no"/>luerit !
+            excepto raptore cui uoluerit alteri legitime copuletur . <lb/> Raptor uero ! adulterii
+            crimine reus teneatur . Quodsi et ipsa con<lb break="no"/>sensit ! <choice>
+               <abbr>similr</abbr>
+               <expan>similiter</expan>
+            </choice> ut raptor et nuptiis in ulterius prohibeatur . et his <lb/> qui eam accepturus
+            erat aliam quam uoluerit accipiat ; </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="14r"/>
+         <lb n="11"/>
+
+         <milestone unit="capitulare" n="BK.44"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-14r-3" rend="coloured"
+            corresp="BK.44_17_inscriptio">
+            <seg type="num" n="116">C<add>X</add>VI</seg>
+            <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-14r-4" corresp="BK.44_17">
+            <seg type="initial" rend="coloured">D</seg>e <choice>
+               <abbr>ecclis</abbr>
+               <expan>ecclesiis</expan>
+            </choice> seu sanctis nouiter sine auctoritate inuentis . nisi <lb/> episcopo probante
+            minime uenerentur . Salua etiam de hoc et de <lb/> omnibus <choice>
+               <abbr>eccliis</abbr>
+               <expan>ecclesiis</expan>
+            </choice> canonica auctoritate ; </ab>
+
+         <gap reason="editorial"/>
+         <cb n="15r"/>
+         <lb n="21"/>
+
+         <milestone unit="capitulare" n="BK.39"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-15r-15" rend="coloured"
+            corresp="BK.39_4_inscriptio">
+            <seg type="num" n="135">CXXXV</seg> . </ab>
+
+         <gap reason="editorial"/>
+         <lb n="25"/>
+
+         <ab type="text" xml:id="avranches-bm-145-15r-16" corresp="BK.39_4"> Et<note
+               type="editorial">Der Beginn des Kapitels besteht aus Ans. 1, 134; an dessen Ende
+               schließt sich unmittelbar der Text von BK 39 c. 4 an.</note> qui in iuditio iniuste
+            contra alium altercantem <lb/> adiuuare per malum ingenium <expan>presumpserit</expan> .
+            et inde coram <lb/> iudicibus uel comit<subst>
+               <add>i</add>
+               <del>o</del>
+            </subst> increpatus fuerit . et negare non poterit . <expan>solidis</expan>
+            <lb/> . XVcim . <choice>
+               <abbr>cul</abbr>
+               <expan>culpabilis</expan>
+            </choice> iudicetur ; </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="16v"/>
+         <lb n="5"/>
+
+         <milestone unit="capitulatio" xml:id="avranches-bm-145-16v-capitulatio"
+            spanTo="#capitulatio-finis_1"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-16v-4" rend="coloured"
+            corresp="Ansegis.2_inscriptio_c"> Incipiunt capitula . libri secundi </ab>
+
+         <gap reason="editorial"/>
+         <cb n="17ra"/>
+         <lb n="18"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-17ra-9" corresp="BK.167_2_inscriptio_c">
+            <seg type="num" n="32" rend="coloured">XXXII</seg>
+            <hi rend="coloured">.</hi>
+            <seg type="initial" rend="coloured">Q</seg>ualiter iusticie fiant <lb/> pauperibus . </ab>
+         <ab type="meta-text" xml:id="avranches-bm-145-17ra-10" corresp="BK.167_3_inscriptio_c">
+            <seg type="num" n="33" rend="coloured">XXXIII</seg>
+            <hi rend="coloured">.</hi>
+            <seg type="initial" rend="coloured">D</seg>e illis hominibus <lb/> qui iniustas
+               <expan>querelas</expan> habent . </ab>
+
+         <anchor xml:id="capitulatio-finis_1"/>
+
+         <gap reason="editorial"/>
+         <cb n="17rb"/>
+         <lb n="23"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-17rb-22" rend="coloured"
+            corresp="Ansegis.2_inscriptio"> Incipit textus eorum <lb/> et prelocucio ; </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="23v"/>
+         <lb n="13"/>
+
+         <milestone unit="capitulare" n="BK.167"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-23v-3" corresp="BK.167_2_inscriptio"
+            rend="coloured"><seg type="num" n="32" rend="coloured">XX<subst>
+                  <del/>
+                  <add hand="X">XII</add>
+               </subst></seg> . <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-23v-4" corresp="BK.167_2">
+            <seg type="initial" rend="coloured">Q</seg>valiter iustitie fiant pauperibus : de causis
+            uiduarum . <lb/> pupillorum . orphanorum . uel reliquorum pauperum ut in primo con<lb
+               break="no"/>uentu ante mediam diem illorum <choice>
+               <abbr>rational</abbr>
+               <expan>rationalis</expan>
+            </choice>
+            <expan>querela</expan> audiatur <lb/> et finiatur . et post mediam diem causa regia et
+            ecclesiarum uel po<lb break="no"/>tentium hominum quia ipsi pauperes non habent
+            facultatem unde <lb/> se suscitare posint donec ad eorum perueniant iustitiam . et in
+            <lb/> deo tantos clamores fatiunt ad aures nostras ; </ab>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-23v-5" corresp="BK.167_3_inscriptio"
+            rend="coloured"><seg type="num" n="33" rend="coloured">XX<subst>
+                  <del/>
+                  <add hand="X">XII</add>
+               </subst>I</seg> . <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-23v-6" corresp="BK.167_3">
+            <seg type="initial" rend="coloured">D</seg>e illis hominibus qui iniuste super alios
+            homines <expan>que<lb break="no"/>relas</expan> faciunt . de quibus uolumus si inuentum
+            fuerit aliquis <lb/> qui non habeat iustitiam causandi uel reclamandi . et <lb/>
+            relictus fuerit propter illam calumpniam quam fecit . secundum legem <lb/> et equitatem
+               <sic>iustiam</sic> reddat ; </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="25r"/>
+         <lb n="29"/>
+
+         <milestone unit="capitulatio" xml:id="avranches-bm-145-25r-capitulatio"
+            spanTo="#capitulatio-finis_2"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-25r-16" rend="coloured"
+            corresp="Ansegis.3_inscriptio_c">
+            <del unit="chars" quantity="18"/>
+            <lb/>
+            <del unit="chars" quantity="7"/> Incipiunt capitula libri terciii ; </ab>
+
+         <gap reason="editorial"/>
+         <cb n="25va"/>
+         <lb n="17"/>
+         <!-- bm: Hierbei werden die beiden interlinear nachgetragenen Rubriken 
+         als eigene Zeilen gezählt. Nach regulärer Zeilenzählung fängt der Text nach Z. 16 
+         oder vor Z. 17 an. Strenggenommen müsste man die Nachträge auch als additions 
+         auszeichnen.
+  sk: Das ist ein grundsätzliches Problem: soll ein interlinearer Nachtrag der
+      Zeile "davor", oder "danach" zugeordnet werden - oder einer neuen, oder
+      einen "Zwischenzeile", also z.B. "1b" für "zwischen Zeile 1 und 2"?
+      Habe jetzt erstmal von 18 auf 17 korrigiert (Z. 17 = die Zeile, über der
+      der Nachtrag steht, d.h. "vor der" der eingefügte Text zu lesen ist).
+      Aber es gibt da halte ein Problem: 
+      Wir kodieren, glaube ich, bei Einsprungpunkten nie "<lb=1>", weil wir das als 
+      "Text beginnt/steht in 1. Zeile" verstehen, was also unnötig ist, da schon das 
+      vorhergehende <cb=X> ausdrückt, dass der Text auf Seite X steht/beginnt, und zwar, 
+      wenn nichts anderes explizit angegeben ist, "selbstverständlich" in/ab Zeile 1. 
+      Also müsste <lb=2> für uns bedeuten, der Text steht "nach" Z. 1, was üblicherweise
+      gleichbedeutend ist mit "in Z. 2" - nur fällt das leider bei interlinearem Text
+      auseinander, wo "lb=2" zwar "nach Z. 1", aber zugleich "und trotzdem vor Z. 2"
+      ausdrücken müsste. Was also tun?
+  -->
+
+         <ab type="meta-text" xml:id="avranches-bm-145-25va-17" corresp="BK.44_9_inscriptio_c">
+            <add><seg type="num" n="17" rend="coloured">XVII</seg> De infantibus qui non <choice>
+                  <abbr>iuraurint</abbr>
+                  <expan>iurauerint</expan>
+               </choice> fidelitatem ;</add>
+         </ab>
+
+         <gap reason="editorial"/>
+         <cb n="25vb"/>
+         <lb n="10"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-25vb-6" corresp="BK.40_1_inscriptio_c">
+            <seg type="num" n="34" rend="coloured">XXXIII<add>I</add></seg>
+            <seg type="initial" rend="coloured">D</seg><subst>
+               <add>e <expan>causis</expan> ammonendis et ecclesiis emendandis ;</add>
+               <del/>
+            </subst>
+         </ab>
+
+         <gap reason="editorial"/>
+         <lb n="22"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-25vb-14" corresp="BK.44_18_inscriptio_c">
+            <add><seg type="num" n="42" rend="coloured">XLII</seg> De cane tons<subst>
+                  <del>u</del>
+                  <add>o</add>
+               </subst>rato in <choice>
+                  <abbr>dexto</abbr>
+                  <expan>dextro</expan>
+               </choice> armo</add>
+         </ab>
+
+         <anchor xml:id="capitulatio-finis_2"/>
+
+
+         <gap reason="editorial"/>
+         <cb n="26v"/>
+         <lb n="12"/>
+
+         <milestone unit="capitulare" n="BK.44_1"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-26v-3" rend="coloured"
+            corresp="BK.44_4_inscriptio">
+            <seg type="num" n="3">III</seg>
+            <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-26v-6" corresp="BK.44_4"> de<note type="editorial"
+               >Der nicht transkribierte Beginn des Kapitels besteht aus Ans. 3, 3; an dessen Ende
+               schließt sich unmittelbar der Text von BK 44 c. 4 an.</note> hoc <lb/> si euenerit .
+            famis . cladis . pestilentia . inequalitas aeris . <lb/> uel alia
+               <expan>qualiscunque</expan> tribulatio . ut non expectetur electum nostrum . sed
+            statim <lb/>
+            <expan>deprecetur</expan> dei misericordia<note type="editorial">gek.
+                  <mentioned>miscdia</mentioned>, korr. aus <mentioned>misdia</mentioned></note> et
+            in <date><expan>presenti</expan> anno</date> de famis inopia ut <lb/> suos quisque
+            adiuuet prout potest suam annonam nimis care <lb/> non uendat . et ne foris imperium
+            nostrum uendatur aliquid alimonie ; </ab>
+
+         <gap reason="editorial"/>
+         <cb n="27v"/>
+         <lb n="16"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-27v-5" rend="coloured"
+            corresp="BK.44_13_inscriptio">
+            <seg type="num" n="12">XII</seg>
+            <lb/>
+         </ab>
+
+         <gap reason="editorial"/>
+         <lb n="25"/>
+
+         <ab type="text" xml:id="avranches-bm-145-27v-6" corresp="BK.44_13"> Si<note
+               type="editorial">Der nicht transkribierte Beginn des Kapitels besteht aus Ans. 3, 12,
+               was bereits eine leicht gekürzte Fassung von BK 44 c. 13 ist; an diese Fassung
+               schließt sich unmittelbar der letzte Satz von BK 44 c. 13 an, wohl aus einer
+               Einzelüberlieferung des Kapitulars ergänzt.</note> quid uero fuerit unde dubitetur ad
+            proximum <lb/> palatium nostrum quod cum ipsis missis habituri sumus interrogetur ;
+            <lb/>
+         </ab>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-27v-7" rend="coloured"
+            corresp="BK.44_18_inscriptio">
+            <seg type="num" n="13">XIII</seg>
+         </ab>
+
+         <gap reason="editorial"/>
+         <lb n="30"/>
+
+         <ab type="text" xml:id="avranches-bm-145-27v-8" corresp="BK.44_18"> Illi<note
+               type="editorial">Der Beginn des Kapitels besteht aus Ans. 3, 13, was bereits eine
+               leicht gekürzte Fassung von BK 44 c. 18 ist; an diese Fassung schließt sich
+               unmittelbar der letzte Satz von BK 44 c. 18 an, wohl aus einer Einzelüberlieferung
+               des Kapitulars ergänzt.</note> tamen denarii qui modo sunt <cb n="28r"/> monetati si
+            pensantes et meri fuerint habeantur ; </ab>
+
+         <gap reason="editorial"/>
+         <lb n="25"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-28r-7" rend="coloured"
+            corresp="BK.44_9bis_inscriptio">
+            <seg type="num" n="17">XVI<del>I</del></seg>
+            <add hand="X"><seg type="num" n="17">XVII</seg></add><note type="editorial"> Die
+               ursprüngliche Kapitelzählung wurde erst durch Rasur von <mentioned>XVII</mentioned>
+               zu <mentioned>XVI</mentioned> korrigiert. Eine andere Hand ergänzte dann jedoch in
+               gleicher Zeile rechts eine weitere Zählung, die erneut auf den ursprünglichen Wert
+                  (<mentioned>XVII</mentioned>) lautete, ohne dabei die alte Zählung zu
+               tilgen.</note>
+            <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-28r-8" corresp="BK.44_9bis">
+            <seg type="initial" rend="coloured">D</seg>e<note type="editorial">Das Kapitel besteht
+               aus einer abweichenden Fassung des Schlusssatzes von BK 44 c. 9, der in der einzigen
+               anderen Überlieferung (Paris, BnF, Lat. 4995) als letztes Kapitel von BK 44 auftritt.
+               Nach Schmitz 1996, S. 279 mit Anm. 29 hat Avranches hier Paris Lat. 4995
+               konsultiert.</note> his qui tunc infantes fuerunt . et aliis atque aliis <lb/> qui
+            non iurauerunt fidelitatem domno imperatori . <lb/> aut suos infantes modo iurent ; </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="30r"/>
+         <lb n="11"/>
+
+         <milestone unit="capitulare" n="BK.40"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-30r-7" rend="coloured"
+            corresp="BK.40_1_inscriptio">
+            <seg type="num" n="34">XXXIIII</seg>
+            <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-30r-8" corresp="BK.40_inscriptio BK.40_1">
+            <milestone unit="span" corresp="BK.40_inscriptio" spanTo="#avranches-bm-145-30r-8_1"/>
+            <seg type="initial" rend="coloured">D</seg>e causis ammonendis . <anchor
+               xml:id="avranches-bm-145-30r-8_1"/>
+            <milestone unit="span" corresp="BK.40_1" spanTo="#avranches-bm-145-30r-8_2"/> de
+            ecclesiis emendandis ubi uno <lb/> loco plures sunt . quam necesse sit ut destruantur ea
+               <expan>que</expan> neces<lb break="no"/>saria non sunt et alia construantur ; <anchor
+               xml:id="avranches-bm-145-30r-8_2"/>
+         </ab>
+
+         <gap reason="editorial"/>
+         <lb n="26"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-30r-21" rend="coloured"
+            corresp="BK.40_18_inscriptio">
+            <seg type="num" n="42">XLII</seg>
+            <lb/>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-30r-22" corresp="BK.40_18 BK.40_19">
+            <milestone unit="span" corresp="BK.40_18" spanTo="#avranches-bm-145-30r-22_1"/>
+            <seg type="initial" rend="coloured">D</seg>e canis ut qui in dextro armo est .
+            tonsoratus ut homo . <lb/> qui eum habuerit cum ipso cane in <expan>presentiam</expan>
+            regis ueniat . <lb/>
+            <anchor xml:id="avranches-bm-145-30r-22_1"/>
+            <milestone unit="span" corresp="BK.40_19" spanTo="#avranches-bm-145-30r-22_2"/> ut
+            populus interrogetur de capitulis que in lege nouiter addita <lb/> sunt et postquam
+            omnes consenserunt subscriptiones et <cb n="30v"/> manufirmationes suas in ipsis
+            capitulis fiant ; <anchor xml:id="avranches-bm-145-30r-22_2"/>
+         </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="34v"/>
+         <lb n="6"/>
+
+         <milestone unit="capitulatio" xml:id="avranches-bm-145-34v-capitulatio"
+            spanTo="#capitulatio-finis_3"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-34v-4" corresp="Ansegis.4_inscriptio_c"
+            rend="coloured">Incipiunt capitula ; <lb/></ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="34vb"/>
+         <lb n="2"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-34vb-1"
+            corresp="Benedictus.Levita.1_186_inscriptio_c"><seg type="num" n="16" rend="coloured"
+               >XVI</seg>
+            <seg type="initial" rend="coloured">D</seg>e solutione <lb/> occisi
+               <expan>presbiteri</expan>
+         </ab>
+
+
+         <gap reason="editorial"/>
+         <lb n="18"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-34vb-12" corresp="BK.156_2_inscriptio_c"><seg
+               type="num" n="27" rend="coloured">XXVII</seg>
+            <seg type="initial" rend="coloured">Q</seg>valiter de statu suo pul<lb break="no"/>satus
+            euindicet libertatem <lb/> suam . </ab>
+
+         <gap reason="editorial"/>
+         <cb n="35va"/>
+         <lb n="1"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-35va-1" corresp="BK.167_7_inscriptio_c"><seg
+               type="num" n="73" rend="coloured">LXXIII</seg>
+            <seg type="initial" rend="coloured">D</seg>e non exigen<lb break="no"/>do heribanno
+            antequam iussio <lb/> dominica nota fiat . </ab>
+
+         <anchor xml:id="capitulatio-finis_3"/>
+
+         <gap reason="editorial"/>
+         <cb n="35vb"/>
+         <lb n="6"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-35vb-4" rend="coloured"
+            corresp="Ansegis.4_inscriptio">Incipit <cb n="35v"/> liber quartus . <del unit="chars"
+               quantity="32"/>
+            <lb/>
+         </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="37r"/>
+         <lb n="7"/>
+
+         <milestone unit="capitulare" n="Benedictus.Levita"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-37r-1" rend="coloured"
+            corresp="Benedictus.Levita.1_186_inscriptio">
+            <seg type="num" n="15">XV</seg>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-37r-2" corresp="Benedictus.Levita.1_186">
+            <expan><seg type="initial" rend="coloured">P</seg>resbiteri</expan> interfecti episcopi
+            ad cuius parrochiam pertinent soluantur <lb/> secundum capitulare gloriosi <rs
+               type="person">Ka<subst>
+                  <del>l</del>
+                  <add>roli</add>
+               </subst></rs> genitoris nostri ita uidelicet . <lb/> ut medietatem utilitatibus
+            ecclesie cui <expan>prefuit</expan> tribuat . et alteram <lb/> medietatem in elemosina
+            illius <sic>uuidirgildus</sic> eius episcopus iuste <lb/> dispartiat quia nullus nobis
+            eius heres proximior uidetur quam <lb/> ille qui ipsum domino sociauit ; </ab>
+
+
+         <gap reason="editorial"/>
+         <cb n="39r"/>
+         <lb n="1"/>
+
+         <milestone unit="capitulare" n="BK.156_1"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-39r-1" rend="coloured"
+            corresp="BK.156_2_inscriptio"><seg type="num" n="27">XXVII</seg> . </ab>
+         <ab type="text" xml:id="avranches-bm-145-39r-2" corresp="BK.156_2 BK.156_3">
+            <milestone unit="span" corresp="BK.156_2" spanTo="#avranches-bm-145-39r-2_1"/><seg
+               type="initial" rend="coloured">H</seg>omo de statu suo pulsatus si his qui eum
+               <sic>pusat</sic> ad conuin<lb break="no"/>cendum illum procinctum <choice>
+               <abbr>huit</abbr>
+               <expan>habuerit</expan>
+            </choice> adhibeat sibi octo coniuratores <lb/> legitimos ex ea parte unde pulsatur siue
+            illa paterna siue ma<lb break="no"/>terna sit et . IIII<hi rend="super">or</hi> .
+            aliunde non minus legitimos et iurando uindi<lb break="no"/>cet libertatem suam . quodsi
+            procinctus defuerit assumat <expan>undecumque</expan>
+            <lb/> . XII<hi rend="super">cim</hi> . liberos homines et iurando ingenuitatem suam
+            defendat . <anchor xml:id="avranches-bm-145-39r-2_1"/>
+            <milestone unit="span" corresp="BK.156_3" spanTo="#avranches-bm-145-39r-2_2"/> Omnis
+            <lb/> controuersia coram centenario definiri potest excepta reddi<lb break="no"/>cione
+            terre et mancipiorum que nonnisi coram comite fieri potest ; <lb/>
+            <anchor xml:id="avranches-bm-145-39r-2_2"/>
+         </ab>
+
+         <gap reason="editorial"/>
+         <cb n="42v"/>
+         <lb n="30"/>
+
+         <milestone unit="capitulare" n="BK.167_7"/>
+
+         <ab type="meta-text" xml:id="avranches-bm-145-42v-11" rend="coloured"
+            corresp="BK.167_7_inscriptio">
+            <seg type="num" n="73">LXXIII</seg>
+         </ab>
+         <ab type="text" xml:id="avranches-bm-145-42v-12" corresp="BK.167_7">
+            <seg type="initial" rend="coloured">V</seg>t missi nostri et unusquisque in suo
+            ministerio <expan>hec</expan> c<subst>
+               <del>e</del>
+               <add>apitula</add>
+            </subst>
+            <cb n="43r"/> relegi faciat coram populo et nota sint omnibus ne aliquis <lb/>
+            excusationem habere possit et non prius bannum exigan<mod>t</mod> a quoquam <lb/> homine
+            donec omnibus hec nota faciant ; </ab>
+
+
+      </body>
+   </text>
+</TEI>

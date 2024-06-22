@@ -21,12 +21,14 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
   
   const textId = `text_${id}`
 
-  const asideNote = document.getElementById(`aside_${id}`)
+  
 
 
 
   const showAsideNote = () => {
+    const asideNote = document.getElementById(`aside_${id}`)
     console.log("rest27")
+    console.log(asideNote?.getAttribute("STYLE"))
     if (asideNote?.getAttribute("STYLE") === "display: none") {
       asideNote?.setAttribute("STYLE", "display: block")
       
@@ -38,6 +40,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
   }
 
   const closeAsideNote = () => {
+    const asideNote = document.getElementById(`aside_${id}`)
     asideNote?.setAttribute("STYLE", "display: none") 
   }
   const original = useContext(OriginalContext)
