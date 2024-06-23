@@ -10,7 +10,7 @@ href="http://dev.digital-humanities.de/ci/job/faust-schema/lastSuccessfulBuild/a
 <?xml-model
 href="http://dev.digital-humanities.de/ci/job/faust-schema/lastSuccessfulBuild/artifact/target/schema/faust-tei.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
 ?>
-<TEI  xmlns="http://www.tei-c.org/ns/1.0">
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:f="http://www.faustedition.net/ns">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -89,39 +89,36 @@ ertönt der unbekannten Menge,
 <note type="textcrit" xml:id="app.21.lied">
 <ref>21</ref>
 <app from="#seg.21.lied">
-<lem wit="faust://document/faustedition/1_H.2">
-Lied
-<wit wit="faust://document/faustedition/1_H.2">
-H
-<hi rend="superscript">2</hi>
-</wit>
-</lem>
-<rdg wit="faust://document/faustedition/A faust://document/faustedition/B faust://document/faustedition/B.a">
-Leid
-<note>
-<wit f:is-base="true" wit="faust://document/faustedition/A">A</wit>
- 
-<wit wit="faust://document/faustedition/B">B</wit>
- 
-<wit wit="faust://document/faustedition/B.a">
-B
-<hi rend="superscript">a</hi>
-</wit>
-</note>
-</rdg>
-<rdg type="type_2c">
-Lied
-<note>
-<ref target="faust://bibliography/D.4alpha">
-D
-<hi rend="superscript">4α</hi>
-</ref>
-</note>
-</rdg>
-<note type="type">
- 
-<ref target="faust://app/type_2c">(II c)</ref>
-</note>
+  <lem wit="faust://document/faustedition/1_H.2">
+  Lied
+    <wit wit="faust://document/faustedition/1_H.2">
+      H
+      <hi rend="superscript">2</hi>
+    </wit>
+  </lem>
+  <rdg wit="faust://document/faustedition/A faust://document/faustedition/B faust://document/faustedition/B.a">
+  Leid
+    <note>
+      <wit f:is-base="true" wit="faust://document/faustedition/A">A</wit>
+      <wit wit="faust://document/faustedition/B">B</wit>
+      <wit wit="faust://document/faustedition/B.a">
+        B
+        <hi rend="superscript">a</hi>
+      </wit>
+    </note>
+  </rdg>
+  <rdg type="type_2c">
+    Lied
+    <note>
+      <ref target="faust://bibliography/D.4alpha">
+        D
+        <hi rend="superscript">4α</hi>
+      </ref>
+    </note>
+  </rdg>
+  <note type="type">
+    <ref target="faust://app/type_2c">(II c)</ref>
+  </note>
 </app>
 </note>
 </l>

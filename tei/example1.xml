@@ -20,14 +20,25 @@
          <pb/>
          <head>Example</head>
          <div>
-            <pb n="1" facs="p1" xml:id="te"/>
+            <pb n="1" facs="p1" xml:id="tesrt"/>
             <p>
-               Page with image of a <persName style="color: red">tiger</persName>
+               Can you see a red <persName style="color: red">tiger</persName>?
             </p>
             <note>This is an example note</note>
             <pb n="2" xml:id="te"/>
             <p>
-               Page without image
+               <app>
+                  <lem>
+                     This is the base Text
+                  </lem>
+                  <rdg>
+                     this is a differnt reading
+                  <rdg>
+                  <rdg>
+                     this is another differnt reading 
+                  <rdg>
+               </app>
+               This is basic content
             </p>
          </div>
       </body>

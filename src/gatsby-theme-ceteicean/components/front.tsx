@@ -8,36 +8,37 @@ interface TEIProps {
     availableRoutes?: string[]
 }
 
-let backShown = false
+let frontShown = false
 
-const showBack = () => {
-    const back = document.getElementsByClassName("back")
+const showFront = () => {
+    const front = document.getElementsByClassName("front")
 
-    if (backShown){
-        for (let i = 0; i < back.length; i++) {
-            back[i].setAttribute("STYLE", "display: none")
+    if (frontShown){
+        for (let i = 0; i < front.length; i++) {
+            front[i].setAttribute("STYLE", "display: none")
           }
     }else {
-        for (let i = 0; i < back.length; i++) {
-            back[i].setAttribute("STYLE", "display: block")
+        for (let i = 0; i < front.length; i++) {
+            front[i].setAttribute("STYLE", "display: block")
           }
     }
-    backShown = !backShown
+    frontShown = !frontShown
 }
 
-const Back = ({teiNode, availableRoutes}: TEIProps) => {
+const Front = ({teiNode, availableRoutes}: TEIProps) => {
     
     return (
         <Behavior node={teiNode}>
-            <br/>
             <Button 
-                onClick={showBack}
+                onClick={showFront}
                 variant="contained"
                 color="success">
-                Back anzeigen
+                Front anzeigen
             </Button>
-            <p className="back"
-                STYLE="display: none">
+            <p 
+                className="front"
+                STYLE="display: none"
+                >
                 <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />
@@ -46,4 +47,4 @@ const Back = ({teiNode, availableRoutes}: TEIProps) => {
     )
 }
 
-export default Back
+export default Front

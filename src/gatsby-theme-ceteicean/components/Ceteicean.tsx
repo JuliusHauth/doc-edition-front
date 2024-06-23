@@ -24,9 +24,15 @@ import Abbr from './abbr.tsx'
 import Orig from './orig.tsx'
 import Reg from './reg.tsx'
 import L from './l.tsx'
+import Ex from './ex.tsx'
 import Head from './head.tsx'
 import Stage from './stage.tsx'
-
+import Front from './front.tsx'
+import W from './w.tsx'
+import Hi from './hi.tsx'
+import App from './app.tsx'
+import Rdg from './rdg.tsx'
+import Lemma from './lemma.tsx'
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -68,7 +74,13 @@ interface Props {
         "tei-head": Head,
         "tei-stage": Stage,
         "tei-speaker": P,
-        "tei-castitem": L
+        "tei-castitem": L,
+        "tei-front": Front,
+        "tei-w": W,
+        "tei-hi": Hi,
+        "tei-app": App,
+        "tei-lem": Lemma,
+        "tei-rdg": Rdg
     }
 
 
@@ -124,11 +136,12 @@ interface Props {
       const expan = document.getElementsByClassName("expanded")
       const reg = document.getElementsByClassName("regular")
       const orig = document.getElementsByClassName("original")
+      const ex = document.getElementsByClassName("ex")
       
       if (event.target.checked) {
         
         for (let i = 0; i < choice.length; i++) {
-          choice[i].setAttribute("STYLE", "text-decoration: underline")
+          choice[i].setAttribute("STYLE", "text-decoration: underline dotted")
         }
         for (let i = 0; i < abbr.length; i++) {
           abbr[i].setAttribute("STYLE", "display: inline")
@@ -141,6 +154,9 @@ interface Props {
         }
         for (let i = 0; i < orig.length; i++) {
           orig[i].setAttribute("STYLE", "display: inline")
+        }
+        for (let i = 0; i < ex.length; i++) {
+          ex[i].setAttribute("STYLE", "display: none")
         }
 
       } else {
@@ -158,6 +174,9 @@ interface Props {
         }
         for (let i = 0; i < orig.length; i++) {
           orig[i].setAttribute("STYLE", "display: none")
+        }
+        for (let i = 0; i < ex.length; i++) {
+          ex[i].setAttribute("STYLE", "display: inline")
         }
       }
       setCheckedOrig([event.target.checked, event.target.checked])

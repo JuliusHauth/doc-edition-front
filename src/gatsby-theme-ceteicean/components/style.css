@@ -17,7 +17,37 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
+.front {
+    background-color: rgb(66, 109, 46);
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
 
 .hidden {
     display: none;
+}
+
+.w {
+    padding: 0.1rem;
+}
+.w:hover {
+    color: white;
+    background-color: rgb(66, 109, 46);
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+    cursor: pointer;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
 }
