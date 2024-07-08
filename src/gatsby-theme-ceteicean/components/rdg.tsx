@@ -9,12 +9,13 @@ interface TEIProps {
   
 
 const Rdg = ({teiNode, availableRoutes}: TEIProps) => {
+    const el = teiNode as Element
     return (
         <Behavior node={teiNode}>
             <span className="rdg">
-                <TEINodes 
+                Reading {el.getAttribute("n")} {el.getAttribute("source")}:<TEINodes 
                 teiNodes={teiNode.childNodes} 
-                availableRoutes={availableRoutes} />
+                availableRoutes={availableRoutes}/><br/>
             </span>
         </Behavior>
     )

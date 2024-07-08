@@ -28,13 +28,13 @@
             <pb n="2" xml:id="te"/>
             <p>
                <app>
-                  <lem>
+                  <rdg n="1" source="Source A1">
                      This is the base Text
-                  </lem>
-                  <rdg>
+                  </rdg>
+                  <rdg n="2" source="Source A2">
                      this is a differnt reading
                   </rdg>
-                  <rdg>
+                  <rdg n="3" source="Source B1">
                      this is another differnt reading 
                   </rdg>
                </app>

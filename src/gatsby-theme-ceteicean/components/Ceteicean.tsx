@@ -109,19 +109,25 @@ interface Props {
     const showComments = (event: React.ChangeEvent<HTMLInputElement>) => {
         const notes = document.getElementsByClassName("note")
         const asideNotes = document.getElementsByClassName("asideNote") 
-
+        const app = document.getElementsByClassName("app")
         
 
         if (event.target.checked){
           for (let i = 0; i < notes.length; i++) {
             notes[i].setAttribute("STYLE", "display: inline")
-            
           }
+          for (let i = 0; i < app.length; i++) {
+            app[i].setAttribute("STYLE", "text-decoration: underline dotted")
+          }
+          
         } else {
           for (let i = 0; i < notes.length; i++) {
             notes[i].setAttribute("STYLE", "display: none")
             asideNotes[i]?.setAttribute("STYLE", "display: none")
             console.log(notes[i])
+          }
+          for (let i = 0; i < app.length; i++) {
+            app[i].setAttribute("STYLE", "text-decoration: none")
           }
         }
         
