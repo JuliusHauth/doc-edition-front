@@ -10,12 +10,19 @@ interface TEIProps {
 
 const Rdg = ({teiNode, availableRoutes}: TEIProps) => {
     const el = teiNode as Element
+    let context = ""
+    let condBreak 
+    
+    if (el.getAttribute("rdgN") !== "0"){
+        context =  "Reading " + el.getAttribute('n') + " " + el.getAttribute('source') + ":"
+        condBreak = <br/>
+    } 
     return (
         <Behavior node={teiNode}>
             <span className="rdg">
-                Reading {el.getAttribute("n")} {el.getAttribute("source")}:<TEINodes 
+                {condBreak}{context}<TEINodes 
                 teiNodes={teiNode.childNodes} 
-                availableRoutes={availableRoutes}/><br/>
+                availableRoutes={availableRoutes}/> 
             </span>
         </Behavior>
     )

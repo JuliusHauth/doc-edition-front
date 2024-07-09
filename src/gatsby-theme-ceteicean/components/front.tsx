@@ -29,7 +29,7 @@ const Front = ({teiNode, availableRoutes}: TEIProps) => {
     
     return (
         <Behavior node={teiNode}>
-            <Button 
+            <Button className="contextButton"
                 onClick={showFront}
                 variant="contained"
                 color="success">

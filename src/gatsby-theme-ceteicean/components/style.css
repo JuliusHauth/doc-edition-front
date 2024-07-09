@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+a {
+    color: green;
+}
+
 .hovered {
     background-color: green !important;
     display: block;
@@ -18,11 +22,14 @@
 }
 
 .front {
-    background-color: rgb(66, 109, 46);
+    background-color: grey;
     color: white;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
+.contextButton {
+    margin-top: 1rem;
+}
 
 .hidden {
     display: none;

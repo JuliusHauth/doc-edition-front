@@ -30,12 +30,12 @@ const Back = ({teiNode, availableRoutes}: TEIProps) => {
     return (
         <Behavior node={teiNode}>
             <br/>
-            <Button 
-                onClick={showBack}
-                variant="contained"
-                color="success">
-                Back anzeigen
-            </Button>
+                <Button className="contextButton"
+                    onClick={showBack}
+                    variant="contained"
+                    color="success">
+                    Back anzeigen
+                </Button>
             <p className="back"
                 STYLE="display: none">
                 <TEINodes 

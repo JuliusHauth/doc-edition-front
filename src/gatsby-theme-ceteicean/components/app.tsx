@@ -17,11 +17,14 @@ const App = ({teiNode, availableRoutes}: TEIProps) => {
     const main = appEl.querySelector('tei-lem') || appEl.querySelector('tei-rdg')
     const other = appEl.querySelectorAll('tei-rdg')
 
-    console.log(availableRoutes)
+    
 
     if (!appEl.querySelector('tei-lem')) {
         main?.setAttribute("n", "")
         main?.setAttribute("source", "")
+        for (let i = 0; i< other.length; i++) {
+            other[i].setAttribute("rdgN", i.toString())
+        }
     }
 
     if (!main || !other) return null
