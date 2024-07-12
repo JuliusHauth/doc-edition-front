@@ -91,6 +91,7 @@ interface Props {
           allEncoding {
             nodes {
               title
+              
               parent {
                 ... on File {
                   name
@@ -102,7 +103,6 @@ interface Props {
     `) 
   
     const title = data.allEncoding.nodes.find((node: any) => node.parent.name === pageContext.name)?.title
-    const test = pageContext.prefixed
 
     const [checked, setChecked] = React.useState([true, false]);
     const [checkedOrig, setCheckedOrig] = React.useState([true, false]);

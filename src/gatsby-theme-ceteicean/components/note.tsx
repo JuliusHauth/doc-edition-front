@@ -5,6 +5,7 @@ import { createPortal } from 'react-dom'
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import { OriginalContext } from "./OriginalContext.js"
+import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
 
 
 interface TEIProps {
@@ -54,8 +55,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
                   STYLE="display: none"
                   onClick={showAsideNote}
                   >
-                  
-              *
+                  <AddCircleOutlinedIcon fontSize="small"></AddCircleOutlinedIcon>
             </span>
              {document.getElementById('noteSpace') && createPortal(
               <div className="asideNote" id={`aside_${id}`} STYLE="display: none"> 

@@ -1,6 +1,4 @@
-.note {
-    background-color: yellow;
-}
+
 
 .note:hover {
     cursor: pointer;
@@ -29,6 +27,7 @@ a {
 
 .contextButton {
     margin-top: 1rem!important;
+   
 }
 
 .hidden {
