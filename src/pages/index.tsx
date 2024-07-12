@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material'
+import Seo from '../components/seo'
 
 
 interface Encoding {
@@ -10,6 +11,7 @@ interface Encoding {
 }
 
 const IndexPage = () => {
+  
   const data = useStaticQuery(graphql`
         query {
           allEncoding {
@@ -56,5 +58,6 @@ const IndexPage = () => {
   )
 }
 
+export const Head = () => <Seo title="Start" />
 
 export default IndexPage

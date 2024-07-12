@@ -25,7 +25,7 @@ import Orig from './orig.tsx'
 import Reg from './reg.tsx'
 import L from './l.tsx'
 import Ex from './ex.tsx'
-import Head from './head.tsx'
+import DocHead from './head.tsx'
 import Stage from './stage.tsx'
 import Front from './front.tsx'
 import W from './w.tsx'
@@ -39,6 +39,7 @@ import Container from '@mui/material/Container';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import Seo from '../../components/seo.js'
 
 
 interface Props {
@@ -71,7 +72,7 @@ interface Props {
         "tei-reg": Reg,
         "tei-orig": Orig,
         "tei-l": L,
-        "tei-head": Head,
+        "tei-head": DocHead,
         "tei-stage": Stage,
         "tei-speaker": P,
         "tei-castitem": L,
@@ -234,6 +235,6 @@ interface Props {
     )
   }
  
-
+  export const Head = () => <Seo title="DocView" />
 
 export default EditionCeteicean

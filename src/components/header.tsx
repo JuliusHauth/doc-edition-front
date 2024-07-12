@@ -8,7 +8,9 @@ interface Props {
 const Header = ({ title}: Props) => {
     return (
         <div className="header">
-            <a href="/">{title}</a>
+            <a className="siteTitle" href="/">{title}</a>
+            <a className="navLink" href="/eguidelines">Edition Guidelines</a>
+            <a className="navLink" href="/about">About</a>
         </div>
     )
 }

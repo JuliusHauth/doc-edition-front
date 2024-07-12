@@ -16,19 +16,19 @@ a {
 }
 
 .back {
-    background-color: grey;
+    background-color: rgb(165, 165, 165);
     color: white;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .front {
-    background-color: grey;
+    background-color: rgb(165, 165, 165);
     color: white;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .contextButton {
-    margin-top: 1rem;
+    margin-top: 1rem!important;
 }
 
 .hidden {

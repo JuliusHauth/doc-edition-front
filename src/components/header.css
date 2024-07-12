@@ -7,10 +7,26 @@
     height: 4.5rem;
 }
 
-.header > a {
+.siteTitle {
     text-decoration: none;
     color: white;
     font-size: 3rem;
+    padding: 1rem;
+}
+
+.siteTitle:hover {
+    font-size: 3.1rem;
+}
+
+.navLink {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navLink:hover {
+   font-size: 1.6rem;
 }
 
 body, body > * {
