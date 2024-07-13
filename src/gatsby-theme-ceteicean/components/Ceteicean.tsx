@@ -33,6 +33,7 @@ import Hi from './hi.tsx'
 import App from './app.tsx'
 import Rdg from './rdg.tsx'
 import Lemma from './lemma.tsx'
+import Body from './body.tsx'
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -81,7 +82,8 @@ interface Props {
         "tei-hi": Hi,
         "tei-app": App,
         "tei-lem": Lemma,
-        "tei-rdg": Rdg
+        "tei-rdg": Rdg,
+        "tei-body": Body
     }
 
 
@@ -189,7 +191,7 @@ interface Props {
       setCheckedOrig([event.target.checked, event.target.checked])
     }
     
-    
+
 
 
     return (

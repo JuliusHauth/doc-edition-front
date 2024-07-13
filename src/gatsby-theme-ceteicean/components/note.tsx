@@ -44,8 +44,7 @@ const Note = ({teiNode, availableRoutes}: TEIProps) => {
     const asideNote = document.getElementById(`aside_${id}`)
     asideNote?.setAttribute("STYLE", "display: none") 
   }
-  const original = useContext(OriginalContext)
-  console.log(original)
+
 
     return (
       
