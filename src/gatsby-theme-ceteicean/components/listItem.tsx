@@ -1,26 +1,26 @@
+import React from "react"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes } from "react-teirouter"
-import React from "react"
 
 interface TEIProps {
     teiNode: Node
     availableRoutes?: string[]
 }
+  
 
-const Reg = ({teiNode, availableRoutes}: TEIProps) => {
+const ListItem = ({teiNode, availableRoutes}: TEIProps) => {
     const el = teiNode as Element
-    
-    if (Number(el.getAttribute("regN")) !== 0) return
 
+    if (el.parentElement.tagName !== "tei-list") return
     return (
         <Behavior node={teiNode}>
-            <span className="regular" >
+            <li>
                 <TEINodes 
-                teiNodes={el.childNodes} 
+                teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />
-            </span>
+            </li>
         </Behavior>
     )
 }
 
-export default  Reg
+export default ListItem

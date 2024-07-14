@@ -3,8 +3,7 @@ import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes, TEINode } from "react-teirouter"
 import { Unstable_Popup as BasePopup } from '@mui/base/Unstable_Popup';
 import { styled } from '@mui/system';
-import {Routes} from "gatsby-theme-ceteicean/src/components/Ceteicean"
-import Lemma from './lemma.tsx'
+
 
 interface TEIProps {
     teiNode: Node

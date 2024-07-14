@@ -28,9 +28,9 @@
             <pb n="2" xml:id="te"/>
             <p>
                <app>
-                  <rdg n="1" source="Source A1">
+                  <lem n="1" source="Source A1">
                      This is the base Text
-                  </rdg>
+                  </lem>
                   <rdg n="2" source="Source A2">
                      this is a differnt reading
                   </rdg>
@@ -38,7 +38,7 @@
                      this is another differnt reading 
                   </rdg>
                </app>
-               This is basic content
+               This is basic content. <unclear reason="damage"><damage agent="fire" degree="minor">This part of the Document</damage> was damaged.</unclear>
             </p>
          </div>
       </body>

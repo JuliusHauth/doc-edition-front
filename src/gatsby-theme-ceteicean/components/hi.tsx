@@ -11,22 +11,26 @@ interface TEIProps {
 const Hi = ({teiNode, availableRoutes}: TEIProps) => {
     const el = teiNode as Element
     let highlighted
-
-    if (el.getAttribute("rend") === "superscript"){
-        highlighted = "superscript"
+    const styleMap = {
+        'superscript': 'superscript',
+        'italic': 'italic',
+        'underline': 'underline'
     }
     
-    if (el.getAttribute("rend") === "italic"){
-        highlighted = "italic"
-    }
 
-    if (el.getAttribute("rend") === "underline"){
-        highlighted = "underline"
+    if (!el.getAttribute("rend")===null) {
+        return
+    } else {
+        highlighted = styleMap[el.getAttribute("rend")]
     }
+    
+    const style = el.getAttribute("style")
+
+    
 
     return (
         <Behavior node={teiNode}>
-            <span className={highlighted}>
+            <span className={highlighted} STYLE={style}>
                 <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />

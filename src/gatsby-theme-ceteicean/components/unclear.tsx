@@ -8,11 +8,9 @@ interface TEIProps {
     teiNode: Node
     availableRoutes?: string[]
 }
+  
 
-
-   
-
-const W = ({teiNode, availableRoutes}: TEIProps) => {
+const Unclear = ({teiNode, availableRoutes}: TEIProps) => {
     const el = teiNode as Element
 
     const [anchor, setAnchor] = React.useState<null | HTMLElement>(null);
@@ -24,26 +22,27 @@ const W = ({teiNode, availableRoutes}: TEIProps) => {
     const handleLeave = () => {
         setAnchor(null)
     }
+
     const open = Boolean(anchor);
     const id = open ? 'simple-popper' : undefined;
 
     return (
-        <Behavior node={teiNode}>
-            <span className="w" aria-describedby={id} onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+        <Behavior node={el}>
+            <span className="unclear" aria-describedby={id} onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
                 <TEINodes 
-                teiNodes={teiNode.childNodes} 
+                teiNodes={el.childNodes} 
                 availableRoutes={availableRoutes} />
             </span>
             <BasePopup id={id} open={open} anchor={anchor}>
                 <PopupBody>
-                    Lemma: {el.getAttribute("lemma")} | Analysis: {el.getAttribute("ana")}
+                    Agent: {el.getAttribute("agent")} | Reason: {el.getAttribute("reason")}
                 </PopupBody>
             </BasePopup>
         </Behavior>
     )
 }
 
-export default W
+export default Unclear
 
 const grey = {
     50: '#F3F6F9',

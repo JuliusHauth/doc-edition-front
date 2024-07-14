@@ -9,6 +9,15 @@ interface TEIProps {
   
 
 const Choice = ({teiNode, availableRoutes}: TEIProps) => {
+    const el = teiNode as Element
+    const reg = el.querySelectorAll("tei-reg")
+
+    if (reg[1]){
+        for (let i = 0; i < reg.length; i++) {
+            reg[i].setAttribute("regN", i.toString())
+        }
+    }
+
     return (
         <Behavior node={teiNode}>
             <span className="choice">

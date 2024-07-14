@@ -12,10 +12,9 @@ import {
   } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
   import Layout from "../../components/layout"
 import Note from "./note.tsx"
-import NoteAside from "./noteAside.tsx"
 import Lb from "./lb.tsx"
 import P from "./p.tsx"
-import Empty from "./empty.tsx"
+
 import Ref from "./ref.tsx"
 import Back from "./back.tsx"
 import Choice from "./choice.tsx"
@@ -34,6 +33,10 @@ import App from './app.tsx'
 import Rdg from './rdg.tsx'
 import Lemma from './lemma.tsx'
 import Body from './body.tsx'
+import Damage from './damage.tsx'
+import Unclear from './unclear.tsx'
+import ListItem from './listItem.tsx'
+import List from './list.tsx'
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -83,7 +86,12 @@ interface Props {
         "tei-app": App,
         "tei-lem": Lemma,
         "tei-rdg": Rdg,
-        "tei-body": Body
+        "tei-body": Body,
+        "tei-damage": Damage,
+        "tei-unclear": Unclear,
+        "tei-ex": Ex,
+        "tei.list": List,
+        "tei-item": ListItem
     }
 
 
@@ -146,6 +154,8 @@ interface Props {
       const reg = document.getElementsByClassName("regular")
       const orig = document.getElementsByClassName("original")
       const ex = document.getElementsByClassName("ex")
+      const damage = document.getElementsByClassName("damage")
+      const unclear = document.getElementsByClassName("unclear")
       
       if (event.target.checked) {
         
@@ -167,7 +177,12 @@ interface Props {
         for (let i = 0; i < ex.length; i++) {
           ex[i].setAttribute("STYLE", "display: none")
         }
-
+        for (let i = 0; i < damage.length; i++) {
+          damage[i].setAttribute("STYLE", "background-color: red; border-radius: 0.2rem; color: white; cursor: pointer")
+        }
+        for (let i = 0; i < unclear.length; i++) {
+          unclear[i].setAttribute("STYLE", "background-color: yellow; border-radius: 0.2rem; cursor: pointer")
+        }
       } else {
         for (let i = 0; i < choice.length; i++) {
           choice[i].setAttribute("STYLE", "text-decoration: none")
@@ -186,6 +201,12 @@ interface Props {
         }
         for (let i = 0; i < ex.length; i++) {
           ex[i].setAttribute("STYLE", "display: inline")
+        }
+        for (let i = 0; i < damage.length; i++) {
+          damage[i].setAttribute("STYLE", "color: black")
+        }
+        for (let i = 0; i < unclear.length; i++) {
+          unclear[i].setAttribute("STYLE", "")
         }
       }
       setCheckedOrig([event.target.checked, event.target.checked])

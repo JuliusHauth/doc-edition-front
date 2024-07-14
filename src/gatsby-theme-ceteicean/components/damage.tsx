@@ -8,42 +8,37 @@ interface TEIProps {
     teiNode: Node
     availableRoutes?: string[]
 }
+  
 
-
-   
-
-const W = ({teiNode, availableRoutes}: TEIProps) => {
+const Damage = ({teiNode, availableRoutes}: TEIProps) => {
     const el = teiNode as Element
 
     const [anchor, setAnchor] = React.useState<null | HTMLElement>(null);
     
-    const handleEnter = (event: React.MouseEvent<HTMLElement>) => {
+    const handleClick = (event: React.MouseEvent<HTMLElement>) => {
         setAnchor(anchor ? null : event.currentTarget);
     };
 
-    const handleLeave = () => {
-        setAnchor(null)
-    }
     const open = Boolean(anchor);
     const id = open ? 'simple-popper' : undefined;
 
     return (
-        <Behavior node={teiNode}>
-            <span className="w" aria-describedby={id} onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+        <Behavior node={el}>
+            <span className="damage" aria-describedby={id} onClick={handleClick}>
                 <TEINodes 
-                teiNodes={teiNode.childNodes} 
+                teiNodes={el.childNodes} 
                 availableRoutes={availableRoutes} />
             </span>
             <BasePopup id={id} open={open} anchor={anchor}>
                 <PopupBody>
-                    Lemma: {el.getAttribute("lemma")} | Analysis: {el.getAttribute("ana")}
+                    Damaging Agent: {el.getAttribute("agent")} | Severity: {el.getAttribute("degree")}
                 </PopupBody>
             </BasePopup>
         </Behavior>
     )
 }
 
-export default W
+export default Damage
 
 const grey = {
     50: '#F3F6F9',
