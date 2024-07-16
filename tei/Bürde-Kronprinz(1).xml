@@ -15,8 +15,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <p>Version 1.0 vom 07. Februar 2024</p>
-            <p><!-- Stand dieser Datei ?? --></p>
+            <p>Version 1.0 vom 20. März 2024</p>
          </editionStmt>
          <publicationStmt>
             <publisher>
@@ -27,7 +26,10 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>
+               <lb/>Aufbewahrungsort: Universitätsbibliothek Leipzig Sondersammlungen (Slg. Kestner/I/C/II/274/Nr. 1, Mappe 274, Blatt Nr. 1)
+               <lb/>Wasserzeichen: <!-- Recherchieren! (ADV & S / LONDON) -->
+            </p>
          </sourceDesc>
       </fileDesc>
      <encodingDesc>
@@ -77,14 +79,14 @@
                </salute>
             </opener>
             <p>
-               <lb/>Euer Königliche Hoheit wollen die unterthänigste 
-               <lb/>Anzeige<note xml:id="01" resp="FV" type="commentary" corresp="Bürde_Konzertprogramm_1821_03_09.xml">Dem Brief liegt ein Konzertprogramm für den 9. März 1821 bei.</note> mit huldvoller Nachsicht aufzunehmen geruhen, 
-               <lb/>daß ich es wagen will, am <date when="1821-03-09">9ten März</date> in dem <rs type="place" ref="JBPlaces:B001">Jagor-
+               Euer Königliche Hoheit wollen die unterthänigste 
+               <lb/>Anzeige<note resp="FV" type="commentary" corresp="Bürde_Konzertprogramm_1821_03_09.xml">Dem Brief liegt ein Konzertprogramm für den 9. März 1821 bei.</note> mit huldvoller Nachsicht aufzunehmen geruhen, 
+               <lb/>daß ich es wagen will, am <date when="1821-03-09">9<hi rend="superscript">ten</hi> März</date> in dem <rs type="place" ref="JBPlaces:B001">Jagor-
                <lb/>schen Saale</rs> ein Concert zu veranstalten, da die Um-
                <lb/>stände nur gebieten, die Befangenheit meines Geschlechts 
                <lb/>zu überwinden, um zu versuchen, ob ich als Sängerin 
                <lb/>einen wohlwollenden und milden Antheil in dieser 
-               <lb/><rs type="place" ref="JBPlaces:B001" >kunstliebenden Residenz</rs> zu gewinnen hoffen darf.
+               <lb/><rs type="place" ref="JBPlaces:B001">kunstliebenden Residenz</rs> zu gewinnen hoffen darf.
             </p>
             <closer>
                <salute>
@@ -95,7 +97,7 @@
                <signed> 
                   Unterthänig gehorsamste<lb/>
                   <persName ref="JBNames:A001">Jeannette Milder</persName>
-                  <note type="textConst" xml:id="02" resp="FV">Die Unterschrift ist in lateinischer Schreibschrift.</note>
+                  <note type="textConst" resp="IC">Die Unterschrift ist in lateinischer Schreibschrift.</note>
                </signed>
             </closer>
          </div>

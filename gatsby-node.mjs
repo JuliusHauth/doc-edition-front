@@ -40,11 +40,18 @@ export const createPages = async ({ graphql, actions, reporter }) => {
   
     const result = await graphql(
       `
-        {
+      query {
           allCetei {
-            nodes {
-              prefixed
-              elements
+            edges {
+              node {
+                prefixed
+                elements
+                parent {
+                  ... on File {
+                    name
+                  }
+                }
+              }
             }
           }
         }
@@ -57,15 +64,13 @@ export const createPages = async ({ graphql, actions, reporter }) => {
       return
     }
   
-    const teiEncoding = path.resolve(`src/gatsby-theme-ceteicean/Ceteicean.tsx`)
-    result.data.allEncoding.edges.forEach(({ node }) => {
+    const teiEncoding = path.resolve(`src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
+    result.data.allCetei.edges.forEach(({ node }) => {
       const path = node.parent.name
       createPage({
         path,
         component: teiEncoding,
-        context: {
-          encoding: node,
-        },
+        context: node,
       })
     })
   }

@@ -1,6 +1,8 @@
 import React from "react"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes } from "react-teirouter"
+import { JSDOM } from 'jsdom'
+
 
 interface TEIProps {
     teiNode: Node
@@ -17,7 +19,6 @@ const Body = ({teiNode, availableRoutes}: TEIProps) => {
             notes[i].setAttribute("id", i.toString()+"note")
         }
     }
-    
     return (
         <Behavior node={teiNode}>
                 <TEINodes 
@@ -25,6 +26,6 @@ const Body = ({teiNode, availableRoutes}: TEIProps) => {
                 availableRoutes={availableRoutes} />
         </Behavior>
     )
-}
+} 
 
 export default Body
