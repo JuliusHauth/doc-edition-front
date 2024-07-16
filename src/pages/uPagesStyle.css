@@ -1,0 +1,17 @@
+.codeAttribute {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.codeElement {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.codeElement:before {
+    content: "<";
+}
+
+.codeElement:after {
+    content: ">";
+}
