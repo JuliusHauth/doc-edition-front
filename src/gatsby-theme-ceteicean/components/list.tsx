@@ -11,7 +11,7 @@ interface TEIProps {
 const List = ({teiNode, availableRoutes}: TEIProps) => {
     return (
         <Behavior node={teiNode}>
-            <ul>
+            <ul >
                 <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />

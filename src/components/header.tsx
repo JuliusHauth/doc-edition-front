@@ -9,8 +9,8 @@ const Header = ({ title}: Props) => {
     return (
         <div className="header">
             <a className="siteTitle" href="/">{title}</a>
-            <a className="navLink" href="/eguidelines">Edition Guidelines</a>
-            <a className="navLink" href="/about">About</a>
+            <a className="navLink" href="/eguidelines">Editionsrichtlinien</a>
+            <a className="navLink" href="/about">Über das Projekt</a>
         </div>
     )
 }
