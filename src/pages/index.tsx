@@ -35,12 +35,12 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <h1>Here the index of Test Encodings will be shown</h1>
+      <h1>Jeannette Bürdes Leben in Briefen und Dokumenten</h1>
       <TableContainer>
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Titel</TableCell>
+              <TableCell>Verfügbare Textdokumente</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
