@@ -10,12 +10,12 @@
 .siteTitle {
     text-decoration: none;
     color: white;
-    font-size: 3rem;
+    font-size: 3.3rem;
     padding: 1rem;
 }
 
 .siteTitle:hover {
-    font-size: 3.1rem;
+    font-size: 3.4rem;
 }
 
 .navLink {
