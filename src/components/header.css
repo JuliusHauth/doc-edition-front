@@ -1,6 +1,6 @@
 .header {
     background-color: rgb(11, 81, 14);
-    font-family: Calibri light, sans-serif;
+    font-family: Snell Roundhand;
     padding-left: 1rem;
     padding-top: 1rem;
     width: 100%;
@@ -33,5 +33,5 @@ body, body > * {
     box-sizing: border-box;
     margin: 0;
     overflow-x: hidden;
-    font-family: Calibri light, sans-serif;
+    font-family: Optima;
 }
