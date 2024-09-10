@@ -58,6 +58,10 @@ a {
     text-decoration: underline;
 }
 
+.siteTitle {
+    font-family: Snell Roundhand;
+}
+
 body {
     Background-color: rgb(252, 234, 203);
     }
