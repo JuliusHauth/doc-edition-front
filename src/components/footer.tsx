@@ -5,7 +5,7 @@ import { Box } from "@mui/material"
 
 const styles = {
   footer: {
-    backgroundColor: "#007c1d",
+    backgroundColor: "rgb(11, 81, 14)",
     padding: "1rem 0",
     borderTop: "1px solid #000000",
     fontSize: "1rem",
