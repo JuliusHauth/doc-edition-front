@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <text>
+      <body>
+         <list>
+            
+            
+            <place xml:id="B0101">
+               <placeName type="reg">Berlin</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2950159</idno>
+            </place>
+            
+            
+            <place xml:id="B0102">
+               <placeName type="reg">Leipzig</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2879139</idno>
+            </place>
+            
+            
+            <place xml:id="B0103">
+               <placeName type="reg">Bad Lippespringe</placeName>
+               <country key="B0105">Deutschland</country>
+               <location>
+                  <geo>51.47 8.49</geo>
+               </location>
+            </place>
+            
+            
+            <place xml:id="B0104">
+               <placeName type="reg">Detmold</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2937936</idno>
+            </place>
+            
+            
+            <place xml:id="B0105">
+               <placeName type="reg">Potsdam</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2852458</idno>
+            </place>
+            
+            
+            <place xml:id="B0106">
+               <placeName type="reg">Boxhagen Rummelsburg</placeName>
+               <country key="B0105">Deutschland</country>
+               <settlement key="B0101">Berlin</settlement>
+               <idno type="geonames">2843106</idno>
+            </place>
+            
+            
+            <place xml:id="B0107">
+               <placeName type="reg">Düsseldorf</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2934246</idno>
+            </place>
+            
+            
+            <place xml:id="B0108">
+               <placeName type="reg">Pirna</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2853572</idno>
+            </place>
+            
+            
+            <place xml:id="B0109">
+               <placeName type="reg">Bonn</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2946447</idno>
+            </place>
+            
+            
+            <place xml:id="B0110">
+               <placeName type="reg">Weimar</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2812482</idno>
+            </place>
+            
+            
+            <place xml:id="B0111">
+               <placeName type="reg">Eisenach</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2931574</idno>
+            </place>
+            
+            
+            <place xml:id="B0112">
+               <placeName type="reg">Lübeck</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2875601</idno>
+            </place>
+            
+            
+            <place xml:id="B0113">
+               <placeName type="reg">Hamburg</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2911298</idno>
+            </place>
+            
+            
+            <place xml:id="B0114">
+               <placeName type="reg">Coburg</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2939951</idno>
+            </place>
+            
+            
+            <place xml:id="B0115">
+               <placeName type="reg">Mannheim</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2873891</idno>
+            </place>
+            
+            
+            <place xml:id="B0116">
+               <placeName type="reg">Halle (Saale)</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2911522</idno>
+            </place>
+            
+            
+            <place xml:id="B0117">
+               <placeName type="reg">Dresden</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2935022</idno>
+            </place>
+            
+            
+            <place xml:id="B0118">
+               <placeName type="reg">Korbach</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2885536</idno>
+            </place>
+            
+            
+            <place xml:id="B0119">
+               <placeName type="reg">Frankfurt (Main)</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2925533</idno>
+            </place>
+            
+            
+            <place xml:id="B0120">
+               <placeName type="reg">Schildesche</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2839282</idno>
+            </place>
+            
+            
+            <place xml:id="B0121">
+               <placeName type="reg">Schloss Hohenzieritz</placeName>
+               <country key="B0105">Deutschland</country>
+               <location>
+                  <geo>53.443906 13.101898</geo>
+               </location>
+            </place>
+            
+            
+            <place xml:id="B0122">
+               <placeName type="reg">Riedlingen</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2847080</idno>
+            </place>
+            
+            
+            <place xml:id="B0123">
+               <placeName type="reg">Heidelsheim</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2907897</idno>
+            </place>
+            
+            
+            <place xml:id="B0124">
+               <placeName type="reg">Augsburg</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2954172</idno>
+            </place>
+            
+            
+            <place xml:id="B0125">
+               <placeName type="reg">Braunschweig</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2945023</idno>
+            </place>
+            
+            
+            <place xml:id="B0126">
+               <placeName type="reg">Eutin</placeName>
+               <country key="B0105">Deutschland</country>
+               <idno type="geonames">2928381</idno>
+            </place>
+            
+            
+            <place xml:id="B0127">
+               <placeName type="reg">Köln</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2886242</idno>
+            </place>
+            
+            
+            <place xml:id="B0128">
+               <placeName type="reg">Stuttgart</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2825297</idno>
+            </place>
+            
+            
+            <place xml:id="B0129">
+               <placeName type="reg">Ingolstadt</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2895992</idno>
+            </place>
+            
+            
+            <place xml:id="B0130">
+               <placeName type="reg">Erasbach</placeName>
+               <country key="B0130">Deutschland</country>
+               <idno type="geonames">2929807</idno>
+            </place>
+            
+            
+            <place xml:id="B0131">
+               <placeName type="reg">Hannover</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2910831</idno>
+            </place>
+            
+            
+            <place xml:id="B0132">
+               <placeName type="reg">Liebenwalde</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">6550622</idno>
+            </place>
+            
+            
+            <place xml:id="B0133">
+               <placeName type="reg">Ludwigslust</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2875343</idno>
+            </place>
+            
+            
+            <place xml:id="B0134">
+               <placeName type="reg">Schwerin</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2834282</idno>
+            </place>
+            
+            
+            <place xml:id="B0201">
+               <placeName type="reg">Basel</placeName>
+               <country key="B0502">Schweiz</country>
+               <idno type="geonames">2661604</idno>
+            </place>
+            
+            
+            <place xml:id="B0202">
+               <placeName type="reg">Wien</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2761369</idno>
+            </place>
+            
+            
+            <place xml:id="B0203">
+               <placeName type="reg">Lund</placeName>
+               <country key="B0506">Schweden</country>
+               <idno type="geonames">2693678</idno>
+            </place>
+            
+            
+            <place xml:id="B0204">
+               <placeName type="reg">London</placeName>
+               <country key="B0510">Großbritanien</country>
+               <idno type="geonames">2643743</idno>
+            </place>
+            
+            
+            <place xml:id="B0205">
+               <placeName type="reg">Krakau</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3094802</idno>
+            </place>
+            
+            
+            <place xml:id="B0206">
+               <placeName type="reg">Bern</placeName>
+               <country key="B0502">Schweiz</country>
+               <idno type="geonames">2661552</idno>
+            </place>
+            
+            
+            <place xml:id="B0207">
+               <placeName type="reg">Bjala</placeName>
+               <country key="B0511">Bulgarien</country>
+               <idno type="geonames">732722</idno>
+            </place>
+            
+            
+            <place xml:id="B0208">
+               <placeName type="reg">Salzburg</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2766824</idno>
+            </place>
+            
+            
+            <place xml:id="B0209">
+               <placeName type="reg">Hütteldorf</placeName>
+               <country key="B0502">Österreich</country>
+               <settlement key="B0202">Wien</settlement>
+               <idno type="geonames">2775372</idno>
+            </place>
+            
+            
+            <place xml:id="B0210">
+               <placeName type="reg">Sighișoara</placeName>
+               <placeName type="alt">Schäßburg</placeName>
+               <country key="B0512">Rumänien</country>
+               <idno type="geonames">8436351</idno>
+            </place>
+            
+            
+            <place xml:id="B0211">
+               <placeName type="reg">Siebenbürgen</placeName>
+               <placeName type="alt">Transilvanien</placeName>
+               <country key="B0512">Rumänien</country>
+               <idno type="geonames">664661</idno>
+            </place>
+            
+            
+            <place xml:id="B0212">
+               <placeName type="reg">Wernstein am Inn</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2761467</idno>
+            </place>
+            
+            
+            <place xml:id="B0213">
+               <placeName type="reg">Istanbul</placeName>
+               <placeName type="alt">Konstantinopel</placeName>
+               <country key="B0513">Türkei</country>
+               <idno type="geonames">745044</idno>
+            </place>
+            
+            
+            <place xml:id="B0214">
+               <placeName type="reg">Wrocław</placeName>
+               <placeName type="alt">Breslau</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3081368</idno>
+            </place>
+            
+            
+            <place xml:id="B0215">
+               <placeName type="reg">Bukarest</placeName>
+               <country key="B0512">Rumänien</country>
+               <idno type="geonames">683506</idno>
+            </place>
+            
+            
+            <place xml:id="B0216">
+               <placeName type="reg">Toruń</placeName>
+               <placeName type="alt">Thorn</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3083271</idno>
+            </place>
+            
+            
+            <place xml:id="B0217">
+               <placeName type="reg">Paris</placeName>
+               <country key="B0503">Frankreich</country>
+               <idno type="geonames">2988507</idno>
+            </place>
+            
+            
+            <place xml:id="B0218">
+               <placeName type="reg">Opole</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3090048</idno>
+            </place>
+            
+            
+            <place xml:id="B0219">
+               <placeName type="reg">Pesaro</placeName>
+               <country key="B0508">Italien</country>
+               <idno type="geonames">3171173</idno>
+            </place>
+            
+            
+            <place xml:id="B0220">
+               <placeName type="reg">Passy</placeName>
+               <country key="B0503">Paris</country>
+               <idno type="geonames">2988394</idno>
+            </place>
+            
+            
+            <place xml:id="B0221">
+               <placeName type="reg">Bratislava</placeName>
+               <country key="B0514">Slowakei</country>
+               <idno type="geonames">3060972</idno>
+            </place>
+            
+            
+            <place xml:id="B0222">
+               <placeName type="reg">Grieskirchen</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2777972</idno>
+            </place>
+            
+            
+            <place xml:id="B0223">
+               <placeName type="reg">Innsbruck</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2775220</idno>
+            </place>
+            
+            
+            <place xml:id="B0224">
+               <placeName type="reg">Amsterdam</placeName>
+               <country key="B0507">Niederlande</country>
+               <idno type="geonames">2759794</idno>
+            </place>
+            
+            
+            <place xml:id="B0225">
+               <placeName type="reg">Venedig</placeName>
+               <country key="B0508">Italien</country>
+               <idno type="geonames">3164603</idno>
+            </place>
+            
+            
+            <place xml:id="B0226">
+               <placeName type="reg">Maiolati Spontini</placeName>
+               <placeName type="alt">Maiolati</placeName>
+               <country key="B0508">Italien</country>
+               <idno type="geonames">3174220</idno>
+            </place>
+            
+            
+            <place xml:id="B0227">
+               <placeName type="reg">Lyon</placeName>
+               <country key="B0503">Frankreich</country>
+               <idno type="geonames">2996944</idno>
+            </place>
+            
+            
+            <place xml:id="B0228">
+               <placeName type="reg">Słupsk</placeName>
+               <placeName type="alt">Stolp</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3085450</idno>
+            </place>
+            
+            
+            <place xml:id="B0229">
+               <placeName type="reg">Strzelin</placeName>
+               <placeName type="alt">Strehlen</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3084404</idno>
+            </place>
+            
+            
+            <place xml:id="B0230">
+               <placeName type="reg">Prochowice</placeName>
+               <placeName type="alt">Parchwitz</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3088096</idno>
+            </place>
+            
+            
+            <place xml:id="B0231">
+               <placeName type="reg">Kostrzyn nad Odrą</placeName>
+               <placeName type="alt">Küstrin</placeName>
+               <placeName type="alt">Cüstrin</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3095057</idno>
+            </place>
+            
+            
+            <place xml:id="B0232">
+               <placeName type="reg">Steyr</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2764359</idno>
+            </place>
+            
+            
+            <place xml:id="B0233">
+               <placeName type="reg">Florenz</placeName>
+               <country key="B0508">Italien</country>
+               <idno type="geonames">3176959</idno>
+            </place>
+            
+            
+            <place xml:id="B0234">
+               <placeName type="reg">Paros</placeName>
+               <country key="B0509">Griechenland</country>
+               <idno type="geonames">255721</idno>
+            </place>
+            
+            
+            <place xml:id="B0301">
+               <placeName type="reg">Tübingen</placeName>
+               <country key="B0501">Deutschland</country>
+               <idno type="geonames">2820860</idno>
+            </place>
+            
+            
+            <place xml:id="B0235">
+               <placeName type="reg">Jasnaja Poljana</placeName>
+               <placeName type="alt">Trakehnen</placeName>
+               <country key="B0515">Russland</country>
+               <idno type="geonames">468687</idno>
+            </place>
+            
+            
+            <place xml:id="B0236">
+               <placeName type="reg">Graz</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2778067</idno>
+            </place>
+            
+            
+            <place xml:id="B0237">
+               <placeName type="reg">Rohrau</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2767301</idno>
+            </place>
+            
+            
+            <place xml:id="B0238">
+               <placeName type="reg">Bergamo</placeName>
+               <country key="B0508">Italien</country>
+               <idno type="geonames">3182164</idno>
+            </place>
+            
+            
+            <place xml:id="B0239">
+               <placeName type="reg">Gmunden</placeName>
+               <country key="B0502">Österreich</country>
+               <idno type="geonames">2778436</idno>
+            </place>
+            
+            
+            <place xml:id="B0240">
+               <placeName type="reg">Stockholm</placeName>
+               <country key="B0506">Schweden</country>
+               <idno type="geonames">2673730</idno>
+            </place>
+            
+            
+            <place xml:id="B0241">
+               <placeName type="reg">Biała</placeName>
+               <placeName type="alt">Zülz</placeName>
+               <country key="B0505">Polen</country>
+               <idno type="geonames">3103644</idno>
+            </place>
+            
+            
+            <place xml:id="B0242">
+               <placeName type="reg">Den Haag</placeName>
+               <country key="B0507">Niederlande</country>
+               <idno type="geonames">2747372</idno>
+            </place>
+            
+            
+            <place xml:id="B0501">
+               <placeName type="reg">Deutschland</placeName>
+               <idno type="geonames">2921044</idno>
+            </place>
+            
+            
+            <place xml:id="B0502">
+               <placeName type="reg">Österreich</placeName>
+               <idno type="geonames">2782113</idno>
+            </place>
+            
+            
+            <place xml:id="B0503">
+               <placeName type="reg">Frankreich</placeName>
+               <idno type="geonames">3017382</idno>
+            </place>
+            
+            
+            <place xml:id="B0504">
+               <placeName type="reg">Schweiz</placeName>
+               <idno type="geonames">2658434</idno>
+            </place>
+            
+            
+            <place xml:id="B0505">
+               <placeName type="reg">Polen</placeName>
+               <idno type="geonames">798544</idno>
+            </place>
+            
+            
+            <place xml:id="B0506">
+               <placeName type="reg">Schweden</placeName>
+               <idno type="geonames">2661886</idno>
+            </place>
+            
+            
+            <place xml:id="B0507">
+               <placeName type="reg">Niederlande</placeName>
+               <idno type="geonames">2750405</idno>
+            </place>
+            
+            
+            <place xml:id="B0508">
+               <placeName type="reg">Italien</placeName>
+               <idno type="geonames">3175395</idno>
+            </place>
+            
+            
+            <place xml:id="B0509">
+               <placeName type="reg">Griechenland</placeName>
+               <idno type="geonames">390903</idno>
+            </place>
+            
+            
+            <place xml:id="B0510">
+               <placeName type="reg">Großbritanien</placeName>
+               <idno type="geonames">2635167</idno>
+            </place>
+            
+            
+            <place xml:id="B0511">
+               <placeName type="reg">Bulgarien</placeName>
+               <idno type="geonames">732800</idno>
+            </place>
+            
+            
+            <place xml:id="B0512">
+               <placeName type="reg">Rumänien</placeName>
+               <idno type="geonames">798549</idno>
+            </place>
+            
+            
+            <place xml:id="B0513">
+               <placeName type="reg">Türkei</placeName>
+               <idno type="geonames">298795</idno>
+            </place>
+            
+            
+            <place xml:id="B0514">
+               <placeName type="reg">Slowakei</placeName>
+               <idno type="geonames">3057568</idno>
+            </place>
+            
+            
+            <place xml:id="B0515">
+               <placeName type="reg">Russland</placeName>
+               <idno type="geonames">2017370</idno>
+            </place>
+                     
+            
+         </list>
+      </body>
+  </text>
+</TEI>
