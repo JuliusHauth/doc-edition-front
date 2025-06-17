@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Ferdinand Mendheim; Donnerstag, 20. Dezember 1838</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0101">Berlin</settlement>
+                  <repository n="D-B">
+                     <orgName key="D0202">Staatsbibliothek zu Berlin. Preußischer Kulturbesitz</orgName> 
+                  </repository>
+                  <collection>Musikabteilung</collection>
+                  <idno>Mus.ep.Bürde,J.2</idno>
+                  <msName>Brief von Jeanette Antonie Bürde an Ferdinand Mendheim, 20.12.1838</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. (1. Blatt: beidseitig Brieftext, 2. Blatt v: Empfänger))</p>
+                  <p>Briefbogen in Dritteln zweimal gefaltet, zweites Blatt dient als Umschlag</p>
+                  <p>intakte Verschlussmarke (blaugrau, annähernd quadratisch, mit ovaler Prägung: Löwe mit Blume auf einem eckigen Block)</p>
+                  <p>Brief wurde neben der Verschlussmarke durch einen geraden Schnitt geöffnet, sodass die obere linke Ecke (recto) des zweiten Blattes abgeschnitten ist</p>
+                  <p>bräunliches Papier</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>Prägung einer kleinen Blume in der linken (recto) oberen Ecke aller Seiten; auf S. 1 ist die Blumein Grün- und Rosatönen ausgemalt</p>
+                  <p>roter Stempel auf S.1 mittig, oberhalb des Brieftextes: <q>Ex Bibl. Regina Berolin.<note type="definition" resp="editor">Berolinum ist die latinisierte Form von <q>Berlin</q></note>.</q></p>
+                  <p>kleine Verunreinigung mit blauer Tinte 1. Seite unten rechts</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift in lateinischer Schreibschrift:
+                     <lb/>1. Seite oben links: Mus ep. Jeannette Bürde 2
+                     <lb/>1. Seite unten links: Mdhm<note type="commentary" resp="editor">Vermutlich eine Abkürzung für <q>Mendheim</q>.</note>
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+              <date when="1838-12-20"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0205">Ferdinand Mendheim</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1838-12-20"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://resolver.staatsbibliothek-berlin.de/SBB0003343600000000"/>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="address">
+            <p>
+               <address><note type="textConst" resp="editor">Die Adressangabe befindet sich auf der Rückseite des zweiten Blattes.</note>
+                  <addrLine rend="indent-2">Sr Wohlgeboren</addrLine>
+                  <addrLine>Des</addrLine>
+                  <addrLine>Herrn <persName key="A0205" rend="latintype">F. Mendheim</persName></addrLine>
+                  <street>Breite Straß. N <num>8</num>.</street>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="bottom page 2">
+                  <lb/>Donnerstag
+                  <lb/>am<date when="1838-12-20">20 : Dec
+                  <lb rend="indent-3"/>1838</date>.
+               </dateline>
+               <salute><note type="commentary" resp="editor">Anrede fehlt.</note></salute>
+            </opener>
+            <p>
+               <lb/>Haben <rs type="person" key="A0205">Sie</rs> die Freundlichkeit, mein
+               <lb/>verehrtester Gönner<note type="definition" resp="editor">Mäzen</note>, dem <rs type="person" key="A0401">Über-
+               <lb break="no"/>bringer dieser Zeilen</rs>, die Wohnung
+               <lb/>der Fräulein <rs type="person" key="A0283">von <hi rend="latintype">Dietz</hi></rs> nach zu weisen,
+               <lb/>es ist gestern mit der Stadtpost
+               <lb/>ein <hi rend="latintype">Couvert</hi> mit <hi rend="latintype">Concert Billets</hi> bey
+               <lb/>uns angelangt, da nun <rs type="person" key="A0102">mein Mann</rs>
+               <lb/>seines Gehör's wegen<note type="commentary" resp="editor">Was genau es mit <persName key="A0102">Friedrich Bürdes</persName> Gehör auf sich hat bleibt unkar. Denkbar sind beispielsweise eine Schwerhörigkeit oder auch eine Überempfindlichkeit.</note> nie <hi rend="latintype">Concerte</hi>
+               <lb/>besucht, und ich schon seit acht
+               <lb/>Tagen zu einer <hi rend="latintype">Soiree</hi> engagiert
+               <lb/>bin, konnte ich keinen Gebrauch
+               <lb/>von den zugeschickte Karten
+               <lb/>machen, was ich sehr bedauere,
+               <lb/>bey dem <rs type="person" key="A0402">dieser Künstlerin</rs> voran
+               <lb/>gehenden Rufe.
+               <lb/>Haben Sie noch die Gefälligkeit
+            </p>
+            <pb/>
+            <p>
+               <lb/>mir das <rs type="work" key="C0205"><hi rend="latintype">Duett</hi> aus <hi rend="latintype"><persName key="A0211">Rossini's</persName></hi>
+               <lb/><name type="work" key="C0204"><hi rend="latintype">Barbiere di Seveglia</hi></name>, zwischen
+               <lb/>der <name type="actingRole"><hi rend="latintype">Rosine</hi></name> und dem <name type="actingRole"><hi rend="latintype">Figaro</hi></name></rs> zu
+               <lb/>senden, und auch <rs type="work" key="C0206"><name type="actingRole"><hi rend="latintype">Figaro‘s</hi></name> erste
+               <lb/>Sortita</rs><note type="definition" resp="editor"><q>Sortita</q> ital. im theatralen Kontext für "Auftritt"</note>. Ihrem <rs type="person" key="A0214">Herrn <hi rend="latintype">Compagnon</hi></rs>
+               <lb/>bitte ich nebst meinen ergebensten
+               <lb/>Empfehlungen zu sagen, daß
+               <lb/>ich die beyden Hefte <hi rend="latintype">Solfeggien</hi><note type="commentary" resp="editor">Unklar, um welche und wessen Solfeggien es sich handelt.</note>,
+               <lb/>nach welchen er mich von einiger
+               <lb/>Zeit fragte, behielte.
+            </p>
+            <closer>
+               <salute>
+                  <lb/>Ein recht frohes Fest wünscht
+                  <lb/>Ihnen
+                  <space/>
+                  <lb rend="indent-3"/>Ihre
+               </salute>
+               <signed rend="bottom right">
+                  <lb/>ergebenste
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Bürde</hi>
+                  <lb/>geb. <hi rend="latintype">Milder</hi></persName>
+               </signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

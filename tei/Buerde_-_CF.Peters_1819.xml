@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Carl Friedrich Peters; ohne Datum (1817?)</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               Der Brief ist sowohl durch die Ergänzungen in Bleistift auf dem Schreiben selbst als auch auf der Webseite der UB Basel und allen dortheraus folgenden Verlinkungen unrichtigerweise als
+               von <persName key="A0103">Anna Milder</persName> geschrieben ausgezeichnet.
+               Der Brief ist undatiert, jedoch findet sich bei der Absenderabgabe auf S. 4 eine Jahreszahl, die möglicherweise von fremder Hand eingetragen wurde. Es lässt sich nicht klar erkennen, ob
+               es sich bei der Jahreszahl um <date when="1817">1817</date> oder <date when="1819">1819</date> handelt. Ersteres ist wahrscheinlicher, da es mit den Bleistifteintragungen überein stimmt und
+               diese Jahreszahl auch auf der Webseite der UB Basel verwendet wird. Daher ist der Brief in der Edition auf <date when="1817">1817</date> datiert.
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0504">Schweiz</country>
+                  <settlement key="B0201">Basel</settlement>
+                  <repository n="CH-Bu">
+                     <orgName key="D0206">Universitätsbibliothek Basel</orgName> 
+                  </repository>
+                  <collection>Autographensammlung Geigy-Hagenbach</collection>
+                  <idno>Sammlungsnummer: 1822</idno>         
+                  <msName>Brief an [Carl Friedrich] Peters / von Jeannette Milder</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. (1. Blatt: beidseitig Brieftext; 2. Blatt: Absender und Empfänger)</p>
+                  <p>23 x 19 cm</p>
+                  <p>Faltbrief (Kreuzfaltung) mit Siegelresten (rot)</p>
+                  <p>bräunliches Papier, zweites Blatt etwas heller als das erste</p>
+                  <p>1. Blatt ohne Wasserzeichen oder Siebspuren</p>
+                  <p>2. Blatt in der unteren Hälfte mit Papier mit Kettlinien aus ausgebessert;
+                  Siegel mithilfe von klaren Schnitten in Dreiecksform herausgetrennt (annähernd rechtwinkliges Dreieck, eine Kathete bildet den Blattabschluss), sodass das Papier 
+                  mit den Kettlinien zu sehen ist. Linke untere Blattecke der letzten Seite ausgefranst beschädigt und ebenfalls ausgebessert.</p>
+                  <p>Vor dem Brieftext ist auf beiden Seiten jeweils etwa das obere Drittel der Seite frei gelassen worden. Der gesamte Text ist um etwa ein Viertel der Seitenbreite eingerückt.</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift in lateinischer Schrift:
+                     <lb/>1. Seite oben rechts: <hi rend="underline"><date when="1817">1817</date></hi>
+                     <lb/>1. Seite unten links: <persName key="A0103">Milder Anna</persName>
+                     <lb/>1. Seite unten rechts: <unclear reason="illegible" resp="editor">geb</unclear> <date when="1785">1785</date> <settlement key="B0213">Constantinopel</settlement> † <date when="1838">1838</date> <settlement key="B0101">Berlin</settlement>
+                     <lb/>2. Seite unten links (nach <q>Leipzig No. 38</q>): (<date when="1817">1817</date>)
+                     <lb/>4. Seite oben rechts: 476
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0102">Berlin</settlement>
+              <date when="1817">1817</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0210">Carl Friedrich Peters</persName>
+              <settlement key="B0102"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1817"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://doi.org/10.7891/e-manuscripta-150696"></graphic>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="adress"><note type="textConst" resp="editor">Die Adressangabe befindet sich auf der Rückseite des zweiten Blattes.</note>
+            <p>
+               <address corresp="received" rend="rotated-270">
+                  <addrLine>S<hi rend="unterline" n="2">r</hi> Wohlgeboren</addrLine>
+                  <addrLine><hi rend="unterline">Des Herrn <persName key="A0210"><hi rend="latintype">Peters</hi></persName></hi></addrLine>
+                  <addrLine><hi rend="unterline">Hier</hi></addrLine>
+               </address>
+               <address corresp="sent">
+                  <addrLine><date when="1817"><hi rend="underline">1817</hi></date><note type="textConst" resp="editor">Jahreszahl möglicherweise von anderer Hand geschrieben.</note> <settlement key="B0101"><hi rend="latintype">Berlin</hi></settlement></addrLine>
+                  <space type="horizontalline"/>
+                  <addrLine rend="indent-3"><persName key="A0101"><hi rend="latintype">Milder</hi></persName></addrLine>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline><note type="commentary" resp="editor">Datumsangabe fehlt.</note></dateline>
+               <salute><note type="commentary" resp="editor">Anrede fehlt.</note></salute>
+            </opener>
+            <p>
+               <lb/>Ich hoffte immer das Vergnügen zu haben <rs type="person" key="A0210">Sie</rs> noch
+               <lb/>vor unsrer Abreise bei uns zu sehen; allein mein
+               <lb/>Wunsch und die Hoffnung ist vermittelt, und ich bin
+               <lb/>nicht einmahl mehr im Stande, Ihnen für Ihre
+               <lb/>große Gefälligkeit mündlich zu danken. Ich
+               <lb/>überschicke Ihnen lieben Herr <persName key="A0210"><hi rend="latintype">Peters</hi></persName> hierbei die
+               <lb/>Musikalien,<note type="commentary" resp="editor">Es bleibt unklar, um welche Musikalien es sich handelt.</note> und bemerke, daß ich die zu-
+               <lb break="no"/>sammengebundenen gerne besitzen möchte,
+               <lb/>weiß aber nicht wie ich jetzt dazu gelangen
+               <lb/>könnte, da ich gar kein Plätzchen übrig
+               <lb/>habe, sie zu verwahren, und sie würden mir
+               <lb/>auch zu große Beschwerden während der ganzen
+               <lb/>Reise machen. Ich nehme nun daher die Freiheit
+               <lb/>Ihnen den Vorschlag zu machen, ob Sie es wohl
+               <lb/>der Mühe werth finden, mir den Preis die-
+            </p>
+            <pb/>
+            <p>
+               <lb break="no"/>
+               <lb/>ser Musik Stücke auf jedes zu schreiben, und mir sie
+               <lb/>bei guter Gelegenheit nach <settlement key="B0101"><hi rend="latintype">Berlin</hi></settlement> abzu-
+               <lb break="no"/>schicken, woher ich Ihnen d<unclear reason="illegible" resp="editor">a</unclear> mit <hi rend="unterline">groß<unclear reason="illegible" resp="editor">m</unclear> Dank</hi>
+               <lb/>die Summe übermachen würde. Wir<note type="commentary" resp="editor">Mit "Wir" ist vermutlich noch <persName key="A0103">Anna Milder</persName> gemeint.</note> sind im
+               <lb/>Monat <hi rend="latintype">Juny</hi> wieder in <settlement key="B0101"><hi rend="latintype">Berlin</hi></settlement> und die Adres-
+               <lb break="no"/>se werde ich unten bemerken. Ich danke
+               <lb/>Ihren nochmahl, und bitte Sie recht sehr sich
+               <lb/>nur überzeugt zu halten, daß es an mir
+               <lb/>nicht fehlen soll, wenn ich Ihnen <sic>einmahl</sic>
+               <lb/>einen gegen Dienst erweisen kann.
+            </p>
+            <closer>
+               <salute rend="indent-2">
+                  <lb/>Mit ausgezeichneter
+                  <lb rend="indent-4"/>Hochachtung
+                  <space/>
+                  <lb/><subst rend="overwritten"><del><unclear reason="illegible" resp="editor">Ihre</unclear></del><add place="inline"><unclear reason="illegible" resp="editor">Iere</unclear></add></subst><note type="textConst" resp="editor">Die ursprüngliche Lesung <q>Ihnen</q> ist sehr blass. 
+                     Die Korrektur wurde vor allem beim ersten Buchstaben des neuen Wortes (überschreiben des <q>Ih</q>) durch kräftigen Tintenauftrag ausgeführt. Die nun lesbare Form <q>Iere</q> ist grammatikalisch nicht schlüssig.</note>
+               </salute>
+               <space/>
+               <signed rend="bottom right">
+                  <lb/>ergeben
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Milder</hi></persName><note type="textConst" resp="editor">Die Unterschrift, insbesondere das -r bei Milder ist verschnörkelt.</note>
+               </signed>
+            </closer>
+            <postscript>
+               <p rend="bottom of text left page 2">
+                  <lb/><hi rend="latintype">a Mademoiselle
+                  <lb/><persName key="A0101">Jea: Milder</persName>
+                  <lb rend="indent-3"/>a
+                  <lb rend="indent-4"/><settlement key="B0101">Berlin</settlement></hi>
+                  <lb/><address><street>Charlottenstraße <num>N<hi rend="#sup #underline" n="1">o</hi> 38</num></street></address>.
+               </p>
+               <p rend="bottom left page 2">
+                  <lb/><settlement key="B0102"><hi rend="latintype">Leipzig</hi></settlement> N<hi rend="#sup #underline" n="1">o</hi> 38.
+               </p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>

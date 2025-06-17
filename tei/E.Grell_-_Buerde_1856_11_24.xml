@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Eduard Grell an Bürde; Montag, 24. November 1856</title>
+            <author role="aut" key="A0209">Grell, Eduard</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               Der vorliegende Brief stammt aus der Zeit, als <persName key="A0209">Grell</persName> Direktor an der <orgName key="D0103">Sing-Akademie</orgName> war. Es ist denkbar, 
+               dass dieser Brief aufgrund seiner Verbindung zu <persName key="A0209">Grell</persName> die Zeit überdauert hat und nicht wegen seiner Verbindung zu <persName key="A0101">Bürde</persName>.
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0101">Berlin</settlement>
+                  <repository n="D-B">
+                     <orgName key="D0202">Staatsbibliothek zu Berlin. Preußischer Kulturbesitz</orgName> 
+                  </repository>
+                  <collection>Musikabteilung</collection>
+                  <idno>N.Mus.ep. 3043</idno>
+                  <msName>Brief von Eduard Grell an Jeanette Antonie Bürde, 24.11.1856</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. (1. Blatt: beidseitig Brieftext; 2. Blatt r: Brieftext, v: Empfänger))</p>
+                  <p>Faltbrief (Kreuzfaltung plus eine zusätzliche horizontale Faltung) mit Siegelresten (dunkelrot)</p>
+                  <p>bräunliches Papier, Tinte scheint durch</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>3. Seite untere rechte Ecke mit Siegelrest beinahe abgerissen, wurde mit zwei annähernd quadratischen Stückchen selbstklebender Kunststofffolie (vermutlich Tesafilm) stabilisiert</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift in lateinischer Schreibschrift:
+                     <lb/>1. Seite oben links: N. Mus. ep. 3043
+                     <lb/>4. Seite oben rechts: <hi rend="underline">2</hi>
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0209">Eduard Grell</persName>
+              <settlement key="B0101">Berlin</settlement>
+              <date when="1856-11-24"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1856-11-24"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://resolver.staatsbibliothek-berlin.de/SBB0003343800000000"/>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="address"><note type="textConst" resp="editor">Die Empfängerangabe befindet sich auf der Rückseite des zweiten Blattes.</note>
+            <p>
+               <address>
+                  <addrLine rend="indent-2">Der</addrLine>
+                  <addrLine>Frau Professor</addrLine>
+                  <addrLine rend="indent-2"><persName key="A0101" rend="latintype">Bürde</persName></addrLine>
+                  <addrLine>Wohlgeborn</addrLine>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="bottom page 3">
+                  <lb/><settlement key="B0101">Berlin</settlement>
+                  <lb/><date when="1856-11-24">24 Nov 1856</date>
+               </dateline>
+               <salute rend="indent">
+                  <lb/>Hochgeehrte Frau!
+               </salute>
+            </opener>
+            <p>
+               <lb/>da es so viele Anklang gefunden
+               <lb/>hat, wenn am Schluß der Versamm-
+               <lb break="no"/>lung der <orgName key="D0102">Sing Ak.<supplied resp="editor">ademie</supplied></orgName> noch ein Solo
+               <lb/>vorgetragen wird, so würde
+               <lb/>es mir sehr lieb sein, wenn auch
+               <lb/>einige Ihren Schülerinnen
+               <lb/>sich zu einem solchen Vortrage
+               <lb/>verstehen wollten. Vielleicht
+               <lb/>hätten Sie die Güte mit <persName key="A0227">Frau
+               <lb/>Müller</persName> oder <persName key="A0228">Fr Simon</persName>, oder
+               <lb/>mit beiden, oder womöglich auch
+               <lb/>noch mit anderen, einige
+            </p>
+            <pb/>
+            <p>
+               <lb/>(geistliche) Arien (nicht Duette)
+               <lb/>einzustudieren. Sehr <unclear reason="illegible" resp="editor">verbinden</unclear>
+               <lb/><unclear reason="illegible" resp="editor">werden</unclear> Sie mich, wenn Sie mir
+               <lb/>recht bald Nachricht geben, <hi rend="underline" n="1">welche
+               <lb/>Tage</hi> (immer Dienstag) u <hi rend="underline" n="1">welche
+               <lb/>Arien</hi> Sie dazu wählen. Wünschens-
+               <lb break="no"/>wert wären unbekanntere
+               <lb/>Arien. Besitzen Sie nicht einige
+               <lb/>aus den <rs type="work" key="C0208"><persName key="A0206">Neukomm</persName>schen Oratorien</rs>?
+               <lb/>Auch <persName key="A0229">Hasse</persName>, <persName key="A0230">Händel</persName>, <persName key="A0216">Bach</persName>, <persName key="A0231">Naumann</persName>
+               <lb/>würden sehr willkommen sein.
+               <lb/>Sollten Sie von mir Arien
+               <lb/>vorgeschlagen wünschen, so
+            </p>
+            <pb/>
+            <p>
+               <lb/>würde ich bitten mir zu sagen,
+               <lb/>von welcher Art, u an wen
+               <lb/>ich sie zum Einstudieren geben
+               <lb/>soll?
+            </p>
+            <closer>
+               <salute>
+                  <lb rend="indent"/>Wünschend u hoffend, daß Sie
+                  <lb/>meine Bitte verzeihen u.
+                  <lb/>erfüllen, sehe freundlicher
+                  <lb/>Antwort entgegen, und 
+                  <lb/>bin in Hochachten u Verehrung
+               </salute>
+               <signed>
+                  <lb rend="indent-3"/>Ihr
+                  <lb rend="indent-3"/>ganz ergebner
+                  <lb rend="indent-4"/><persName key="B0209">Ed. Grell</persName>
+               </signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

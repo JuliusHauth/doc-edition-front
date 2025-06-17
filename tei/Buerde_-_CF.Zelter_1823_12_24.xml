@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Carl Friedrich Zelter; Mittwoch, 24. Dezember 1823</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               Der vorliegende Brief stammt aus der Zeit, als <persName key="A0202">Zelter</persName> Direktor an der <orgName key="D0103">Sing-Akademie</orgName> war. Es ist denkbar, 
+               dass dieser Brief aufgrund seiner Verbindung zu <persName key="A0202">Zelter</persName> die Zeit überdauert hat und nicht wegen seiner Verbindung zu <persName key="A0101">Bürde</persName>.
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0101">Berlin</settlement>
+                  <repository n="D-B">
+                     <orgName key="D0202">Staatsbibliothek zu Berlin. Preußischer Kulturbesitz</orgName> 
+                  </repository>
+                  <collection>Musiksammlung</collection>
+                  <idno>Mus.ep.Bürde,J.3</idno>
+                  <msName>Brief von Jeanette Antonie Bürde an Carl Friedrich Zelter, 24.12.1823</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">3 Bl. (1. Blatt r: Brieftext, v: leer; 2. Blatt: Gedicht beidseitig; 3. Blatt r: leer, v: Empfänger)</p>
+                  <p>mehrfach gefaltet, Faltungsspuren nur schwach erkennbar mit Siegelresten (3. Bl.v., rot)</p>
+                  <p>bräunliches Papier, 1. Bl.r. und 3. Bl.v. etwas dunkler, 2. Bl etwas länger und am unteren Rand (etw. 1/6 des Blattes) etwas dunkler</p>
+                  <p>1. und 3. Blatt ohne Wasserzeichen oder Siebspuren</p>
+                  <p>2. Blatt im oberen Viertel ein Wasserzeichen schwach erkennbar (ONIC)<note type="commentary" resp="editor">Dieses Wasserzeichen konnte bisher nicht genauer identifiziert werden, zumal die Buchstaben C und N so angeordnet sind, dass einer der beiden stets spiegelverkehrt erscheint, was eine eindeutige Lesung erschwert.</note></p>
+                  <p>Vor dem Brieftext ist auf beiden Seiten jeweils etwa das obere Drittel der Seite frei gelassen worden. Der gesamte Text ist um etwa ein Viertel der Seitenbreite eingerückt.</p>
+                  <p>1. und 2. Bl. v: ovaler, roter Stempel, mittig: DEUTSCHE STAATSBIBLIOTHEK BERLIN</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift in lateinischer Schreibschrift:
+                     <lb/>1. Seite oben links: Mus.ep.J.Bürde 3
+                     <lb/>1. Seite unten rechts: 502
+                     <lb/>3. Seite unten mitte: zu Mus.ep.J.Bürde 3
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+              <date when="1823-12-24"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0202">Carl Friedrich Zelter</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1823-12-24"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://resolver.staatsbibliothek-berlin.de/SBB0003343500000000"/>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="address"><note type="textConst" resp="editor">Die Empfängerangabe befindet sich auf der Rückseite des dritten Blattes.</note>
+            <p>
+               <address>
+                  <addrLine>Des</addrLine>
+                  <addrLine rend="indent">Herrn <persName key="A0202"><sic>Profeßor</sic> Zelter</persName></addrLine>
+                  <addrLine rend="indent-3">Wohlgeboren</addrLine>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="bottom of the text left">
+                  <lb/>am <date when="1823-12-24">24.<hi rend="#sup #underline" n="2">'</hi> Dec
+                  <lb/>1823</date>.
+               </dateline>
+               <salute>
+                  <lb/>Hochzuverehrender <rs type="person" key="A0202">Herr Professor</rs>!
+               </salute>
+            </opener>
+            <space/>
+            <p> 
+               <lb/>Beifolgendes Exemplar, <hi rend="underline"><persName key="A0237">Miltons</persName></hi> <name type="work" key="C0210">ver-
+               <lb break="no"/>lorenes Paradies</name>, habe ich die Ehre,
+               <lb/>Ihnen im Namen des <rs type="person" key="A0109">Übersetzers</rs>,<note type="commentary" resp="editor"><persName key="A0109">Samuel Gottlieb Bürde</persName> (Bürdes Schwiegervater) übersetzte <date when="1793">1793</date> <persName key="A0237">Miltons</persName> <name type="work" key="C0210"><q>Paradise Lost</q></name> aus dem Englischen ins Deutsche.</note>
+               <lb/>und zwar in Begleitung der herzlich-
+               <lb break="no"/>sten Grüße, zu überreichen.
+               <lb/>Vergönnen Sie mir auch noch, Sie
+               <lb/>meiner aufrichtigsten Hochachtung
+               <lb/>zu versichern, mit welcher stets
+               <lb/>verharren wird,
+            </p>
+            <space/>
+            <closer rend="bottom right">
+               <salute>
+                  <lb/>Ihre ergebenste
+               </salute>
+               <space/>
+               <signed>
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Milder</hi></persName>
+               </signed>
+            </closer>
+         </div>
+         <div type="enclosure">
+            <div type="poem">
+               <head type="main" rend="underline">Alles eitel.</head>
+               <head type="byline">Gedicht von <persName key="A0109">S.G. Bürde</persName></head>
+               <p>
+               <lg>
+                  <l>Alles ist eitel - der Mensch und seine</l>
+                  <l rend="indent"> Werke vergehen,</l>
+                  <l>Wie ein Wolkengebild, wenn sich das</l>
+                  <l rend="indent">Lüftchen erhebt.</l>
+                  <l>Schon als Knabe wußt’ ich den Spruch, und</l>
+                  <l rend="indent">dacht nichts Arges;</l>
+                  <l>Denn, wie ein lustiger Tag, lachte das</l>
+                  <l rend="indent"> Leben mich an.</l>
+                  <l> Waren die Blumen dahin, so kamen die</l>
+                  <l rend="indent">Früchte und fehlten</l>
+                  <l>diese, so brachte das Jahr, endend</l>
+                  <l rend="indent">Weihnachten und Schnee.</l>
+                  <l>Aber jetzt ist mir das Jahr nur Wechsel von</l>
+                  <l rend="indent">Sommer und Winter,</l>
+                  <l>Wärm‘ in Kälte; - kein Reiz spannt zur</l>
+                  <l rend="indent">Erwartung die Brust.</l>
+                  <l>Was das Leben an Freud und Leid umfaßt,</l>
+                  <l rend="indent">hat Erfahrung</l>
+                  <l>Mich gelehrt, und ich weiß mir ihn zu</l>
+                  <l rend="indent">deuten, den Spruch:</l>
+                  <l>Alles ist eitel! das Spiel des Knaben, <sic>das</sic></l>
+                  <l rend="indent">Streben des Mannes;</l>
+                  <l>Nichts befriedigt den Geist, mehr stets</l>
+                  <l rend="indent">Fodert das Herz. -</l>
+               </lg>
+               <pb/>
+               <lg>
+                  <l>Ach! zum winkenden Hafen der Ruhe, wer</l>
+                  <l rend="indent">leitet den Nachen?</l>
+                  <l>Sieh! es neigt sich der Tag, siehe! Die</l>
+                  <l rend="indent">Ebbe tritt ein!</l>
+                  <l>Wahrheit du ewiger Stern! geh auf dem</l>
+                  <l rend="indent">zweifelnden Schiffer,</l>
+                  <l>Und, o Liebe, dein Hauch bring‘ ihn</l>
+                  <l rend="indent">geborgen ans Land!</l>
+               </lg>
+               </p>
+            </div>
+         </div>
+      </body>
+     <back>
+        <div type="comment" resp="editor">
+           <p>
+              <lb/>Warum dem Brief das Gedicht von <persName key="A0109">Samuel Gottlieb Bürde</persName> beigelegt ist, bleibt unklar. Es ist in <persName key="A0101">Bürdes</persName> Handschrift geschrieben.
+              <lb/>Im Brief wird auf <persName key="A0237">Miltons</persName> <name type="work" key="C0210">Paradise Lost</name> und eine deutsche Übersetzung Bezug genommen. Deren Urheberschaft geht aus dem Brieftext jedoch
+              nicht eindeutig hervor. Die familiäre Verbindung sowie die Beilage des Gedichts legen <persName key="A0109">Samuel Gottlieb Bürdes</persName> Übersetzung nahe.
+              Denkbar ist, dass <persName key="A0202">Zelter</persName> <persName key="A0109">Samuel Gottlieb Bürdes</persName> Arbeit schätzte und <persName key="A0101">Bürde</persName> das Gedicht als persönliche Aufmerksamkeit beilegte.
+           </p>
+        </div>
+     </back>
+  </text>
+</TEI>

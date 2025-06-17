@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Kronprinz Friedrich Wilhelm von Preußen; Freitag, 02. März 1821</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0102">Leipzig</settlement>
+                  <repository n="D-LEu">
+                     <orgName key="D0208">Universitätsbibliothek Leipzig,</orgName> 
+                  </repository>
+                  <collection>Autographensammlung Kestner</collection>
+                  <idno>Slg. Kestner/I/C/II/274/Nr. 1, Mappe 274, Blatt Nr. 1</idno>
+                  <msName>Brief von Jeanette Antonie Bürde an König Preußen Friedrich Wilhelm IV., 02.03.1821</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. (1. Blatt r: Brieftext, v: leer; 2. Blatt r: Konzertprogramm,  v: leer (Abdruck des Konzertprogramms) </p>
+                  <p>nicht gefaltet</p>
+                  <p>helles, gelbliches Papier</p>
+                  <p>Wasserzeichen: ADV &amp; S / LONDON</p>
+                  <p>2. Bl. leichte Siebspuren erkennbar</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift:
+                     <lb/>1. Seite Oben Mitte: 1
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="A0101">Berlin</settlement>
+              <date when="1821-03-02"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0201">König Wilhelm IV. von Preußen</persName>
+              <settlement key="A0101">[Berlin]</settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1821-03-02"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="Buerde_-_Wilhelm_IV_1821_03_02.pdf"></graphic>
+<!-- noch keine Genehmigung! -->
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="bottom left">
+                  <settlement key="B0101">Berlin</settlement>
+                  <lb/>den <date when="1821-03-02">2.tn März
+                  <lb/>1821.</date>
+               </dateline>
+               <salute rend="top left">
+                  <lb/>Durchlauchtigster <rs type="person" key="A0201">Prinz,</rs>
+                  <lb/>Gnädigster Herr!
+               </salute>
+            </opener>
+            <space/>
+            <p>
+               <lb rend="indent"/>Euer Königliche Hoheit wollen die unterthänigste 
+               <lb/>Anzeige<note type="commentary" resp="editor">Dem Brief liegt ein Konzertprogramm für den <date when="1821-03-09">9. März 1821</date> bei.</note> mit huldvoller Nachsicht aufzunehmen geruhen, 
+               <lb/>daß ich es wagen will, am <date when="1821-03-09">9<hi rend="superscript">ten</hi> März</date> in dem <orgName key="D0101"><hi rend="latintype">Jagor</hi>-
+               <lb break="no"/>schen Saale</orgName> ein Concert zu veranstalten, da die Um-
+               <lb break="no"/>stände mir gebieten, die Befangenheit meines Geschlechts 
+               <lb/>zu überwinden, um zu versuchen, ob ich als Sängerin 
+               <lb/>einen wohlwollenden und milden Antheil in dieser 
+               <lb/><rs type="organisation" key="D0101">kunstliebenden Residenz</rs> zu gewinnen hoffen darf.
+            </p>
+            <closer>
+               <salute rend="indent-2">
+                  <lb/>Mit der tiefsten Ehrfurcht
+                  <lb rend="indent-3"/>Eurer Königlichen Hoheit
+               </salute>
+               <space/>
+               <signed rend="bottom right"> 
+                  <lb/>Unterthänig gehorsamste
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Milder</hi></persName>.
+               </signed>
+            </closer>
+         </div>
+         <div type="enclosure">
+            <div type="concert-program" rend="gothic">
+               <p rend="center">
+                  Freitag am <date when="1821-03-09">9<hi rend="sup">ten</hi> März 1821</date>
+               </p>
+               <space type="horizontalline"/>
+               <p rend="center">
+                  <lb/>Großes
+                  <lb/>Vocal- und Instrumental-Concert
+                  <lb/>unter der Leitung
+                  <lb/>Des Königlichen Concertmeisters <persName key="A0275">Herrn Seidler</persName>
+                  <lb/>im <rs type="organisation" key="D0101">neuen Saale
+                  <lb/>des 
+                  <lb/>Hof-Traiteurs <persName key="A0273">Herr Jagor</persName></rs>, <address><street>unter den Linden <num>Nr. 23</num></street></address>
+                  <lb/>gegeben von
+                  <lb/><persName key="A0101">Jeannette Milder</persName>.
+               </p>
+               <space type="horizontalline"/>
+               <p>
+                  <lb rend="center"/>Inhalt.
+                  <lb rend="#center #spaced_out"/>Erste Abtheilung.
+                  <lb/>1) <name type="work" key="C2015">Ouverture zu der Oper <hi rend="spaced_out">Medea</hi></name>, von <persName key="A0254"><hi rend="spaced_out">Cherubini</hi></persName>.
+                  <lb/>2) <name type="work" key="C2016"><hi rend="latintype">Arianna a Naxos</hi></name>, von <persName key="A0217">Haydn</persName>, instrumentiert von <persName key="A0246">Rungenhagen</persName>, vorgetra-
+                  <lb break="no"/>gen von <persName key="A0101"><hi rend="spaced_out">J. Milder</hi></persName>.
+                  <lb/>3) <rs type="work" key="C2017">Concertino für die Oboe</rs>, von <persName key="A0277">Carl Braun</persName>, vorgetragen von dem königl.
+                  <lb/>Kammermusikus Herrn <persName key="A0278"><hi rend="spaced_out">W. Braun</hi></persName>.
+                  <lb rend="#center #spaced_out"/>Zweite Abtheilung.
+                  <lb/>4) <sic>Simphonie</sic> Satz<note type="commentary" resp="editor">Unklar, um welchen Sinfoniesatz es sich handelt.</note>
+                  <lb/>5) <rs type="work" key="C2018">Duetto aus der Oper: Idomeneo</rs>, von <persName key="A0248">Mozart</persName>, vorgetragen von dem königl.
+                  <lb/>Sänger, <persName key="A0265">Herrn <hi rend="spaced_out">Stümer</hi></persName>, und <persName key="A0101"><hi rend="spaced_out">J. Milder</hi></persName>.
+                  <lb/>6) <rs type="work" key="C0219">Violin-Concert</rs>, gesetzt und gespielt von dem königl. Kammermusikus
+                  <lb/><persName key="A0274">Herrn <hi rend="spaced_out">Böhmer</hi></persName>.
+                  <lb/>7) Scene aus der Oper: <rs type="work" key="C0220">Lodoiska</rs><note type="commentary" resp="editor">Unklar, um welche Szene es sich handelt.</note>, von <persName key="A0256">Simon <sic>Mayer</sic></persName>, vorgetragen von 
+                  <lb/><persName key="A0101"><hi rend="spaced_out">J. Milder</hi></persName>.
+               </p>
+               <space type="horizontalline"/>
+               <p>
+                  <lb/>Eintritts-Billets <hi rend="latintype">à</hi> 1 <choice  resp="editor"><abbr>Rthl.</abbr><expan>Reichsthaler</expan></choice> sind <address><street>Jägerstraße <num>Nr. 10</num></street></address> parterre<note type="commentary" resp="editor">Es bleibt unklar, bei wem genau die Billets hier
+                  erwerben waren. Es lässt sich nicht nachvollziehen, wer zum Zeitpunkt des Konzerts im Parterre des Hauses wohnte. Zu bemerken ist allerdings, dass sowohl <date when="1820">1820</date> als auch <date when="1822">1822</date> 
+                  (von <date when="1821">1821</date> ist kein Adressbuch erhalten) in der <address><street>Jägerstraße Nr. 10</street></address> eine <persName key="A0255">Wittwe Despang</persName> gelistet ist. Möglicherweise handelt es sich bei
+                  dieser Dame um die Mutter von <persName key="A0111">Henriette Bürde, geb. Despang</persName>. Jene heiratete am <date when="1824-03-24">24. März 1824</date> <persName key="A0110">Heinrich Bürde</persName>, wobei er bereits <date when="1823">1823</date> in 
+                  einem Adressbuch als in der  <address><street>Jägerstraße <num>Nr. 10</num></street></address> wohnhaft gelistet wird. <persName key="A0102">Friedrich Bürde</persName> wird erstmalig <date when="1824">1824</date> 
+                  (Nennung im <rs corresp="Buerde_Hochzeit_Reinschrift_1824_03_28.xml">Hochzeitsregister</rs>) in der <address><street>Jägerstraße <num>Nr. 10</num></street></address> wohnhaft gelistet. Die mehrfachen Verbindungen zur Adresse deuten auf einen engeren Familien-/Bekanntenkreis hin.</note>, 
+                  in der <orgName key="D0115">Musikhandlung des <persName key="A0279">Herrn 
+                  <lb/><hi rend="spaced_out">Schlesinger</hi></persName></orgName>, beim Hof-Traiteur <persName key="A0273">Herrn <hi rend="spaced_out">Jagor</hi></persName> und beim Kastellan des Königl. Opernhauses
+                  <lb/><persName key="A0276">Herrn <hi rend="spaced_out">Sattler</hi></persName> zu haben.
+               </p>
+               <space type="horizontalline"/>
+               <p>
+                  <lb rend="center"/>Anfang 7 Uhr.
+               </p>
+            </div>
+         </div>
+      </body>
+     <back>
+        <div type="comment" resp="editor">
+           <p>
+              <lb/>Warum <persName key="A0101">Bürde</persName> den <rs type="person" key="A0201">Kronprinz von Preußen</rs> zu jenem Konzert einlud und ob er die Einladung annahm, bleibt unklar. 
+              Zudem gibt es bisher keine Hinweise, in welchem Verhältnis <persName key="A0101">Bürde</persName> und der <rs type="person" key="A0201">Kronprinz</rs> zueinander standen. 
+              Weitere Korrespondenz oder sonstige Kontaktpunkte sind aktuell nicht auffindbar.
+              <lb/>Noch im März bedankt sich <persName key="A0101">Bürde</persName> in einer Annonce in der <name type="newspaper" key="D0113">Spenerschern Zeitung</name> (Nr. 32, 15.03.1821, S. 10f.) bei den Mitwirkenden: <quote>Unterzeichnete, sagt allen den geehrten Herren Kammermusikern
+              und Herren Dilettanten, welche die Güte hatten, am 9ten 'd. M. ihr angehendes Talent, durch gefällige Unterstützung aufzumuntern, ganz ergebensten Dank. – <persName key="A0101">Jeannette Milder</persName></quote>
+              <lb/>Im April 1821 urteilt die <name type="journal" key="D0114">AMZ</name> (Jg. 23, H. 17, Sp. 295), Bürde habe die Stücke des Konzerts <quote>vortrefflich vor<supplied resp="editor">getragen</supplied></quote>.
+           </p> 
+           <p>
+              Eine zeitgenössische Beschreibung des <orgName key="D0101">Jagorschen Saale</orgName> findet sich in der <name type="journal" key="D0114">AMZ</name> vom Januar 1821 (Jg. 23, H. 2, Sp. 30f.). Vgl. hierzu den Registereintrag des <orgName key="D0101">Jagorschen Saals</orgName>.
+           </p>
+        </div>
+     </back>
+  </text>
+</TEI>

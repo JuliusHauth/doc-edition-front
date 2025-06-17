@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Sigismund von Neukomm an Jeannette Bürde; Freitag, 18. Februar 1842</title>
+            <author role="aut" key="A0206">Neukomm, Sigismund von</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               Nach Angabe des <orgName key="D0207">Staatlichen Instituts für Musikforschung. Preußischer Kulturbesitz</orgName> galt der Erwerb des Briefs <persName key="A0206">Neukomm</persName> und nicht <persName key="A0101">Bürde</persName>.
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0101">Berlin</settlement>
+                  <repository n="D-Bim">
+                     <orgName key="D0207">Staatliches Institut für Musikforschung. Preußischer Kulturbesitz, Bibliothek</orgName> 
+                  </repository>
+                  <idno>Doc. orig. Sigismund von Neukomm 1</idno>
+                  <msName>Brief von Sigismund von Neukomm an Jeannette Antonie Milder-Bürde, 18.02.1842</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. mit jeweils beidseitigem Brieftext</p>
+                  <p>Faltbrief (Kreuzfaltung)</p>
+                  <p>weißlich/gelbliches Papier</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>formatfüllend beschrieben</p>
+                  <p>2. Bl. r: ovaler, violetter Stempel unten rechts: Institut für Musikforschung. Berlin</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift:
+                     <lb/>3. Seite unten rechts: 1956 - 635 1956 - 635
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0206">Neukomm, Sigismund von</persName>
+              <settlement key="B0204">London</settlement>
+              <date when="1842-02-18"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1842-02-18"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="S.v.Neukomm_-_Buerde_1842_02_18.pdf"></graphic>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="top right page 1">
+                  <lb/><settlement key="B0204">London</settlement> <date when="1842-02-18">18 <hi rend="sup"><unclear reason="illegible" resp="editor">tn</unclear></hi> Febr. 1842</date>
+               </dateline>
+               <salute><note type="commentary" resp="editor">Anrede fehlt.</note></salute>
+            </opener>
+            <p>
+               <lb/>Ich benutze eine gute Gelegenheit
+               <lb/><rs type="person" key="A0101">di<subst rend="overwritten"><del>s</del><add place="inline">r</add></subst></rs> ein W<choice><sic>o</sic><corr resp="editor">ö</corr></choice>rtchen freundlich Andenkens
+               <lb/>zusagen. Ich bin seit einem Monate
+               <lb/>hier bey meinen Freund <persName key="A0232">Bunsen</persName>
+               <lb/>nachdem ich <unclear reason="illegible" resp="editor">1</unclear>4 Monate bey ihnen
+               <lb/>in <settlement key="B0206"><hi rend="latintype">Bern</hi></settlement> verlebt hatte. Ende
+               <lb/>künftigen Monats gehe ich nach
+               <lb/><country key="B0503">Frankreich</country>, u. werde wohl dort
+               <lb/>den Sommer über bleiben.
+               <lb/>Am <date when="1842-09-04">4<unclear reason="illegible" resp="editor">-'</unclear> Sept</date> wird in <settlement key="B0208">Salzburg</settlement>
+               <lb/>die Einweihungsfeier des Mozart
+               <lb/>Monuments<note type="commentary" resp="editor">Das Monument befindet sich auf dem Mozartplatz in <settlement key="B0208">Salzburg</settlement> und wurde am von <persName key="A0206">Neukomm</persName> angegebenen Datum feierelich enthüllt. Zu diesem Anlass hielt er die Festrede und dirigierte zudem <persName key="A0248">Mozarts</persName> <name type="work" key="C0222">Krönungsmesse</name> und <name type="work" key="C0223">Requiem</name>.</note> statt find. <subst rend="strikethrough"><del><gap reason="illegible" unit="char" quantity="3" resp="editor"/></del><add place="inline">bey</add></subst> der
+               <lb/>ich, als Mitglied des comite nicht
+            </p>
+            <pb/>
+            <p>
+               <lb/>fehlen darf. Wahrscheinlich gehe
+               <lb/>ich, der Nähe wegen, von <settlement key="B0208">Salzb</settlement>.
+               <lb/>nach <settlement key="B0202">Wien</settlement>, wo ich seit dem Kogreß
+               <lb/>1815<note type="commentary" resp="editor"><persName key="A0206">Neukomm</persName> wohnte dem Wiener Kongress <date notBefore="1814-09-18" notAfter="1815-06-09">1814/15</date> bei, wo auch sein <name type="work" key="C0221">Requiem in c-Moll</name> aufgeführt wurde.</note> nicht mehr gewesen bin – 
+               <lb/>daß ich aber dort kein Nest
+               <lb/>bauen, sondern nur als Zug-
+               <lb break="no"/>vogel herumflattern werde,
+               <lb/>glaube ich versichern zu können<supplied resp="editor">.</supplied>
+               <lb/>Ich wollte ich träfe dich dort, denn
+               <lb/>nach <settlement key="B0101">Berlin</settlement> geht leider mein Weg
+               <lb/>nicht: obgl <rs type="person" key="A0201">Sr- Majes</rs>. mich <rs type="settlement" key="B0101">hier</rs>
+               <lb/>sehr gnädig aufgenommen<supplied resp="editor">,</supplied> ist
+               <lb/>dieß doch keine Ursache um diese
+               <lb/>weite u. zwecklose Reise zu unter-
+            </p>
+            <pb/>
+            <p>
+               <lb break="no"/>nehmen - der Weg nach <settlement key="B0101">Berlin</settlement> führt
+               <lb/>nur nach <settlement key="B0101">Berlin</settlement>.– Ich habe <persName key="A0233">Spontini</persName>
+               <lb/>gebethen bey dir die Kiste abzu-
+               <lb break="no"/><subst rend="strikethrough"><del>geh</del><add place="right">g</add></subst>eben, welche die <sic>Orchster</sic> Stimmen
+               <lb/>meines Orat. <name type="work" key="C0209">David</name> enthält; ich
+               <lb/>werde dir dann in Folge anzeigen
+               <lb/>wo du<damage rend="fingerprint"/> sie mir zusenden sollst;
+               <lb/>denn aus der Aufführg dieses <rs type="work" key="C0209">Wer-
+               <lb break="no"/>kes</rs> in <settlement key="B0101">Berlin</settlement> wird nun, da <persName key="A0233">Spontini</persName>
+               <lb/>nichts mehr dort zu ordnen hat,<note type="commentary" resp="editor">Spontini wurde 1841 seiner Funktion als Generalmusikdirektor enthoben, wobei er Titel und Einkünfte bis zu seinem Tod 1851 behielt.</note>
+               <lb/>keine Rede mehr seyn. Ich wünschte
+               <lb/>aber <persName key="A0234">H: Spiker</persName> hätte die Güte
+               <lb/>nur seine von dem Werke gemachte
+               <lb/>Übersetzung <hi rend="underline" n="1">baldmöglichst</hi> unter
+               <lb/><persName key="A0232"><hi rend="latintype">Bunsens</hi></persName> Adresse durch irgend eine
+            </p>
+            <pb/>
+            <p>
+               <lb/>Kurir Gelegenheit hieher zu senden.
+               <lb/>Ich bitte sprich deßhalb mit
+               <lb/><persName key="A0234">H: Spiker</persName> dem du mich freund-
+               <lb break="no"/>schaftlichst empfehlen wirst.
+               <lb rend="indent"/>Wenn du mir, ohne Zeit zu
+               <lb/>verlieren, schreibst, so kann ich
+               <lb/><del rend="strikethrough"/>noch <add place="above">hier</add><note type="textConst" resp="editor">Auf Satzzeichenebene befindet sich an dieser Stelle ein kleines Kreuzchen. Denkbar ist entweder, dass es sich hierbei um ein durchstrichenes Komma handelt oder anzeigen soll, wo das nachträglich hinzugefügte <q>hier</q> seinen Platz hat.</note> Nachricht von dir
+               <lb/>vor meiner Abreise erhalten.
+            </p>
+            <closer>
+               <salute>
+                  <lb/>Empfiehl mich <persName key="A0102">H: Bürde</persName>
+                  <lb/>freundlichst. Wie immer dein
+                  <lb rend="indent-2"/>Freund
+               </salute>
+               <signed><persName key="A0206">Neukomm</persName></signed><note type="textConst" resp="editor">Das letzte -m ist abwärts mit horizontalen Wellenbewegungen verschnörkelt.</note>
+            </closer>
+            <postscript>
+               <p>
+                  <lb/>Grüße v. mir <persName key="A0235">Mendelssohn</persName> wenn
+                  <lb/>du ihn siehst - ebenso <rs type="person" key="A0236">seine liebens-
+                  <lb break="no"/>würdige Frau</rs>.
+               </p>
+            </postscript>
+         </div>
+      </body>
+     <back>
+        <div type="comment" resp="editor">
+           <p>
+              Durch das Dutzen im Brief wird deutlich, dass <persName key="A0206">Neukomm</persName> und <persName key="A0101">Bürde</persName> in einem recht engen, freundschaftlichen Verhältnis zueinander standen. Zudem belegt das PS dieses Briefs, dass 
+              <persName key="A0101">Bürde</persName> <persName key="A0235">Mendelssohn</persName> kannte, was für die Forschung eine signifikante Erweiterung ihres Netzwerks darstellt.
+           </p>
+        </div>
+     </back>
+  </text>
+</TEI>

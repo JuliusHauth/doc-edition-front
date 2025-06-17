@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Ferdinand Mendheim; Mittwoch, 03. Oktober 1838</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0101">Berlin</settlement>
+                  <repository n="D-B">
+                     <orgName key="B0202">Staatsbibliothek zu Berlin. Preußischer Kulturbesitz</orgName> 
+                  </repository>
+                  <collection>Musikabteilung</collection>
+                  <idno>Mus.ep.Bürde,J.1</idno>
+                  <msName>Brief von Jeanette Antonie Bürde an Ferdinand Mendheim, 03.10.1838</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">1 Bl. (r: Brieftext, v: Empfänger)</p>
+                  <p>Briefbogen zur Umschlagsform gefaltet</p>
+                  <p>Verschlussmarke in zwei Teilen (rot, quadratisch, mit runder Prägung: Sonnenaufgang über Wasser, Text: L'AVENIR ME COMFORTE<note type="definition" resp="editor">franz.: Die Zukunft gibt mir Trost</note>)</p>
+                  <p>bräunliches Papier</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>roter Stempel im linken unteren Viertel (recto): <q>Ex Bibl. Regina Berolin.<note type="definition" resp="editor">Berolinum ist die latinisierte Form von <q>Berlin</q></note></q></p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift in lateinischer Schreibschrift:
+                     <lb/>recto oben links: Mus ep. Jeannette Bürde 1
+                     <lb/>recto unten links: Mdhm<note type="commentary" resp="editor">Vermutlich eine Abkürzung für <q>Mendheim</q>.</note>
+                  </p>
+                  <p>
+                     <lb/>Von fremder Hand mit dunkler Tinte:
+                     <lb/>recto unter dem Brieftext links: 4325 – 1482 – 2565
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+              <date when="1838-10-03"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0205">Ferdinand Mendheim</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1838-10-03"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://resolver.staatsbibliothek-berlin.de/SBB0003343700000000"/>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="address"><note type="textConst" resp="editor">Die Empfängerangabe befindet sich auf der Rückseite des Blattes.</note>
+            <p>
+               <address>
+                  <addrLine>Sr Wohlgeboren</addrLine>
+                  <addrLine>Des Herrn</addrLine>
+                  <addrLine rend="latintype"><persName key="A0205">F. Mendheim</persName></addrLine>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="bottom of the text left">
+                  <lb/>am <date when="1838-10-03">3 <hi rend="superscript"><unclear reason="illegible" resp="editor">n</unclear></hi> Oct 1838</date>
+               </dateline>
+               <salute><note type="commentary" resp="editor">Anrede fehlt.</note></salute>
+            </opener>
+            <p>
+               <lb/>Wären <rs type="person" key="A0205">Sie</rs> wohl so freundlich, mein verehrtester Gönner<note type="definition" resp="editor">Mäzen</note>,
+               <lb/>mir auf acht Tage, den <name type="work" key="C0201">Tancred<supplied resp="editor">i</supplied></name> qua <persName key="A0211"><hi rend="latintype">Rossini</hi></persName>, <hi rend="latintype"><persName key="A0212">Beethovens</persName> <name type="work" key="C0202">Op 23</name></hi>
+               <lb/>eine Sonate mit Viol. Begleitung, und ><persName key="A0213"><hi rend="latintype">Hummels</hi></persName> letzte <hi rend="latintype">Fantasie</hi>,
+               <lb/>wenn ich nicht irre, so ist sie <name type="work" key="C0203"><hi rend="latintype">Oberons</hi> Zauberhorn</name> benannt,
+               <lb/>zu leihen? In der Erwartung meine Bitte nicht
+               <lb/>vergeblich gethan zu haben,
+            </p>
+            <closer>nenne ich mich mit vorzüglicher
+               <salute rend="indent-2">
+                  <lb/>Hochachtung
+                  <space/>
+                  <lb rend="indent-3"/>Ihre
+               </salute>
+               <space/>
+               <signed rend="bottom right">
+                  <lb/>ergebenste
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Bürde</hi>
+                  <lb/>geb. <hi rend="latintype">Milder.</hi></persName>
+               </signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

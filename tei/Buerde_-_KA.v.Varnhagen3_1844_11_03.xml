@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Karl August Varnhagen von Ense; Sonntag, 03. November 1844</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               Von <persName key="A0101">Bürde</persName> an <persName key="A0203">Varnhagen</persName> sind drei Briefe erhalten. Es ist denkbar, dass er bewusst diese drei
+               aufbewahrt hat, da sie besondere Ereignisse thematisieren: <rs corresp="Buerde_-_KA.v.Varnhagen1_1833_10_12.xml">Brief von 1833</rs>: Andenken an <persName key="A0204">Rahel Varnhagen</persName>; 
+               <rs corresp="Buerde_-_KA.v.Varnhagen2_1838_05_30.xml">Brief von 1838</rs>: Nachruf für <persName key="A0103">Anna Milder</persName>; Vorliegender Brief: Tod von <persName key="A0218">Friedericke Lieman</persName>.
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0505">Polen</country>
+                  <settlement key="B0205">Krakau</settlement>
+                  <repository n="PL-Kj">
+                     <orgName key="D0205">Biblioteka Jagiellońska</orgName> 
+                  </repository>
+                  <collection>Varnhagen von Ensesche Sammlung, katalogisiert von Ludwig Stern</collection>
+                  <idno>Kasten 40</idno>
+                  <msName>Jeannette Bürde, geb. Milder: 3 Briefe an Varnhagen 1833. 38. 44.</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">1 Bl. (r: Brieftext, v: leer)</p>
+                  <p>Briefbogen wurde einfach gefaltet, dann beschrieben und anschließend zu einem Umschlag gefaltet</p>
+                  <p>weißes Papier</p>
+                  <p>kein Wasserzeichen</p>
+                  <p>Unterhalb des Empfängers dunkle Siegelreste</p>
+                  <p>Linke untere Ecke (r) rundlich abgerissen</p>
+                  <p>roter Stempel verso, im oberen Drittel in der Mitte des Bogens: <q>STAATSBIBLIOTHEK BERLIN</q></p>
+                  <p>
+                     <lb/>Von <persName key="A0203">Varnhagen</persName> mit dunkler Tinte:
+                     <lb/>recto oben mitte: <persName key="A0101">Jeannette Bürde <hi rend="underline">geb. Milder</hi></persName>.
+                     <lb/>recto oben rechts: <settlement key="B0101">Berlin</settlement>, den <date when="1844-11-03">3. November 1844</date>.
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied>Berlin</settlement>
+              <date when="1844-11-03"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0203">Varnhagen von Ense, Karl August</persName>
+              <settlement key="B0101">Berlin</settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1844-11-03"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="Buerde_-_KA.v.Varnhagen3_1844_11_03.jpg"></graphic>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="address">
+            <p>
+               <address>
+                  <addrLine>Sr Hochwohlgeboren</addrLine>
+                  <addrLine>Des</addrLine>
+                  <addrLine>Herrn <persName key="A0203">von <hi rend="latintype">Varnhagen</hi></persName>.</addrLine>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="bottom of the text left">
+                  <lb/>Sonntag am<date when="1844-11-03">3 <hi rend="#sup #underline"><unclear reason="illegible" resp="editor">tn</unclear></hi> Nov.
+                  <lb rend="indent-3"/>1844</date>.
+               </dateline>
+               <salute><note type="commentary" resp="editor">Anrede fehlt.</note></salute>
+            </opener>
+            <p>
+               <lb/>Die treffliche Freundin ihrer Freunde,
+               <lb/><persName key="A0218">Friedericke <hi rend="latintype">Liman</hi></persName>, hat gestern Nachmittag
+               <lb/>sanft, nach kurzer Krankheit ihre
+               <lb/>irdische Laufbahn vollendet, welches
+               <lb/>ich Ew Hochwohlgeboren hierdurch
+               <lb/>gehorsamst anzeige
+            </p>
+            <gap reason="ornament"/>
+               <closer>
+                  <signed>
+                     <lb/><persName key="A0101"><hi rend="latintype">Jeannette Bürde</hi>
+                     <lb/>geb <hi rend="latintype">Milder</hi></persName>
+                  </signed>
+               </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an Johann Vesque von Püttlingen; Dienstag, 25. Juni 1844</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0502">Österreich</country>
+                  <settlement key="B0202">Wien</settlement>
+                  <repository n="A-Wst">
+                     <orgName key="D0203">Wienbibliothek im Rathaus</orgName> 
+                  </repository>
+                  <idno>H.I.N.-28730</idno>
+                  <msName>Milder-Bürde, Jeannette Antonie: Brief an Johann Vesque von Püttlingen. Berlin, 25.6.1844</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">1 Bl. zuerst einmal gefaltet und dann beschrieben, daraus ergeben sich drei Seiten Text und eine Seite Umschlag</p>
+                  <p>großes Blatt zuerst einmal gefaltet, anschließend dreimal längs zur Viertelung und anschließend zum Umschlag gefaltet</p>
+                  <p>weißliches Papier</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>formatfüllend beschrieben</p>
+                  <p>Siegel (rot) vollständig und intakt erhalten</p>
+                  <p>Siegel wurde nicht gebrochen, sondern das Papier in Dreiecksform ausgeschnitten, sodass in der mitte des großen Blattes ein quadratisches Loch besteht und S. 1 und 4 seitlich ein dreieckiges Stück Papier fehlt.</p>
+                  <p>4. Seite: ovaler, violetter Stempel mittig rechts inkl. Stadtwappen: WIENER-STADBIBLIOTHEK</p>
+                  <p>
+                     <lb/>Von fremder Hand mit roter Tinte:
+                     <lb/>1. Seite oben links: I.N. 28730
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+              <date when="1844-06-25"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0207">Johann Vesque von Püttlingen</persName>
+              <settlement key="B0202">Wien</settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1844-06-25"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://resolver.obvsg.at/urn:nbn:at:AT-WBR-325730"/>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="address"><note type="textConst" resp="editor">Die Adressangabe befindet sich auf der Rückseite des zweiten Blattes.</note>
+            <p>
+               <address>
+                  <addrLine rend="left">Sr Hochwohlgeboren</addrLine>
+                  <addrLine>
+                     <unclear reason="illegible" resp="editor">
+                        <choice>
+                           <unclear cert="medium" resp="editor">Ew</unclear>
+                           <unclear cert="high" resp="editor">Des</unclear>
+                        </choice>
+                     </unclear>
+                  </addrLine>
+                  <addrLine>Herrn <persName key="A0207"><hi rend="latintype">Vesque von Püttlingen</hi></persName></addrLine>
+                  <addrLine>Kais. Königl. wirklicher Staatskanzleyrath</addrLine>
+                  <addrLine rend="indent-3">in</addrLine>
+                  <addrLine rend="left"><settlement key="B0202">Wien</settlement></addrLine>
+                  <addrLine>Durch Güte</addrLine>
+                  <addrLine>nebst einem Heft Musikalien.</addrLine><note type="textConst" resp="editor">Die beiden letzten Zeilen der Adresse sind deutlich kleiner geschrieben als der Rest.</note>
+               </address>
+            </p>
+         </div>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="top right">
+                  <lb/><hi rend="latintype"><settlement key="B0101">Berlin</settlement></hi> am <date when="1844-06-25">25.<hi rend="sup"><unclear reason="illegible" resp="editor">tn</unclear></hi>Juni
+                  <lb/>1844</date>.
+               </dateline>
+               <salute>
+                  <lb/>Verehrtester Herr <persName key="A0207">von <hi rend="latintype">Vesque</hi></persName>!
+               </salute>
+            </opener>
+            <space/>
+            <p>
+               <lb/>Die Bekanntschaft des mir von
+               <lb/>Ihnen so wohlmeinend zugeschickten
+               <lb/>Herrn <persName key="A0219">Prechtler</persName><note type="commentary" resp="editor">Vermutlich handelt es sich um <persName key="A0219">Otto Prechtler</persName>, welcher die Textvorlage für <persName key="A0207">Vesque von Püttlingens</persName> Oper <q><name type="work" key="C0211">Johanna d'Arc</name></q> verfasste.</note>, war ich nicht
+               <lb/>so glücklich, machen zu können,
+               <lb/>da derselbe durch die Ungeschicklich-
+               <lb break="no"/>keit einer meiner <rs type="person" key="A0406">Dienstleute</rs><note type="commentary" resp="editor">Die Tatsache, dass <persName key="A0101">Bürde</persName> hier andeutet, mehrere Dienstleute zu beschäftigen gibt einen Hinweis auf einen guten finanziellen und gesellschaftlichen Status.</note>, weil
+               <lb/>ich gerade Unterricht ertheilte,
+               <lb/>nicht vorgelassen wurde. Ich be-
+               <lb break="no"/>dauere es recht sehr, daß sich
+               <lb/><rs type="person" key="A0219">dieser Mann</rs> dadurch abschrecken
+               <lb/><del rend="strikethrough"/>, und mir nicht lieber herein
+               <lb/>sagen ließ <q>er käme von Ihnen</q>;
+               <lb/>da w<subst rend="overwritten"><del>u</del><add place="inline">ü</add></subst>rde, wenn eben die Prinzessin
+               <lb/>Gaungerl<note type="commentary" resp="editor">Vermutlich handelt es sich bei dieser Person um eine fiktive Figur, möglicherweise vergleichbar mit einer allegorischen oder symbolischen Gestalt, wie sie auch in Redewendungen oder literarischen Konstruktionen vorkommt.</note>bey mir Stunde hätte,
+               <lb/>ich solche doch auf einen Moment
+               <lb/>im Stich lassen, um nicht gegen
+               <lb/>einen Landsmann unartig zu er-
+               <lb break="no"/>scheinen, und Nota <hi rend="latintype">bene</hi><note type="definition" resp="editor">wohlgemerkt</note>, einer, den
+               <lb/><hi rend="underline" n="1">Sie</hi> mir zugeschickt. Kurz, ich
+               <lb/>bin wegen der <rs type="person" key="A0406">ungeschickten Person</rs>
+               <lb/>um diese Bekanntschaft gebracht,
+               <lb/>und war außer mir, weil Sie mir
+               <lb/>den Herrn als <hi rend="underline" n="1">gemüthlich</hi> schildern,
+               <lb/>und heutiges Tages wird diese
+               <lb/>Eigenschaft immer seltener, also
+               <lb/>hat man doppelt Ursache sich zu
+               <lb/>freuen, wenn man sie irgend wo
+               <lb/>trifft! Daß die Musikhändler 
+            </p>
+            <pb/>
+            <p>
+               <lb/>die Sachen, welche sie der Oeffentlichkeit über-
+               <lb break="no"/>geben, erst kennen lernen wollen, kann
+               <lb/>ich ihnen nicht verargen, zumal wenn
+               <lb/>selbe von Personen herrühren die 
+               <lb/>dort unbekannt und ohne Namen
+               <lb/>sind; der Wunsch von meiner Seite,
+               <lb/>mich in <rs type="place" key="B0202">meiner Vaterstadt</rs> bekannt
+               <lb/>zu machen, wird mir wohl nicht als
+               <lb/>unbillig angeschlagen werden, <sic>deßhalb</sic>
+               <lb/>wage ich es, auf Ihre wohlwollende
+               <lb/><sic>Beyhülfe</sic> in dieser Angelegenheit zu
+               <lb/>rechnen, und Sie zu dieser Mission
+               <lb/>mit dem beykommenden <rs type="work" key="C0101">Lieder Hefte</rs>,
+               <lb/>enthaltend, 2 Gedichte von <hi rend="underline" n="1"><persName key="A0220">Heine</persName></hi> und
+               <lb/>eines von <persName key="A0221"><hi rend="#latintype #underline" n="1">Geibl</hi></persName>, zu behelligen. Zür<damage agent="cut-out"><supplied resp="editor">nen</supplied></damage>
+               <lb/>Sie mir nicht, ob meiner Fre<damage agent="cut-out"><supplied resp="editor">yheit</supplied></damage>
+               <lb/>daß ich die Worte <q><hi rend="underline" n="1">an ein ju<damage agent="cut-out"><supplied resp="editor">nges</supplied></damage>
+               <lb/>Mädchen</hi></q> gleichfalls hier ver<damage agent="cut-out"><gap extent="unknown" reason="cut-out"/></damage>
+               <lb break="no"/>lichen will, ich hatte dieses Lied <damage agent="cut-out"><gap extent="unknown" reason="cut-out"/></damage>
+               <lb/>nur Ihrer mir so unendlich schätz-
+               <lb break="no"/>baren Bekanntschaft gesetzt. Ich
+               <lb/>würde Sie auch dabey inständigst
+               <lb/>bitten, nach der Weise wie es in
+               <lb/><settlement key="B0202">Wien</settlement> üblich ist, das Titelblatt
+               <lb/>gefälligst einrichten lassen zu
+               <lb/>wollen; die Dedication ist für
+               <lb/>die Frau <persName key="A0222">Wilhelmine Schroeder
+               <lb/><hi rend="latintype">Devrient</hi></persName> bestimmt.
+               <lb/>Sollten Sie nun keinen ordent-
+               <lb break="no"/>lichen Verleger für diese Lieder
+               <lb/>finden, für welche ich kein Honorar
+               <lb/>sondern nur eine anständige
+               <lb/>Herausgabe bey einem der ersteren
+               <lb/>Musikhändler Wiens wünsche, so
+               <lb/>wür<damage agent="inkblot">d</damage>en Sie mir natürlich das
+            </p>
+            <pb/>
+            <p>
+               <lb/>Exemplar, vielleicht auch wieder
+               <lb/>durch Fräulein <hi rend="underline" n="1"><persName key="A0223">Haehnel</persName></hi><note type="commentary" resp="editor">Vermutlich handelt es sich um <persName key="A0223">Amalie Haehnel</persName>, welche aus <settlement key="B0202">Wien</settlement> stammte und ab <date when="1832">1832</date> in <settlement key="B0101">Berlin</settlement> engagiert war.</note>, welche so
+               <lb/>freundlich ist, der Bote dieser Zeilen
+               <lb/>zu sein, zurückerstatten.
+            </p>
+            <p>
+               <lb/>Wo hält sich denn jetzt die Sängerin
+               <lb/><persName key="A0224">van Hasselt</persName> auf?
+            </p>
+            <p>
+               <lb/>Verzeihen Sie, verehrtester Gönner<note type="definition" resp="editor">Mäzen</note>,
+               <lb/>daß ich so schreibe, als kennten wir
+               <lb/>uns schon Jahre lang, Sie müssen
+               <lb/>aber schon Nachsicht mit mir haben,
+               <lb/>denn ich kann weder Umschweife
+               <lb/>leiden noch machen.
+               <lb/>Daß der Teller <rs type="person" key="A0225">Ihrer Frau Gemahlin</rs>
+               <lb/>Spaß macht, ist mir unendlich an-
+               <lb break="no"/>genehm; wie viel lieber wäre es
+               <lb/>mir, könnte ich sie singen hören.
+               <lb/>Von Herrn <persName key="A0226">von Haymmerle</persName> hatte
+               <lb/>ich von <settlement key="B0202">Wien</settlement> aus Nachrichten, und
+               <lb/>bin sehr froh daß er mir so
+               <lb/>viel von seinem gebesserten
+               <lb/>Zustande berichten konnte,
+               <lb/>dieser liebe, brave Mann!
+            </p>
+            <closer>
+               <salute>
+                  <lb/>Schließlich empfehle ich mich Ihnen
+                  <lb/>halten Sie Sich meiner aufrichtigsten
+                  <lb/>Hochachtung versichert, wenn Sie
+                  <lb/>wieder einmal so freundlich gesonnen
+                  <lb/>sind mir Jemand zuzuschicken, so
+                  <lb/>sagen Sie denjenigen, <subst rend="overwritten"><del>S</del><add>s</add></subst>ie sollen
+                  <lb/>mich wissen lassen, wer sie
+                  <lb/>mir zuschickt.
+                  <lb rend="indent-3"/>Ihre ganz ergebenste
+               </salute>
+               <signed rend="bottom right">
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Bürde</hi>
+                  <lb/>geb <hi rend="latintype">Milder</hi></persName>
+               </signed>
+            </closer>            
+         </div>
+      </body>
+     <back>
+        <div type="comment" resp="editor">
+           <p>
+              <lb/>In <biblStruct><monogr><author>Schwab, Andrea</author><title>Außergewöhnliche Komponistinnen. Weibliches Komponieren im 18. und 19. Jahrhundert. Von Maria Theresia Paradis 
+              über Josepha Barbara Auernhammer bis Julie von Baroni-Cacalcabò</title><imprint><publisher>Hollitzer Verlag</publisher><pubPlace>Wien</pubPlace><date>2019</date></imprint></monogr></biblStruct> 
+              ist auch eine Transkription dieses Briefs zu finden (S. 102f.). Sie unterscheidet sich lediglich in einigen wenigen Details zur vorliegenden Transkription.
+              <lb/>Das im Brief genannte Liederheft ist nicht erhalten und die enthaltenen Lieder sind bisher nicht genauer zu identifizieren. Bisher ist das genannte Lied mit einem Gedicht von <persName key="A0221">Geibel</persName>
+              das einzige, welchem ein Text dieses Dichters zugrunde liegt.
+           </p>
+        </div>
+     </back>
+  </text>
+</TEI>

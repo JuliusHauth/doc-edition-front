@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Jeannette Bürde an unbekannten Musikdirektor; Samstag, 11. Dezember 1847</title>
+            <author role="aut" key="A0101">Bürde, Jeannette</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               <lb/>Die durchgestrichene Signatur auf der ersten Seite des Briefes zeigt, dass der Brief zunächst unrichtigerweise <persName key="A0119">Jenny Bürde-Ney</persName> zugeordnet wurde. Wann der Irrtum erkannt wurde, ist unklar. Es ist denkbar, 
+               dass die Verwechslung durch das Geburtsdatum von <persName key="A0119">Bürde-Ney</persName> auf dem beiliegenden Blatt zustande kam. 
+               <lb/>Wer das hellrote Blatt beschrieben und dem Brief beigelegt hat, bleibt  unklar.
+               <lb/>Ebenfalls unklar bleibt, wer der Empfänger, der unbekannte Musikdirektor ist. Angesichts von <persName key="A0101">Bürdes</persName> Verbindungen zur Musikdirektoren bietet sich zunächst die <orgName key="D0102">Sing-Akademie</orgName> asl Bezugspunkt an. Bedenkt
+               man, dass die Briefe <rs corresp="Buerde_-_CF.Zelter_1823_12_24.xml">an Zelter</rs> und <rs corresp="E.Grell_-_Buerde_1856_11_24.xml">von Grell</rs> in der Zeit entstanden sind, als jene Direktoren der <orgName key="D0102">Sing-Akademie</orgName> 
+               waren und vorliegender Brief entstanden ist, als <persName key="A0246">Rungenhagen</persName> Direktor derselben war, liegt dieser als Empfänger nahe. Allerdings bittet <persName key="A0101">Bürde</persName> den Briefempfänger, seiner Frau Grüße 
+               auszurichten. <persName key="A0246">Rungenhagen</persName> war jedoch nicht verheiratet und scheidet so als potentieller Empfänger aus.
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0501">Deutschland</country>
+                  <settlement key="B0101">Berlin</settlement>
+                  <repository n="D-B">
+                     <orgName key="D0202">Staatsbibliothek zu Berlin. Preußischer Kulturbesitz</orgName> 
+                  </repository>
+                  <collection>Musikabteilung</collection>
+                  <idno>Mus.ep.Bürde,J.4</idno>
+                  <msName>Brief von Jeanette Antonie Bürde an Unbekannt, 11.12.1847</msName>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. (1. Blatt r: Brieftext, v: leer; 2. Blatt r: Zuordnung, v: leer)</p>
+                  <p>1. Bl. Faltbrief (Kreuzfaltung)</p>
+                  <p>1. Bl. helles, leicht bräunliches Papier; 2. Bl. etwas größer, blassrotes Papier</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>1. Bl. v: rechteckiger, roter Stempel, mittig (Fraktur): Staatsbibliothek Musikabteilung Berlin</p>
+                  <p>
+                     <lb/>Von fremder Hand mit Bleistift in lateinischer Schreibschrift:
+                     <lb/>1. Seite oben, einfach durchgestrichen: Mus.ep.Jenny Bürde-Ney 11
+                     <lb/>1. Seite oben: Mus.ep.J.Bürde 4
+                     <lb/>1. Seite unten links: 568
+                     <lb/>2. Seite unterhalb des Stempels: M. 1943. 291.
+                     <lb/>3. Seite oben links: zu: Mus.ep.J.Bürde 4
+                     <lb/>3. Seite rechts über dem ersten Abschnitt, diagonal einfach durchgestrichen: 10.11.
+                     <lb/>3. Seite rechts neben dem ersten Abschnitt, diagonal einfach durchgestrichen: Van<unclear reason="illegible" resp="editor">n I</unclear>
+                     <lb/>4. Seite unten links: Andersen
+                  </p>
+                  <p>
+                     <lb/>Von fremder Hand mit blauem Buntstift:
+                     <lb/>3. Seite im ersten Abschnitt vor <q>Bürde</q> und <q>Milder</q> eine L-förmige Ecke
+                     <lb/>3. Seite rechts neben dem ersten Abschnitt: ?
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101">Berlin</settlement>
+              <date when="1847-12-11"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0411">Unbekannter Musikdirektor</persName>
+              <settlement key="B0101"><supplied resp="editor"></supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date when="1847-12-11"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="https://resolver.staatsbibliothek-berlin.de/SBB0003343400000000"/>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="writingSession">
+            <opener>
+               <dateline rend="top right">
+                  <lb/>Berlin <date when="1847-11-11">11 Dec 1847</date>
+               </dateline>
+               <salute>
+                  <lb/>Verehrtester <rs type="person" key="A0411">Herr Musikdirektor</rs>!
+               </salute>
+            </opener>
+            <space/>
+            <p>
+               <lb/>anbei überschicke ich nebst meinem ganz
+               <lb/>ergebensten Dank die mir so lange geborgte
+               <lb/>Arie: <q><name type="work" key="C0207"><hi rend="latintype">Laudamus te</hi></name></q>, von <persName key="A0216"><hi rend="latintype">S. Bach</hi></persName>.
+               <lb/>Meinen mündlichen Dank bringe
+               <lb/>ich nächstens selbst, um mich zu überzeugen,
+               <lb/>ob Sie frisch und munter sind, und mich
+               <lb/>noch leiden können; da ich gar nichts mehr <hi rend="underline" n="2">höre</hi>.
+               <lb/>Haben Sie doch die Gefälligkeit dem
+               <lb/><rs type="person" key="A0403">Überbringer diese Zeilen</rs>, die
+               <lb/>genaue Adresse des Kopisten <persName key="A0281">Krüger</persName>
+               <lb/>aufzuschreiben, <rs type="person" key="A0404">mein Kopist</rs> ist mir
+               <lb/>gestorben, und ganz ohne, kann ich
+               <lb/>nicht fertig werden.<note type="commentary" resp="editor">Denkbar ist, dass sich das <quote>fertig werden</quote>auf <persName key="A0101">Bürdes</persName> <date when="1850">1850</date> veröffentlichte <rs type="work" key="#C0102 #C0103 #C0104">Op. 7–9</rs> bezieht.</note>
+            </p>
+            <closer>
+               <salute>
+                  <lb/>Ihrer treuen <rs type="person" key="A0405">Gemahlin</rs> meine schönsten
+                  <lb/><add place="left">und besten</add> Grüße
+               </salute>
+               <gap reason="ornament"/>
+               <signed rend="bottom right">
+                  <lb/><persName key="A0101"><hi rend="latintype">Jeannette Bürde</hi>
+                  <lb/>geb <hi rend="latintype">Milder</hi></persName>
+               </signed>
+            </closer>
+         </div>
+         <div type="enclosure">
+            <note type="textConst" resp="editor">Von anderer Hand geschrieben</note>
+            <p>
+               <lb/><persName key="A0101"><hi rend="underline"><sic>Jeanette</sic> Bürde</hi>
+               <lb/>geb. Milder</persName>
+               <lb/>bedeutende dramatische Sängerin 
+            </p>
+            <p>
+               <lb/>geb. <date when="1826-12-21">21. Dec. 1826</date>
+               <lb/><settlement key="B0236">Graz</settlement><note type="commentary" resp="editor">Dieses Geburtsdatum bezieht sich auf <persName key="A0119">Jenny Bürde-Ney</persName>, welcher dieser Brief zunächst unrichtigerweise 
+                  zugeordnet wurde. Vgl. hierzu den Apparat des vorliegen Briefs. Allerdings ist jene <date when="1824">1824</date> geboren (vgl. hierzu den Kommentar zu ihr im Register), wobei manche Quellen <date when="1826">1826</date> angeben.</note>
+            </p>
+            <p>
+               <lb/>L.a.s.<note type="definition" resp="editor">Lettre autographe signée (franz.: Eigenhändiger Brief mit Unterschrift)</note> – 1p. 8. – <settlement key="B0101">Berlin</settlement> <date when="1847-12-01">1. Dez. 1847</date>
+               <lb/>An <rs type="person" key="A0411">Musikdirektor</rs> .....
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
