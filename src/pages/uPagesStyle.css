@@ -1,11 +1,13 @@
 .codeAttribute {
     font-family: 'Courier New', Courier, monospace;
     color: green;
+    font-weight: bold;
 }
 
 .codeElement {
     font-family: 'Courier New', Courier, monospace;
     color: green;
+    font-weight: bold;
 }
 
 .codeElement:before {
