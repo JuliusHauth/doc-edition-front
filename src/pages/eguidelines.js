@@ -68,13 +68,10 @@ const guidelines = () => {
 <h3>2 Allgemeines</h3>
 <h4>2.1 Strukturlemente</h4>
 <p>Die Struktur der Texte wird grundsätzlich mit folgenden Elementen untergliedert:</p>
-<p><span class="codeElement">text</span> (text); <span class="codeElement">div</span> (text division); <span class="codeElement">p</span> (paragraph); 
-   <span class="codeElement">pb/</span> (page beginning); <span class="codeElement">lb/</span> (line beginning); <span class="codeElement">table</span> (Tabelle); 
-   <span class="codeElement">item</span>; <span class="codeElement">l</span> (verse line)</p>
+<p><span class="codeElement">text</span> (text); <span class="codeElement">div</span> (text division); <span class="codeElement">p</span> (paragraph); <span class="codeElement">pb/</span> (page beginning); <span class="codeElement">lb/</span> (line beginning); <span class="codeElement">table</span> (Tabelle); <span class="codeElement">item</span>; <span class="codeElement">l</span> (verse line)</p>
 <p>In der Regel enthält ein Brief nur einen <span class="codeElement">div</span>. Ausnahmen sind Briefbeilagen wie z.B. ein Umschlag.</p>
 <p>Die Verwendung des Elements <span class="codeElement">p</span>, welches zur Abtrennung von Absätzen verwendet wird, orientiert sich an der Struktur, welche der zu edierende Text vorgibt. 
-Ausnahmen hiervon entstehen zwangsläufig bei Inhalten komplexer Struktur und an Stellen, an welchen durch das Schema bedingt ein <span class="codeElement">div</span> oder 
-<span class="codeElement">p</span>erforderlich ist wie z. B. als Wrapper-Element für <span class="codeElement">address</span>.</p>
+Ausnahmen hiervon entstehen zwangsläufig bei Inhalten komplexer Struktur und an Stellen, an welchen durch das Schema bedingt ein <span class="codeElement">div</span> oder <span class="codeElement">p</span> erforderlich ist wie z. B. als Wrapper-Element für <span class="codeElement">address</span>.</p>
 
 <h4>2.2 Hervorhebungen</h4>
 <p>Texthervorhebungen (Unterstreichung, Hochstellung, andere Schriftart etc.) werden grundsätzlich mit dem Element <span class="codeElement">hi</span> (highlighted) gekennzeichnet.</p>
