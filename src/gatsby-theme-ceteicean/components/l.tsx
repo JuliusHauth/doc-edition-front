@@ -8,7 +8,22 @@ interface TEIProps {
 }
 
 const L = ({teiNode, availableRoutes}: TEIProps) => {
+    const el = teiNode as Element 
     let emptybreak
+    let highlighted
+    const styleMap = {
+        'center': 'center',
+    }
+    
+
+    if (!el.getAttribute("rend")===null) {
+        return
+    } else {
+        highlighted = styleMap[el.getAttribute("rend")]
+    }
+    
+    const style = el.getAttribute("style")
+
     if (teiNode.childNodes.length == 0){
         emptybreak = "hidden"
     } 
@@ -16,11 +31,12 @@ const L = ({teiNode, availableRoutes}: TEIProps) => {
     
     return (
         <Behavior node={teiNode}>
-            
+            <div className={highlighted} STYLE={style}>
             <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />
             <br className={emptybreak}/>
+            </div>
         </Behavior>
     )
 }

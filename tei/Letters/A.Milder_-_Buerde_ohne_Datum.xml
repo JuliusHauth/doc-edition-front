@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
+            <title level="a">Anna Milder an Jeannette Bürde; ohne Datum</title>
+            <author role="aut" key="A0103">Milder, Anna</author>
+            <editor key="A0301">Flora Völlger</editor>
+         </titleStmt>
+         <editionStmt>
+            <p>Version 1.0 vom Datum Abgabe</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Musikwissenschaftliches Institut, Universität Tübingen</name>
+               <address>
+                  <street>Schulberg 2</street>
+                  <postCode>70720</postCode>
+                  <settlement key="B0301">Tübingen</settlement>
+                  <country key="B0501">Deutschland</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note type="editorial" resp="editor">
+               <p>
+                  <lb/>Die genaue Datierung des Briefes ist aktuell nicht möglich. 
+                  <lb/>Folgende Informationen aus dem Brief geben jedoch Hinweise auf einen ungefähren Entstehungszeitraum:
+                  <lb/><persName key="A0103">Milder</persName> erwähnt <persName key="A0104">Felix Bürde</persName> und übersendet ihm ein Lied, welches er bei ihrer Ankunft vorsingen solle. 
+                  <persName key="A0104">Felix Bürde</persName> kam am <date when="1828-09-30">30. September 1828</date> auf die Welt, <persName key="A0103">Milder</persName> starb am <date when="1838-05-29">29. Mai 1838</date>.
+                  Dies schränkt die Entstehungszeit des Briefes zunächst auf zehn Jahre ein. Bedenkt man zudem <persName key="A0103">Milders</persName> Aufforderung, das notierte Lied zu singen, muss <persName key="A0104">Felix Bürde</persName>
+                  bereits etwas älter sein, denkbar wäre ein Alter von mindestens vier Jahren. Dies schränkt die Entstehungszeit des Briefes auf <date when="1832">1832</date>–<date when="1838">1838</date> ein.
+                  <lb/>Der nächste Hinweis ist das Engagement von <persName key="A0259">Auguste Brede</persName>. Da sie ab <date when="1836">1836</date> am <orgName key="D0116">Hofburgtheater</orgName> in <settlement key="B0202">Wien</settlement> engagiert
+                  war und dies zum Zeitpunkt des Briefs noch nicht der Fall war, schränkt dies den Entstehungszeitraum auf <date when="1832">1832</date>–<date when="1836">1836</date> ein. Ab wann genau <persName key="A0259">Brede</persName> dort engagiert war,
+                  lässt sich aktuell nicht ermitteln.
+                  <lb/>Ein weiterer Hinweis ist der Kommentar zu <persName key="A0265">Heinrich Stümer</persName>. In <name type="work" key="C0225"><persName key="A0238">Ledeburs</persName> <q>Tonkünstlerlexikon</q></name> ist beschrieben, dass Stümer königlicher Hof-Opernsänger war und ab dem
+                  <date when="1831-04-01">1. April 1831</date> pensioniert wurde (S. 581). Hierauf war er an der <orgName key="D0117">königlichen Hofoper</orgName> als Gesangslehrer angestellt, <quote>bis ihn seine vielen anderen Gesangstunden veranlassten 
+                  <date when="1836">1836</date> diese Stellung aufzugeben.</quote> Ob es sich hierbei um den von Milder erwähntetn Verlust der Stelle als Gesangslehrer handelt, ist nicht näher zu klären, jedoch als wahrscheinlich zu betrachten. 
+                  Dies schränkt den Entstehungszeitraum des Briefs auf nach <date when="1836">1836</date> ein.
+                  <lb/>Der letzte Hinweis ist etwas vage. Obwohl er den Entstehugszeitraum nicht weiter einschränkt, könnte er durchaus von Bedeutung sein. Geht man davon aus, dass mit <q>Pet. und Dergleichen</q> <persName key="A0114">Peter Hauptmann</persName> 
+                  und <persName key="A0103">Milders</persName> Tochter <persName key="A0113">Auguste Hauptmann</persName> gemeint sind, ist <persName key="A0103">Milders</persName> Erwähnung der beiden in ihrem 
+                  <rs corresp="Milder_Anna_Testament_1836_06_02.xml">Testament</rs> relevant. Dort äußert sie sich sehr negativ über die beiden; <persName key="A0114">Peter Hauptmann</persName> sei von ihrer <quote>Erbschaft hiermit gänzlich ausgeschlossen</quote> und
+                  <persName key="A0113">Auguste</persName> habe <quote>die Bande der Natur, welche das Kind an die Mutter ketten gewaltsam zerissen</quote>. Des Weiteren schreibt <persName key="A0103">Milder</persName>, dass sie sich dessen bei ihrem 
+                  <quote>letzten Aufenthalte in <settlement key="B0202"><hi rend="latintype">Wien</hi></settlement> überzeugt</quote> habe. Daraus ergibt sich zunächst, dass der vorliegende Brief nicht während besagtem Aufenthalt entstanden sein kann, 
+                  da <persName key="A0103">Milder</persName> ausdrücklich schreibt, <q>Pet. und Dergleichen</q> nicht gesehen zu haben. Also ist der vorliegende Brief entweder vor oder nach diesem Aufenthalt entstanden. Zudem müsste er im zweiten Falle 
+                  dann entweder kurz vor oder nach dem <rs corresp="Milder_Anna_Testament_1836_06_02.xml">Testament</rs> entstanden sein, welches auf den <date when="1836-06-02">2. Juni 1836</date> datiert ist. 
+                  <lb/>Nimmt man all diese Informationen zusammen, grenzt das den Entstehungszeitraum auf die erste Hälfte des Jahres <date when="1836">1836</date> ein. Vermutlich ist der Brief nach Ende von <persName key="A0265">Stümers</persName> Zeit als 
+                  Gesangslehrer und vor <persName key="A0259">Bredes</persName> Engagement am <orgName key="D0116">Hofburgtheater</orgName> in <settlement key="B0202">Wien</settlement> entstanden. Ohne die genauen Daten dieser Ereignisse lässt sich der Brief 
+                  momentan nicht genauer datieren.
+                  <lb/>Des Weiteren können genaue Daten von <persName key="A0103">Milders</persName> Reisen nach <settlement key="B0202">Wien</settlement> Aufschluss geben, wobei diese aktuell ebenfalls nicht vorliegen.
+               </p>
+               <p>
+                  <lb/>Aus der Tatsache, dass <persName key="A0103">Milder</persName> im Brief immer wieder Platz für die durchscheinenden Noten lässt ist zu schließen, dass sie das Lied vor dem Brieftext notiert hat.
+               </p>
+<!-- Buch mit Brief drin erwähnen -->
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="autograph">
+               <msIdentifier>
+                  <country key="B0506">Schweden</country>
+                  <settlement key="B0203">Lund</settlement>
+                  <repository n="S-L">
+                     <orgName key="D0204">Lund University Library</orgName> 
+                  </repository>
+                  <collection>Die Handschriften und Varia der Schubertiana-Sammlung Taussig</collection>
+                  <idno>H129</idno>
+                  <msName/>
+               </msIdentifier>
+               <physDesc>
+                  <p n="extent">2 Bl. (1. Blatt r: Brieftext, v: Musikstück; 2. Blatt r: Zuordnung, v: unbekannt)</p>
+                  <p>1. Bl. Faltbrief (Kreuzfaltung)</p>
+                  <p>1. Bl. gelblich-bräunliches dünnes Papier; 2. Bl. etwas größer, braunes Papier mit winzig kleinen dunkleren Sprenkeln</p>
+                  <p>ohne Wasserzeichen oder Siebspuren</p>
+                  <p>1. Bl. r: selbstklebender Kunststofffolie (vermutlich Tesafilm) an der unteren Kante</p>
+                  <p>1. Bl. v: selbstklebender Kunststofffolie (vermutlich Tesafilm) an der linken Kante mittig</p>
+                  <p>
+                     <lb/>Von fremder Hand mit brauner (oder schwarz verblichener) Tinte:
+                     <lb/>3. Seite oben rechts: 18885
+                  </p>
+                  <p>
+                     <lb/>Von fremder Hand mit blauem Buntstift:
+                     <lb/>3. Seite unten links: a
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>BA-Arbeit: Jeannette-Bürde-Gesamtausgabe. Briefe und Dokumente</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Übertragung folgt den Editionsrichtlinien der BüGA</p>
+        </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName key="A0103">Anna Milder</persName>
+              <settlement key="B0202"><supplied resp="editor">Wien</supplied></settlement>
+              <date notBefore="1830" notAfter="1838-05-29"/>
+           </correspAction>
+           <correspAction type="received">
+              <persName key="A0101">Bürde, Jeannette</persName>
+              <settlement key="B0101"><supplied resp="editor">Berlin</supplied></settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">Deutsch</language>
+        </langUsage>
+        <creation>
+           <date notBefore="1830" notAfter="1838-05-29"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <facsimile>
+     <graphic url="A.Milder_-_Buerde_ohne_Datum.pdf"></graphic>
+  </facsimile>
+  <text type="letter">
+      <body>
+         <div type="writingSession">
+            <opener>
+               <salute>
+                  <lb/>Meine liebe gute <hi rend="latintype"><persName key="A0101">Jeanette</persName></hi>!
+               </salute>
+            </opener>
+            <p>
+               ich habe es wohl vermuthet, daß Du recht krank sein mußtest! Und kam
+               <lb/>alles dieses<unclear reason="illegible" resp="editor">,</unclear> Durch Erkältung, <sic>Erger</sic>, oder wie, u wenn ich nur wüßte wer Dich gepflegt hat. Hast Du <note type="textConst" resp="editor">Rechts oberhalb des <q>u</q> befindet sich ein Tintenklecks.</note> noch <rs type="person" key="A0407">das Mädchen</rs>?
+               <lb/>Freilich ists recht unangenehm für die <hi rend="latintype">Lateinische</hi> Küche<note type="definition" resp="editor">Apotheke</note> so viel auszugeben doch muß man doch Gott danken, wenn dieselbe von
+               <lb/>Nutzen ist. Nach dem Viehzeug nach dem du <unclear reason="illegible" resp="editor">'</unclear> <sic>frägst</sic> habe ich nicht gesehen, <sic>nemlich</sic> <unclear reason="illegible" resp="editor">Pet.</unclear> 
+                    <choice><abbr>u</abbr><expan>und</expan></choice> <choice><abbr>D</abbr><expan resp="editor">Dergleichen</expan></choice>:<note type="commentary" resp="editor">Wen oder was <persName key="A0103">Milder</persName> mit 
+                    <quote>Viehzeug</quote> und <quote>Dergleichen</quote> bezeichnet, ist unklar. Denkbar ist, dass sie <persName key="A0114">Peter Hauptmann</persName> und ihre Tochter <persName key="A0113">Auguste</persName> meint. 
+                    Dafür spricht die Lesart <quote>Pet.</quote> vor <quote>und Dergleichen</quote>. Zudem spricht <persName key="A0103">Milder</persName> in ihrem <rs corresp="Milder_Anna_Testament_1836_06_02.xml">Testament</rs> sehr negativ
+                    von <persName key="A0114">Peter Hauptmann</persName> und ihrer Tochter <persName key="A0113">Auguste</persName>.</note> ich bin neugierig auf die Lieder
+               <lb/>die Du <sic>schikst</sic>. ich werde sie schon singen. Freilich wäre aus dem Mädel <persName key="A0409">Franzy</persName> was anders geworden. Wie ists mit <persName key="A0282">Mathilde Br.</persName>
+               <lb/>Den Mantel <sic>erhalst</sic> Du anfangs April, vielleicht kaufen wir ihn zusammen. ich freue mich daß du meiner Meinung bist. Bis dort-
+               <lb break="no"/>hin mußt Du warten. ich bekomme ja Gemüsesamen aus <settlement key="B0208">Salzburg</settlement>, u auch Spanischenzwiebeln. <sic>Sallat</sic> <choice><abbr>ez</abbr><expan>et cetera</expan></choice> <choice><abbr>ez</abbr><expan>et cetera</expan></choice>.
+               <lb rend="indent"/>Wenn das Wetter gut wird, gehe ich zu <persName key="A0263"><hi rend="latintype"><sic>Lönschen</sic></hi></persName>. ich nehme Dirs gar nicht übel Dich mit <sic>sollchen</sic> Luftschlößern zu amüsi-
+               <lb break="no"/>ren. Aber <persName key="A0263"><hi rend="latintype"><sic>Lönschen</sic></hi></persName> ist hier gar nicht in Mode, nur <persName key="A0257">Konrad Kraf</persName>, Hof-Instrumentenmacher, und <persName key="A0258">Stein</persName>. Beide eine<supplied resp="editor">s</supplied> Preißes
+               <lb/>und ersterer nicht viel wohlfeiler<note type="definition" resp="editor">günstiger</note>. <hi rend="underline" n="1">Mentronom</hi> von dem <hi rend="underline" n="1">Spitzbuben</hi><note type="commetary" resp="editor">Unklar, ob es sich hierbei um einen Namen, einen Spitznamen oder etwas gänzlich anderes handelt.</note> <sic>bekömt</sic> man auch bei <orgName key="D0105">Trautwein</orgName>.
+               <space/><note type="textConst" resp="editor">Platz für von v durchscheinende Noten gelassen</note>
+               <lb rend="indent-3"/>ich schreibe erst nächsten Sonabend über 8 Tage.
+            </p>
+            <p>
+               <lb/>Du hast ganz recht daß Du Dich schonst, mit der Abendluft, mir geht es auch so. und schau deßhalb wäre es sehr schön, wenn
+               <lb/>Du <persName key="A0262">Tauberts</persName> Wohnung zu bekommen suchst, sonst werden wir uns am <sic>ende</sic> gerade im Winter Monate lang nicht sehen, 
+               <space/><note type="textConst" resp="editor">Platz für von v durchscheinende Noten gelassen</note>
+               <lb/>da wir uns am nothwendigsten sind. Die <persName key="A0259"><hi rend="latintype">Brede</hi></persName> ist also <hi rend="latintype">engagiert</hi>, mit einem nicht sehr Brillanten <hi rend="latintype">Engagement</hi><note type="commentary" resp="editor">Um welches Engagement es sich hierbei handelt, bleibt unklar. <persName key="A0259">Brede</persName> wurde erst im Laufe des Jahres <date when="1836">1836</date> am <orgName key="D0116">Hofburgtheater</orgName> in <settlement key="B0202">Wien</settlement>engagiert; <persName key="A0103">Milder</persName> spricht offenbar von einem früheren Engagement.</note> aber
+               <lb/>sie muß der <sic>Vorsehung</sic> danken, daß sie endlich untergekommen ist; es war die höchste Zeit, <sic>jezt</sic> wird sichs <unclear reason="illegible" resp="editor"><choice ><unclear cert="high" resp="editor">eben</unclear><unclear cert="medium" resp="editor">aber</unclear></choice></unclear>
+               <lb/>etwas, mit den Hof-<unclear reason="illegible" resp="editor"><choice><unclear cert="high" resp="editor">Schauspielereien</unclear><unclear cert="low" resp="editor">Schauspielerinn</unclear></choice></unclear> <unclear reason="illegible" resp="editor"><choice><unclear cert="high" resp="editor">sehn</unclear><unclear cert="medium" resp="editor">sehr</unclear></choice></unclear> aufthun. Den sie ist, eine <sic>ächte</sic> Schauspielerin – . Dieses kleine Lied hat mir
+               <lb/><rs type="person" key="A0251">die kleine Vogl</rs>, für <hi rend="latintype"><persName key="A0104">Felix</persName></hi> gegeben, sie singt es zum auflachen. Es ist ein niedlicher Spaß. Den <persName key="A0408">Joseph</persName><note type="commentary" resp="editor">Möglicherweise handelt es sich bei dieser Person um <persName key="A0117">Joseph Milder</persName>, einen Cousin väterlicherseits der <rs type="person" key="#A0101 #A0103">Schwestern</rs>.</note> habe ich gesehen und ge-
+               <lb/>sprochen, ist noch eben dasselbe Vieh. ich <unclear reason="illegible" resp="editor">meine</unclear> ein Streicherisches Instrument mit <hi rend="underline" n="1">Stein</hi>. Der hat vergangenen Sommer auch den 
+               <lb/>Preis, bei der Ausstellung erhalten. Trinke ja keinen Kaffe, wenn Du Wallungen hast. Der wird hier sehr, von den Ärzten
+               <lb/>verboten. Die Kohenna<note type="commentary" resp="editor">Um welche Blume es sich handelt, lässt sich nicht näher bestimmen. Eine Möglichkeit wäre die Brechwurzpflanez (Carapichea ipecaucanha) mit einer lautmalerischen Schreibweise des zweiten Namensteils. Zur optischen Beschreibung (allerdings nicht zum Duft) würde zudem auch die Brennende Liebe (Lychnis calcedonica) passen.</note>, die Blume nemlich die ich dir sagte, richt nach lauter Nelken, und Zimmt, sieht auch durch ihre
+               <lb/>Scharlachfarbe, wundervoll, aus, ich bringe auf jedenfall etwas davon mit. Des Abends riecht sie so wundervoller, wegen
+               <lb/>der Mondbeleucht |<note type="textConst" resp="editor">Worum es sich bei diesem Zeichen handelt, ist unklar. Denkbar wäre zwar eine Trennung zu einem neuen Absatz, wobei diese durch den Satzbau nicht sinnvoll erscheint.</note> habe ich mir auch, schon dasselbe gedacht. Wie geht es <sic>jezt</sic> mit <rs type="person" key="A0104">seinem</rs> <choice><abbr>Hl</abbr><expan resp="editor">Hauslehrer</expan></choice> <persName key="A0280"><hi rend="latintype">Paul</hi></persName>, ist er höflich gegen <rs type="person" key="A0104">den Kleinen</rs>?
+              </p>
+            <p>
+               <lb rend="indent"/>Die <persName key="A0264">Schneller</persName><del rend="strikethrough"><gap reason="illegible" unit="char" quantity="1" resp="editor"/></del> grüßt u. alle winken. Warum hat <persName key="A0265">Stümmer</persName> eigentlich als Gesangslehrer die Stelle verlohren?
+            </p>
+            <p>
+               <lb rend="indent"/>Hast du die <persName key="A0266"><hi rend="latintype">Uhden</hi></persName> lange nicht gesehen? Für heute wüßte ich weiter nichts, als daß das einzig sein wird, wenn
+               <lb/><persName key="A0104"><hi rend="latintype">Felix</hi></persName> diese Dummheit singen wird. Grüsse <persName key="A0102"><hi rend="latintype">Bürde</hi></persName>, küsse <persName key="A0104"><hi rend="latintype"><sic>Felixel</sic></hi></persName>, und sage mir, was Du beschließen
+               <lb/>wirst wegen <gap unit="char" quantity="5"/><note type="textConst" resp="editor">Platz für von v durchscheinende Noten gelassen</note> dem <hi rend="latintype">Quartier</hi>. 
+            </p>
+               <closer>
+                  <salute>
+                     Herzlich umarmt Dich Deine Dich liebende Schwester
+                  </salute>
+                  <signed><persName key="A0103">Anna</persName></signed>
+               </closer>
+               <postscript>
+                  <p>
+                     <lb/>Wenn mir keiner sagt was ich an <hi rend="latintype"><persName key="A0104">Felix</persName></hi> mitbringen soll <gap unit="char" quantity="7"/><note type="textConst" resp="editor">Platz für von v durchscheinende Noten gelassen</note> bin ich wirklich in Verlegenheit
+                     <lb/>da ich ihm eine Freude machen möchte.
+                  </p>
+               </postscript>
+         </div>
+         <div type="envelope">
+            <note type="textConst" resp="editor">Von anderer Hand mit tiefschwarzer Tinte geschrieben. Die Schriftart ist primär eine Mischung aus Kurrent und Stütterlin. Ein Großteil der Textzeilen wurde mit Bleistift vorgezeichnet.</note>
+            <p rend="underline">
+               <lb/><hi rend="latintype"><persName key="A0103"><hi rend="undeline" n="2">Milder <add place="inline">Pau-<lb/>li<lb/>ne</add> Anna</hi> (Milder-Hauptmann)</persName></hi>
+               <lb/>berühmteste (königl. preuss.) <hi rend="latintype">Opernsängerin</hi>. Schülerin von <persName key="A0206"><hi rend="latintype">Neukomm</hi></persName>
+               <lb/>in <hi rend="latintype"><settlement key="B0202">Wien</settlement></hi> zur höchsten Ausbildung gelangt. Sie schuf die Rolle der <hi rend="latintype"><name type="actingRole">Leonore</name></hi>
+               <lb/>in <persName key="A0212">Beethoven</persName>'s <hi rend="latintype"><name type="work" key="C0213">Fidelio</name></hi><supplied resp="editor">.</supplied>
+            </p>
+            <space/>
+            <p>
+               <lb/>Geb. <date when="1785-12-13">13.12.1785</date> (<settlement key="B0213">Constantinopel</settlement>!) Gest. <date when="1838-05-29">29. Mai 1838</date>
+            </p>
+            <space/>
+            <p>
+               <lb/>L.a.s.<note type="definition" resp="editor">Lettre autographe signée (franz.: Eigenhändiger Brief mit Unterschrift)</note> <q>deine dich liebende Schwester Anna</q> 1p. pl. zu 4°<note type="commentary">Möglicherweise handelt es sich hierbei um Angaben zum Briefpapier und der Faltung.</note>
+               <lb/>Herzlicher heiterer Reisebrief an ihre Schwester <persName key="A0101"><hi rend="latintype">Jeanette</hi>
+               <lb/>Milder</persName> (ebenfalls Sängerin) verehelichte Professorin <hi rend="latintype">Bürde</hi>.
+               <lb rend="indent"/><hi rend="underline" n="1">Auf der Rückseite</hi>, die volle <sic>Seiten</sic> einnehmend ein
+               <lb/><hi rend="underline">Man. de mus. aut.</hi><note type="definition" resp="editor">Manuscrit de musical autographe (franz.: Eigenhändiges Musikmanuskript)</note> (Eigenhändig geschriebener Text u.
+               <lb rend="indent-2"/>Musik. Ein Gassenhauer auf welchen sie im Briefe
+               <lb rend="indent-2"/>bezug nimmt.<supplied resp="editor">)</supplied>
+               <lb rend="#indent #undeline" n="1"/>Ein Curiosum<note type="commentary" resp="editor">Der Begriff <quote>Curiosum</quote> ist dabei nicht unter seiner heutigen Bedeutung als etwas merkwürdiges zu verstehen, sondern eher als Hinweis auf ein besonderes Stück von Interesse für Sammler. Dass Brieftext und Musikstück zusammenstehen, war eine eher unübliche Mischform.</note> in seiner Gesammtheit.
+            </p>
+            <space/>
+            <p>
+               <lb rend="bottom right above following line"/>ihr gewidmete Composition
+               <lb rend="bottom"/>bei Bürde citirt <space/>Siehe: <persName key="A0254">Cherubini Luigi</persName>:Musik=Manuscript
+            </p>
+         </div>
+      </body>
+     <back>
+        <div type="comment" resp="editor">
+           <p>
+              Der Brief ist aktuell das einzige Objekt, welches einen tieferen Einblick in die Schwesternbeziehung zwischen <persName key="A0101">Bürde</persName> und <persName key="A0103">Milder</persName> gewährt. Es werden keine großen Zusammenhänge deutlich,
+              vielmehr wird schlaglichtartig von einem Thema zum nächsten gesprungen. Es entsteht der Eindruck, als sei der Brief in mehreren Etappen geschrieben worden. Dem Schriftbild ist dies jedoch nicht zu entnehmen.
+              Durch die zahlreichen Namensnennungen wird besonders auch das Netzwerk der <rs type="person" key="#A0101 #A0103">Schwestern</rs> sichtbar. Auch wenn sich nicht alle Personen zweifelsfrei identifizieren lassen, so gewährt allein deren
+              Erwähnung einen wertvollen Einblick in alltägliche Beziehungsgeflechte.
+           </p>
+        </div>
+     </back>
+  </text>
+</TEI>

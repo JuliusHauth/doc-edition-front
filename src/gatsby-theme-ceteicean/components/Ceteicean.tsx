@@ -37,6 +37,7 @@ import Damage from './damage.tsx'
 import Unclear from './unclear.tsx'
 import ListItem from './listItem.tsx'
 import List from './list.tsx'
+import Gap from './gap.tsx'
 
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -91,7 +92,8 @@ interface Props {
         "tei-unclear": Unclear,
         "tei-ex": Ex,
         "tei.list": List,
-        "tei-item": ListItem
+        "tei-item": ListItem,
+        "tei-gap": Gap
     }
 
 

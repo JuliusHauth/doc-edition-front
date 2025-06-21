@@ -8,11 +8,26 @@ interface TEIProps {
 }
 
 const P = ({teiNode, availableRoutes}: TEIProps) => {
-    const p = teiNode
+    const el = teiNode as Element 
+    let highlighted
+    const styleMap = {
+        'center': 'center',
+    }
+    
+
+    if (!el.getAttribute("rend")===null) {
+        return
+    } else {
+        highlighted = styleMap[el.getAttribute("rend")]
+    }
+    
+    const style = el.getAttribute("style")
+
+    
     
     return (
         <Behavior node={teiNode}>
-            <p>
+            <p className={highlighted}>
                 <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />

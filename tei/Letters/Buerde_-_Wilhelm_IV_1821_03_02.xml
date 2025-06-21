@@ -6,8 +6,8 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
             <title level="a">Jeannette Bürde an Kronprinz Friedrich Wilhelm von Preußen; Freitag, 02. März 1821</title>
+            <title level="s">Bürde-Gesamtausgabe. Briefe</title>
             <author role="aut" key="A0101">Bürde, Jeannette</author>
             <editor key="A0301">Flora Völlger</editor>
          </titleStmt>
@@ -99,18 +99,18 @@
             </opener>
             <space/>
             <p>
-               <lb rend="indent"/>Euer Königliche Hoheit wollen die unterthänigste 
-               <lb/>Anzeige<note type="commentary" resp="editor">Dem Brief liegt ein Konzertprogramm für den <date when="1821-03-09">9. März 1821</date> bei.</note> mit huldvoller Nachsicht aufzunehmen geruhen, 
+               <lb/><hi rend="indent">Euer Königliche Hoheit wollen die unterthänigste</hi>
+               <lb/>Anzeige<note type="commentary" resp="editor">Dem Brief liegt ein Konzertprogramm für den <date when="1821-03-09">9. März 1821</date> bei.</note> mit huldvoller Nachsicht aufzunehmen geruhen,
                <lb/>daß ich es wagen will, am <date when="1821-03-09">9<hi rend="superscript">ten</hi> März</date> in dem <orgName key="D0101"><hi rend="latintype">Jagor</hi>-
-               <lb break="no"/>schen Saale</orgName> ein Concert zu veranstalten, da die Um-
-               <lb break="no"/>stände mir gebieten, die Befangenheit meines Geschlechts 
-               <lb/>zu überwinden, um zu versuchen, ob ich als Sängerin 
-               <lb/>einen wohlwollenden und milden Antheil in dieser 
+               <lb/>schen Saale</orgName> ein Concert zu veranstalten, da die Um-
+               <lb/>stände mir gebieten, die Befangenheit meines Geschlechts
+               <lb/>zu überwinden, um zu versuchen, ob ich als Sängerin
+               <lb/>einen wohlwollenden und milden Antheil in dieser
                <lb/><rs type="organisation" key="D0101">kunstliebenden Residenz</rs> zu gewinnen hoffen darf.
             </p>
             <closer>
-               <salute rend="indent-2">
-                  <lb/>Mit der tiefsten Ehrfurcht
+               <salute>
+                  <lb/><hi rend="indent-2">Mit der tiefsten Ehrfurcht</hi>
                   <lb rend="indent-3"/>Eurer Königlichen Hoheit
                </salute>
                <space/>
@@ -139,7 +139,7 @@
                </p>
                <space type="horizontalline"/>
                <p>
-                  <lb rend="center"/>Inhalt.
+                  <l rend="center">Inhalt.</l>
                   <lb rend="#center #spaced_out"/>Erste Abtheilung.
                   <lb/>1) <name type="work" key="C2015">Ouverture zu der Oper <hi rend="spaced_out">Medea</hi></name>, von <persName key="A0254"><hi rend="spaced_out">Cherubini</hi></persName>.
                   <lb/>2) <name type="work" key="C2016"><hi rend="latintype">Arianna a Naxos</hi></name>, von <persName key="A0217">Haydn</persName>, instrumentiert von <persName key="A0246">Rungenhagen</persName>, vorgetra-

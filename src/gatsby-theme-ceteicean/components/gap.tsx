@@ -8,24 +8,18 @@ interface TEIProps {
 }
   
 
-const Hi = ({teiNode, availableRoutes}: TEIProps) => {
+const Gap = ({teiNode, availableRoutes}: TEIProps) => {
     const el = teiNode as Element
     let highlighted
     const styleMap = {
-        'superscript': 'superscript',
-        'italic': 'italic',
-        'underline': 'underline',
-        'latintype': 'latintype',
-        'gothic': 'gothic',
-        'indent': 'indentation',
-        'indent-2': 'indentation-2',
+        'ornament': 'ornament',
     }
     
 
-    if (!el.getAttribute("rend")===null) {
+    if (!el.getAttribute("reason")===null) {
         return
     } else {
-        highlighted = styleMap[el.getAttribute("rend")]
+        highlighted = styleMap[el.getAttribute("reason")]
     }
     
     const style = el.getAttribute("style")
@@ -34,13 +28,13 @@ const Hi = ({teiNode, availableRoutes}: TEIProps) => {
 
     return (
         <Behavior node={teiNode}>
-            <span className={highlighted} STYLE={style}>
+            <p className={highlighted} STYLE={style}>
                 <TEINodes 
                 teiNodes={teiNode.childNodes} 
                 availableRoutes={availableRoutes} />
-            </span>
+            </p>
         </Behavior>
     )
 }
 
-export default Hi
+export default Gap
