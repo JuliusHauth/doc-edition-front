@@ -13,6 +13,11 @@ const L = ({teiNode, availableRoutes}: TEIProps) => {
     let highlighted
     const styleMap = {
         'center': 'center',
+        'indent': 'indent',
+        'indent-1': 'indent-1',
+        'indent-2': 'indent-2',
+        'indent-3': 'indent-3',
+        'indent-4': 'indent-4',
     }
     
 
