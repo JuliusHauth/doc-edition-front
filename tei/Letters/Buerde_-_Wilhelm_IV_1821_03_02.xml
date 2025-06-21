@@ -121,7 +121,7 @@
             </closer>
          </div>
          <div type="enclosure">
-            <div type="concert-program" rend="gothic">
+            <div type="concert-program"><hi rend="gothic">
                <p rend="center">
                   Freitag am <date when="1821-03-09">9<hi rend="sup">ten</hi> März 1821</date>
                </p>
@@ -171,6 +171,7 @@
                <p>
                   <lb rend="center"/>Anfang 7 Uhr.
                </p>
+               </hi>
             </div>
          </div>
       </body>

@@ -18,7 +18,10 @@ const Hi = ({teiNode, availableRoutes}: TEIProps) => {
         'latintype': 'latintype',
         'gothic': 'gothic',
         'indent': 'indentation',
+        'indent-1': 'indentation-1',
         'indent-2': 'indentation-2',
+        'indent-3': 'indentation-3',
+        'indent-4': 'indentation-4',
     }
     
 

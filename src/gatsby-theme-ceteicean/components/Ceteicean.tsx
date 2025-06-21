@@ -45,6 +45,7 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Seo from '../../components/seo.js'
+import Supplied from './supplied.tsx'
 
 
 interface Props {
@@ -93,7 +94,9 @@ interface Props {
         "tei-ex": Ex,
         "tei.list": List,
         "tei-item": ListItem,
-        "tei-gap": Gap
+        "tei-gap": Gap,
+        "tei-supplied": Supplied,
+
     }
 
 
