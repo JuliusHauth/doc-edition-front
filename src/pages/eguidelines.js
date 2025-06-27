@@ -81,16 +81,22 @@ wird deren Anzahl als z.B. <span class="codeAttribute">@n=“2“</span> angegeb
 <h5>Hoch- /Tiefstellung</h5>
 <p>Hoch- bzw. tiefgestellte Zeichen werden zusätzlich zur Hervorhebung mit dem Attribut <span class="codeAttribute">@rent="sup"</span> (superscipt letters, hochgestellt) 
 bzw. <span class="codeAttribute">@rent="sub"</span> (subscript letters, tiefgestellt) gekennzeichnet.</p>
-
-
-
-
-
 <h5>Lateinische Schrift</h5>
-<p>Die Verwendung lateinisch geschriebener Textteile innerhalb eines in Kurrentschrift geschriebenen Textes werden zusätzlich zur Hervorhebung mit dem Attribut <span class="codeAttribute">@rend="latintype"</span> gekennzeichnet. Die Darstellung im angezeigten Text erfolgt in der Regel durch kursive im Unterschied zu gerader Schrifttype.</p>
+<p>Die Verwendung lateinisch geschriebener Textteile innerhalb eines in Kurrentschrift verfassten Textes werden zusätzlich zur Hervorhebung mit dem Attribut <span class="codeAttribute">@rend="latintype"</span> gekennzeichnet. Die Darstellung im angezeigten Text erfolgt in der Regel durch kursive im Unterschied zur geraden Schrifttype.</p>
+<h5>Gedruckte Schrift</h5>
+<p>Die Verwendung von Frakturschrift wird mit <span class="codeAttribute">@rend=“gothic“</span> angegeben. Das Pendant dazu bildet die gedruckte lateinische Schrift Antiqua mit <span class="codeAttribute">@rend=“antiqua</span>.</p>
 <h5>Gesperrt</h5>
 <p>Gesperrte Schrift, in der Regel verwendet in gedruckten Medien, wird zusätzlich zur Hervorhebung mit dem Attribut <span class="codeAttribute">@rent="spaced"</span> (spaced letters) versehen.</p>
-       
+
+<h4>2.3</h4>
+<h5>Zeilenumbruch</h5>
+<p>Ein Zeilenumbruch wird grundsätzlich durch das Element <span class="codeElememt">lb</span> (line beginning) gekennzeichnet. Findet der Zeilenumbruch innerhalb eines Wortes statt und wird durch einen Trennstrich (oder ein vergleichbares Element, siehe 2.1 „Trennungs- bzw. Bindestriche“) angezeigt, so erfolgt die Codierung <span class="codeElememt">lb break=“no“</span> Bei einem vergessenen Trennstrich wird hierzu noch das Attribut <span class="codeAttribute">@rend=“noHyphen“</span> hinzugefügt.</p>
+<h5>Abkürzungen</h5>      
+<p>Unverständlich bleibende Abkürzungen, die sich nicht durch bloße Ergänzung auflösen lassen, werden in ihrer originalen Form und zusätzlich als wahlweise aufzurufende Vollform wiedergegeben: <span class="codeElememt">choice</span> <span class="codeElememt">abbr</span>bzgl.<span class="codeElememt">/abbr</span> <span class="codeElememt">expan</span>bezüglich<span class="codeElememt">/expan</span> <span class="codeElememt">/choice</span>. Ist die Vollform nicht aus dem allgemeinen Sprachgebrauch abzuleiten, wird dem Element <span class="codeElememt">expan</span> zusätzlich das Attribut <span class="codeAttribut">@resp=“editor“</span> (Verantwortlichkeit) hinzugefügt.</p> 
+<h5>Veraltete Schreibweisen</h5>
+<p></p>
+
+
         </Layout>
     )
 }
