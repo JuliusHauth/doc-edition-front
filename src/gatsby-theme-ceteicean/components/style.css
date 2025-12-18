@@ -6,6 +6,7 @@
 
 a {
     color: green;
+    text-decoration: none;
 }
 
 .hovered {
@@ -14,8 +15,8 @@ a {
 }
 
 .back {
-    background-color: rgb(165, 165, 165);
-    color: white;
+    background-color: rgb(207, 230, 209);
+    color: black;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
@@ -59,11 +60,17 @@ a {
 }
 
 .latintype {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 .gothic {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.antiqua {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
 
 .center {
@@ -100,5 +107,5 @@ a {
 }
 
 body {
-    Background-color: rgb(252, 234, 203);
+    Background-color: rgba(249, 246, 242, 0.943);
     }

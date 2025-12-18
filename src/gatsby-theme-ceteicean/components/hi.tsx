@@ -22,6 +22,7 @@ const Hi = ({teiNode, availableRoutes}: TEIProps) => {
         'indent-2': 'indentation-2',
         'indent-3': 'indentation-3',
         'indent-4': 'indentation-4',
+        'antiqua': 'antiqua',
     }
     
 
